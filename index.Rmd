@@ -1,0 +1,31 @@
+---
+title: "jmbuhr.de"
+site: distill::distill_website
+---
+
+<div class=profile>
+<img src="assets/img/profile.png" class="profile-circle">
+
+Jannik Buhr
+
+Biochemist / Bioinformatician
+
+[`r icon::fa("envelope")`](https://jmbuhr.de/#contact)
+[`r icon::fa("twitter")`](https://twitter.com/JannikBuhr)
+[`r icon::fa("github")`](https://github.com/jmbuhr)
+[`r icon::fa("linkedin")`](https://www.linkedin.com/in/jmbuhr/)
+[`r icon::fa("stack-overflow")`](https://stackoverflow.com/users/9130337/jannik-buhr?tab=profile)
+</div>
+
+## About Me
+
+I am a master student of Biochemistry at Heidelberg University.
+As a research assistant for data analysis and R in the Brügger Lipidomics Group at the Heidelberg Center for Biochemistry ([BZH](https://bzh.db-engine.de/)) I pursue my interest
+in programming and data visualization. 
+
+Being a mentor on the R for Data Science [online learning community](https://www.rfordatasci.com/)
+enables me to help new R users and I enjoy the challenges that come with
+solving the diverse set of problems from the many fields that these users come from.
+
+My academic interests are balanced out by regular theater projects or creative work with
+the open source 3d software [blender](https://www.blender.org/).

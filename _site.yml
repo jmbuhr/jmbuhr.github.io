@@ -1,0 +1,43 @@
+name: "jmbuhr.github.io"
+title: "jmbuhr.de"
+base_url: https://jmbuhr.de
+description: |
+  jmbuhr
+output_dir: "docs"
+favicon: assets/img/favicon.png
+repository_url: https://github.com/jmbuhr/jmbuhr.github.io
+navbar:
+  search: true
+  source_url: true
+  logo:
+    image: assets/img/logo.png
+    href: https://jmbuhr.de/
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Posts"
+      href: posts.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Contact"
+      href: contact.html
+    # - icon: "fas fa-adjust"
+output:
+  distill::distill_article:
+    includes:
+      after_body: "_darkmode.html"
+    theme: theme.css
+    highlight: rstudio
+twitter:
+  site: "@jannikbuhr"
+creative_commons: CC BY
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+    share: [twitter, linkedin]
+  teaching:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
