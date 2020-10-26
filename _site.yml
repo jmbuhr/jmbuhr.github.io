@@ -7,7 +7,7 @@ output_dir: "docs"
 favicon: assets/img/favicon.png
 repository_url: https://github.com/jmbuhr/jmbuhr.github.io
 navbar:
-  # search: true
+  search: true
   source_url: true
   logo:
     image: assets/img/logo.png
