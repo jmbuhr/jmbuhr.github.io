@@ -5,28 +5,28 @@
       "title": "Contact Me",
       "author": [],
       "contents": "\nContact\n\n\n\nName \n\n\nEmail \n\n\nMessage\n\n\nSend\n\n\n\nLegal\nPrivacy notice and Impressum\n\n\n\n",
-      "last_modified": "2020-10-26T11:55:06+01:00"
+      "last_modified": "2020-10-29T21:26:52+01:00"
     },
     {
       "path": "index.html",
       "title": "jmbuhr.de",
       "author": [],
       "contents": "\n\n\nJannik Buhr\nBiochemist / Bioinformatician\n    \n\nAbout Me\nI am a master student of Biochemistry at Heidelberg University. As a research assistant for data analysis and R in the Brügger Lipidomics Group at the Heidelberg Center for Biochemistry (BZH) I pursue my interest in programming and data visualization.\nBeing a mentor on the R for Data Science online learning community enables me to help new R users and I enjoy the challenges that come with solving the diverse set of problems from the many fields that these users come from.\nMy academic interests are balanced out by regular theater projects or creative work with the open source 3d software blender.\n\n\n\n",
-      "last_modified": "2020-10-26T11:55:07+01:00"
+      "last_modified": "2020-10-29T21:26:53+01:00"
     },
     {
       "path": "posts.html",
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-10-26T11:55:07+01:00"
+      "last_modified": "2020-10-29T21:26:54+01:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-10-26T11:55:08+01:00"
+      "last_modified": "2020-10-29T21:26:55+01:00"
     }
   ],
   "collections": ["posts/posts.json", "teaching/teaching.json"]
