@@ -2183,45 +2183,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     color: var(--primary);
   }
 
-  /* Contact Form */
-  /* Style inputs with type="text", select elements and textareas */
-  .contact-container input[type=text],
-  .contact-container input[type=email],
-  .contact-container select,
-  .contact-container textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-
-  /* Style the submit button with a specific background color etc */
-  button[type=submit] {
-    background-color: var(--primary);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  /* When moving the mouse over the submit button, add a darker green color */
-  button[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  /* Add a background color and some padding around the form */
-  .contact-container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
-
   /* Code Folding by Thomas Mock https://themockup.blog/about.html */
   details {
     background-color: hsla(60, 7%, 80%, 0.2);
@@ -2459,7 +2420,9 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <a href="index.html">Home</a>
 <a href="posts.html">Posts</a>
 <a href="teaching.html">Teaching</a>
-<a href="contact.html">Contact</a>
+<a href="contact.html">
+<i class="fas fa-envelope" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2605,7 +2568,7 @@ function init_posts_list() {
 <a href="teaching/dataintro20/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":[]}</script>
 <div class="metadata">
-<div class="publishedDate">Sept. 30, 2020</div>
+<div class="publishedDate">Oct. 1, 2020</div>
 <div class="dt-authors">
 <div class="dt-author">Jannik Buhr</div>
 </div>
