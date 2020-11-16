@@ -8,14 +8,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Contact
 
-<!-- **NOTE**: This form appears to not work with **firefox** -->
-<!-- when I use an encrypted connection, -->
-<!-- and I can't figure out why. -->
-<!-- But if you attempt to submit the form, -->
-<!-- you will see my email address in the browser header bar. -->
-<!-- In this case, please just send me a regular mail. -->
+**NOTE**: This form appears to not work with **firefox**
+when I use an encrypted connection,
+and I can't figure out why.
+But if you attempt to submit the form,
+you will see my email address in the browser header bar.
+In this case, please just send me a regular mail.
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="formspree.io/f/jannik.m.buhr@gmail.com" method="POST">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/jannik.m.buhr@gmail.com" method="POST">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
