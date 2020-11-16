@@ -4,8 +4,8 @@
       "path": "contact.html",
       "title": "Contact Me",
       "author": [],
-      "contents": "\nContact\n\n\n\nName \n\n\nEmail \n\n\nMessage\n\n\nSend\n\n\n\nLegal\nPrivacy notice and Impressum\n\n\n\n",
-      "last_modified": "2020-11-16T15:43:30+01:00"
+      "contents": "\nContact\n\n\n Your name:   Your email:   Your message:\n  Send\n\n\nLegal\nPrivacy notice and Impressum\n\n\n\n",
+      "last_modified": "2020-11-16T16:03:26+01:00"
     },
     {
       "path": "index.html",
