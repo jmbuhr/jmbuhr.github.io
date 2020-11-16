@@ -18,7 +18,7 @@ navbar:
       href: posts.html
     - text: "Teaching"
       href: teaching.html
-    - text: "Contact"
+    - icon: "fas fa-envelope"
       href: contact.html
     # - icon: "fas fa-adjust"
 output:

@@ -5,7 +5,7 @@
       "title": "Contact Me",
       "author": [],
       "contents": "\nContact\n\n\n\nName \n\n\nEmail \n\n\nMessage\n\n\nSend\n\n\n\nLegal\nPrivacy notice and Impressum\n\n\n\n",
-      "last_modified": "2020-11-03T19:48:16+01:00"
+      "last_modified": "2020-11-16T15:43:30+01:00"
     },
     {
       "path": "index.html",
@@ -19,14 +19,14 @@
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-11-03T19:48:18+01:00"
+      "last_modified": "2020-11-10T12:39:09+01:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-11-03T19:48:19+01:00"
+      "last_modified": "2020-11-05T16:02:22+01:00"
     }
   ],
   "collections": ["posts/posts.json", "teaching/teaching.json"]

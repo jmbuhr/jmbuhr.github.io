@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-11-08-counting-characters/",
+    "title": "Counting Characters",
+    "description": "Using python and R to improve my typing experience.",
+    "author": [
+      {
+        "name": "Jannik Buhr",
+        "url": {}
+      }
+    ],
+    "date": "2020-11-08",
+    "categories": [],
+    "contents": "\n\nContents\nThe Why\nThe How\nThe Result\n\nThe Why\nIn this post I am doing something slightly unusual. I am using python (in an Rmarkdown document of course) to count the key utilization of R and Rmarkdown files. The goal is twofold:\nFirstly, I want to get better at python, beyond theoretical studies and watching videos, so I have to practice. Secondly, I recently acquired a new keyboard (the moonlander) and while I tried to stick to a layout that makes transitioning between my laptop and the keyboard easy, I still have some space left on on of my symbols layer that I want to populate with the most used keys. And of course we will be doing this based on data! So, without further ado, let’s jump in.\nThe How\nI wasn’t sure how many R files I had in my projects folder, so I resorted to python’s generator expressions to make sure to not load everything into memory at once.\n\nfrom glob import iglob\nfrom collections import Counter\nfrom functools import reduce\n\npath = \"/home/jannik/Documents/projects/rstats\"\n\ndef get_count(p):\n  try:\n    with open(p, 'r') as f:\n      cs = [c for x in f.readlines()\n              for c in x]\n      return {char : cs.count(char) for char in set(cs)}\n  except:\n    return {'a':0}\n\ndef add_counts(d1, d2):\n  result = Counter(d1) + Counter(d2)\n  return result\n\nUsing functional programming techniques, this process becomes rather compact. A map of character counts per file is reduced to a single dictionary of counts.\n\nfiles = iglob(path + \"/*/**/*.R\", recursive = True)\ncounts = map(get_count, files)\nresult = dict(reduce(add_counts, counts))\n\nThe Result\nAnd now back to R for visualization. The reticulate package translates python dictionaries to named lists in R, so we are good to go.\n\n\nlibrary(tidyverse)\n\nres <- enframe(py$result) %>% \n  mutate(value = unlist(value)) %>% \n  arrange(desc(value))\n\nres %>% \n  mutate(name = case_when(\n    name == \" \" ~ \"space\",\n    name == \"\\n\" ~ \"enter\",\n    TRUE ~ name\n  )) %>%\n  filter(!(tolower(name) %in% c(letters, \"space\", \"enter\", 0:9))) %>% \n  slice_max(value, n = 20) %>% \n  mutate(name = fct_reorder(name, value)) %>% \n  ggplot(aes(value, name, fill = value)) +\n  geom_col(color = \"black\", width = 0.8) +\n  geom_text(aes(label = name),\n            hjust    = -1,\n            fontface = \"bold\") +\n  scale_fill_viridis_c() +\n  scale_x_continuous(expand = expand_scale(c(0.01, 0.05))) +\n  scale_y_discrete(labels = NULL) +\n  guides(fill = \"none\") +\n  theme_minimal() +\n  theme(axis.ticks.y = element_blank()) +\n  labs(y       = \"\",\n       x       = \"count\",\n       caption = \"excluding letters and numbers\")\n\n\n\n\nThe overwhelming result: I need a better place for the minus sign! Not because I am subtracting numbers all the time, but because it is also in the assignment operator <-, which can be inserted in RStudio using Alt+Minus.\nThis is what my layout currently looks like.\n\n\n\n",
+    "preview": "posts/2020-11-08-counting-characters/counting-characters_files/figure-html5/unnamed-chunk-3-1.png",
+    "last_modified": "2020-11-10T12:39:08+01:00",
+    "input_file": "counting-characters.utf8.md",
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
     "path": "posts/2020-02-15-demonstration/",
     "title": "Testing Rmarkdown Features",
     "description": "This is just a test post. Nothing special\nto see. But you can play pong here!",

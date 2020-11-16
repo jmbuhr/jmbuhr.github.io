@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://jmbuhr.de/contact.html</loc>
-    <lastmod>2020-10-30T15:41:23+01:00</lastmod>
+    <lastmod>2020-11-16T15:43:24+01:00</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/</loc>
@@ -15,6 +15,10 @@
   <url>
     <loc>https://jmbuhr.de/teaching.html</loc>
     <lastmod>2020-10-20T10:25:50+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://jmbuhr.de/posts/2020-11-08-counting-characters/</loc>
+    <lastmod>2020-11-10T12:39:08+01:00</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2020-02-15-demonstration/</loc>

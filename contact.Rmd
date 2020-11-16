@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ### Contact
 
 <div class="contact-container">
-<form name="contact" method="POST" action="https://formspree.io/jannik.m.buhr@gmail.com">
+<form name="contact" method="POST" action="https://formspree.io/f/jannik.m.buhr@gmail.com">
 <div class="form-group form-inline">
 <label class="sr-only" for="inputName">Name</label>
 <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>

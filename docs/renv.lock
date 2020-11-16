@@ -902,5 +902,9 @@
       "RemoteSha": "4788abe3068b18f1b2f0d997f7266bd4d648acf3",
       "Hash": "88e1d68cca0307d430e0a2f0aaf6014d"
     }
+  },
+  "Python": {
+    "Version": "3.8.6",
+    "Type": "virtualenv"
   }
 }
