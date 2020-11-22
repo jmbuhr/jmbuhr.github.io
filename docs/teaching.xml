@@ -12,15 +12,7 @@
       <link>https://jmbuhr.de</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 19 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Introduction to data analysis with R</title>
-      <dc:creator>Jannik Buhr</dc:creator>
-      <link>https://jmbuhr.de/teaching/dataintro19</link>
-      <description>Heidelberg University, Biochemistry Bachelor and Master (WS 19/20)</description>
-      <guid>https://jmbuhr.de/teaching/dataintro19</guid>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Introduction to data analysis with R (Online)</title>
       <dc:creator>Jannik Buhr</dc:creator>
@@ -29,6 +21,14 @@
       <guid>https://jmbuhr.de/teaching/dataintro20</guid>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <media:content url="https://jmbuhr.de/teaching/dataintro20/hex.png" medium="image" type="image/png" width="720" height="719"/>
+    </item>
+    <item>
+      <title>Introduction to data analysis with R</title>
+      <dc:creator>Jannik Buhr</dc:creator>
+      <link>https://jmbuhr.de/teaching/dataintro19</link>
+      <description>Heidelberg University, Biochemistry Bachelor and Master (WS 19/20)</description>
+      <guid>https://jmbuhr.de/teaching/dataintro19</guid>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
