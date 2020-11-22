@@ -29,10 +29,8 @@ you can download them here:
 Everything that you will workshop and learn in this course can
 be found at the following link. Feel free to have a look before
 the course begins but try not to give in to the temptation of
-looking at the excercise-solution chapters:
+looking at the exercise-solution chapters:
 
-[https://jmbuhr.de/books/dataIntro19Master/](https://jmbuhr.de/books/dataIntro19Master/)
+[https://jmbuhr.de/dataIntro19Master/](https://jmbuhr.de/dataIntro19Master/)
 
-I use slides very sparingly, but in the rare occasion
-that we need them, they can be found [here](/slides/dataintro19).
 

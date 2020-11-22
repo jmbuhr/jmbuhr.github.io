@@ -46,7 +46,7 @@ jeweils frei verfügbar unter den folgenden Links herunterladen könnt:
 
 Alle Materialien, die ihr für den Kurs benötigt und die wir im Laufe des Kurses erarbeiten werden findet ihr [unter diesem link](/books/dataIntro19).
 
-Die Materialien für den master Kurs auf Englisch finden sich [unter diesem link](/books/dataIntro19Master).
+Die Materialien für den master Kurs auf Englisch finden sich [unter diesem link](https://jmbuhr.de/dataIntro19).
 
 Zusätzliche Vorlesungs-Slides finden sich [hier](/slides/dataintro19).
 

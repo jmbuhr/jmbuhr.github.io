@@ -1,5 +1,22 @@
 [
   {
+    "path": "teaching/dataintro19/",
+    "title": "Introduction to data analysis with R",
+    "description": "Heidelberg University, Biochemistry Bachelor and Master (WS 19/20)",
+    "author": [
+      {
+        "name": "Jannik Buhr",
+        "url": {}
+      }
+    ],
+    "date": "2020-10-20",
+    "categories": [],
+    "contents": "\nSign up\nIn order for us to stay connected during the course, please send me an email via my contact form and mention your name as well as the course you are refering to (bachelor, master, extra).\nPreparation and material\nFor the course we will use R inside of Rstudio, you can download them here:\nDownload R\nDownload RStudio\nEverything that you will workshop and learn in this course can be found at the following link. Feel free to have a look before the course begins but try not to give in to the temptation of looking at the exercise-solution chapters:\nhttps://jmbuhr.de/dataIntro19Master/\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-11-22T23:20:05+01:00",
+    "input_file": "eng.utf8.md"
+  },
+  {
     "path": "teaching/dataintro20/",
     "title": "Introduction to data analysis with R (Online)",
     "description": "Heidelberg University, Biochemistry Bachelor and Master (WS 20/21)",
@@ -17,22 +34,5 @@
     "input_file": {},
     "preview_width": 720,
     "preview_height": 719
-  },
-  {
-    "path": "teaching/dataintro19/",
-    "title": "Introduction to data analysis with R",
-    "description": "Heidelberg University, Biochemistry Bachelor and Master (WS 19/20)",
-    "author": [
-      {
-        "name": "Jannik Buhr",
-        "url": {}
-      }
-    ],
-    "date": "2019-10-01",
-    "categories": [],
-    "contents": "\nThis course is available in English (master students) and German (bachelor students).\n\n\n\n",
-    "preview": {},
-    "last_modified": "2020-10-29T21:31:56+01:00",
-    "input_file": {}
   }
 ]
