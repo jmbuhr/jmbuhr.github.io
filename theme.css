@@ -162,7 +162,20 @@ line-height: inherit;
 }
 
 /*
-.darkmode-layer, .darkmode-toggle {
-  z-index: 500;
-}
+Darkmode
 */
+
+html {
+  transition: color 300ms, background-color 300ms;
+}
+
+html .dark, body .dark {
+    filter: invert(1) hue-rotate(180deg);
+    background-color: #151515;
+}
+
+html .dark img,
+picture .dark,
+video .dark {
+    filter: invert(1) hue-rotate(180deg);
+}

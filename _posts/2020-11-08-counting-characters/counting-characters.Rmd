@@ -13,7 +13,7 @@ output:
 
 ```{r setup, include=FALSE}
 library(reticulate)
-knitr::opts_chunk$set(warning = FALSE, echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, echo = TRUE, message = FALSE)
 ```
 
 ## The Why
@@ -74,10 +74,6 @@ counts = map(get_count, files)
 result = dict(reduce(add_counts, counts))
 ```
 
-
-```{python}
-
-```
 
 ## The Result
 

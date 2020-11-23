@@ -20,7 +20,7 @@ navbar:
       href: teaching.html
     - icon: "fas fa-envelope"
       href: contact.html
-    # - icon: "fas fa-adjust"
+    - icon: "fas fa-adjust"
 output:
   distill::distill_article:
     includes:

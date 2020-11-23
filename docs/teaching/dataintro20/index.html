@@ -150,6 +150,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
     var header = $('header').get(0);
     var headerHeight = header.offsetHeight;
     var headroom = new Headroom(header, {
+      tolerance: 5,
       onPin : function() {
         if (window.headroom_prevent_pin) {
           window.headroom_prevent_pin = false;
@@ -497,22 +498,19 @@ function offsetURL(url) {
   return offset ? offset + '/' + url : url;
 }
 
-function createIndex() {
-  var options = {
-    keys: [
-      "title",
-      "categories",
-      "description",
-      "contents"
-    ]
-  };
-  return new window.Fuse([],options);
-}
-
 function createFuseIndex() {
 
   // create fuse index
-  var options = { keys: ["title", "description", "contents"] };
+  var options = {
+    keys: [
+      { name: 'title', weight: 20 },
+      { name: 'categories', weight: 15 },
+      { name: 'description', weight: 10 },
+      { name: 'contents', weight: 5 },
+    ],
+    ignoreLocation: true,
+    threshold: 0
+  };
   var fuse = new window.Fuse([], options);
 
   // fetch the main search.json
@@ -580,12 +578,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             shouldSort: true,
             minMatchCharLength: 2,
             limit: 10,
-            keys: [
-              { name: 'title', weight: 20 },
-              { name: 'categories', weight: 15 },
-              { name: 'description', weight: 10 },
-              { name: 'contents', weight: 5 },
-            ],
           };
           var results = fuse.search(query, searchOptions);
           callback(results
@@ -883,7 +875,7 @@ d-article pre code {
 d-article pre,
 d-article div.sourceCode,
 d-article div.sourceCode pre {
-  overflow: hidden;
+  overflow: auto;
 }
 
 d-article div.sourceCode {
@@ -2264,10 +2256,23 @@ line-height: inherit;
 }
 
 /*
-.darkmode-layer, .darkmode-toggle {
-  z-index: 500;
+Darkmode
+*/
+
+html {
+  transition: color 300ms, background-color 300ms;
 }
-*/</style>
+
+html .dark, body .dark {
+    filter: invert(1) hue-rotate(180deg);
+    background-color: #151515;
+}
+
+html .dark img,
+picture .dark,
+video .dark {
+    filter: invert(1) hue-rotate(180deg);
+}</style>
 <style type="text/css">
 /* base style */
 
@@ -2452,6 +2457,9 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../contact.html">
 <i class="fas fa-envelope" aria-hidden="true"></i>
 </a>
+<a>
+<i class="fas fa-adjust" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2500,12 +2508,13 @@ d-appendix d-footnote-list a.footnote-backlink {
 
 <!--radix_placeholder_site_after_body-->
 <script>
-let elems = document.getElementsByClassName('fas fa-adjust');
-let toggle = elems[0];
-toggle.onclick = function(){
-  var element = document.body;
-  element.classList.toggle("dark");
-};
+// Select the button
+let btn = document.getElementsByClassName('fas fa-adjust')[0];
+// Listen for a click on the button
+btn.addEventListener('click', function() {
+  // Then toggle (add/remove) the .dark class to the body
+  document.body.classList.toggle('dark');
+})
 </script>
 
 <!--/radix_placeholder_site_after_body-->
