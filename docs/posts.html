@@ -2138,7 +2138,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       var(--primary);
+    --bkgd-color:       rgba(180, 180, 180, 0.8);
   }
 
   /*-- Additional custom styles --*/
@@ -2226,24 +2226,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   line-height: inherit;
   }
 
-  /*
-  Darkmode
-  */
-
-  html {
-    transition: color 300ms, background-color 300ms;
-  }
-
-  html .dark, body .dark {
-      filter: invert(1) hue-rotate(180deg);
-      background-color: #151515;
-  }
-
-  html .dark img,
-  picture .dark,
-  video .dark {
-      filter: invert(1) hue-rotate(180deg);
-  }</style>
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2428,9 +2411,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <a href="contact.html">
 <i class="fas fa-envelope" aria-hidden="true"></i>
 </a>
-<a>
-<i class="fas fa-adjust" aria-hidden="true"></i>
-</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2573,6 +2553,23 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Posts">Posts</h1>
+<a href="posts/2020-02-15-demonstration/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Nov. 26, 2020</div>
+<div class="dt-authors">
+<div class="dt-author">Jannik Buhr</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2020-02-15-demonstration/index_files/figure-html5/prev-1.png"/>
+</div>
+<div class="description">
+<h2>demonstration</h2>
+<div class="dt-tags"></div>
+<p>A short description of the post.</p>
+</div>
+</a>
 <a href="posts/2020-11-08-counting-characters/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":[]}</script>
 <div class="metadata">
@@ -2588,25 +2585,6 @@ function init_posts_list() {
 <h2>Counting Characters</h2>
 <div class="dt-tags"></div>
 <p>Using python and R to improve my typing experience.</p>
-</div>
-</a>
-<a href="posts/2020-02-15-demonstration/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["demonstration","testing"]}</script>
-<div class="metadata">
-<div class="publishedDate">Feb. 15, 2020</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img src="posts/2020-02-15-demonstration/index_files/figure-html5/prev-1.png"/>
-</div>
-<div class="description">
-<h2>Testing Rmarkdown Features</h2>
-<div class="dt-tags">
-<div class="dt-tag">demonstration</div>
-<div class="dt-tag">testing</div>
-</div>
-<p>This is just a test post. Nothing special
-to see. But you can play pong here!</p>
 </div>
 </a>
 <a href="posts/2020-10-26-12-the-father/" class="post-preview">
@@ -2653,14 +2631,6 @@ to see. But you can play pong here!</p>
 <span class="category-count">(4)</span>
 </li>
 <li>
-<a href="#category:demonstration">demonstration</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:testing">testing</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
 <a href="#category:theater">theater</a>
 <span class="category-count">(2)</span>
 </li>
@@ -2691,26 +2661,7 @@ to see. But you can play pong here!</p>
 </div>
 
 
-<script>
-// Select the button
-let btn = document.getElementsByClassName('fas fa-adjust')[0];
-// Listen for a click on the button
-btn.addEventListener('click', function() {
-  // Then toggle (add/remove) the .dark class to the body
-  document.body.classList.toggle('dark');
-})
-</script>
 <!--radix_placeholder_site_after_body-->
-<script>
-// Select the button
-let btn = document.getElementsByClassName('fas fa-adjust')[0];
-// Listen for a click on the button
-btn.addEventListener('click', function() {
-  // Then toggle (add/remove) the .dark class to the body
-  document.body.classList.toggle('dark');
-})
-</script>
-
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">

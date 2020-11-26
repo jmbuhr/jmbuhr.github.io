@@ -123,7 +123,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["father.jpg"]}
+  {"type":"character","attributes":{},"value":["father.jpg","the-father_files/anchor-4.2.2/anchor.min.js","the-father_files/bowser-1.9.3/bowser.min.js","the-father_files/distill-2.2.21/template.v2.js","the-father_files/header-attrs-2.4.6/header-attrs.js","the-father_files/header-attrs-2.5/header-attrs.js","the-father_files/jquery-1.11.3/jquery.min.js","the-father_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2155,7 +2155,7 @@ d-appendix {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       var(--primary);
+  --bkgd-color:       rgba(180, 180, 180, 0.8);
 }
 
 /*-- Additional custom styles --*/
@@ -2243,24 +2243,7 @@ color: #2d2d2d !important;
 line-height: inherit;
 }
 
-/*
-Darkmode
-*/
-
-html {
-  transition: color 300ms, background-color 300ms;
-}
-
-html .dark, body .dark {
-    filter: invert(1) hue-rotate(180deg);
-    background-color: #151515;
-}
-
-html .dark img,
-picture .dark,
-video .dark {
-    filter: invert(1) hue-rotate(180deg);
-}</style>
+</style>
 <style type="text/css">
 /* base style */
 
@@ -2407,7 +2390,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 	color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.4.6/header-attrs.js"></script>
+  <script src="../../site_libs/header-attrs-2.5/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
   <script src="../../site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
@@ -2444,9 +2427,6 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../teaching.html">Teaching</a>
 <a href="../../contact.html">
 <i class="fas fa-envelope" aria-hidden="true"></i>
-</a>
-<a>
-<i class="fas fa-adjust" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2499,16 +2479,6 @@ d-appendix d-footnote-list a.footnote-backlink {
 
 
 <!--radix_placeholder_site_after_body-->
-<script>
-// Select the button
-let btn = document.getElementsByClassName('fas fa-adjust')[0];
-// Listen for a click on the button
-btn.addEventListener('click', function() {
-  // Then toggle (add/remove) the .dark class to the body
-  document.body.classList.toggle('dark');
-})
-</script>
-
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">

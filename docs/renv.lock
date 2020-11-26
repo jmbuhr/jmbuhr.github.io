@@ -10,8 +10,7 @@
   },
   "Python": {
     "Version": "3.8.6",
-    "Type": "virtualenv",
-    "Name": null
+    "Type": "virtualenv"
   },
   "Packages": {
     "BH": {
@@ -239,9 +238,9 @@
       "RemoteUsername": "rstudio",
       "RemoteRepo": "distill",
       "RemoteRef": "master",
-      "RemoteSha": "76eef3c810b83a6b355ecf265bedb676c2dd758a",
+      "RemoteSha": "c8591adabb550d1417bbd3933ae057eef57d4914",
       "RemoteHost": "api.github.com",
-      "Hash": "c98c99db2fee34438da22747caff8e1f"
+      "Hash": "8aa89dac1c63c5dafd6aa3b75884a7b9"
     },
     "downlit": {
       "Package": "downlit",
@@ -689,10 +688,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.12.2",
+      "Version": "0.12.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "398cc1ea892e1aade66d1ecbb2874d24"
+      "Hash": "b5510c50c7f31d453c385c7b460af2b9"
     },
     "reprex": {
       "Package": "reprex",

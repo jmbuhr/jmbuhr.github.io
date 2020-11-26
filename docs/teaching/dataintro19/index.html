@@ -2161,7 +2161,7 @@ d-appendix {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       var(--primary);
+  --bkgd-color:       rgba(180, 180, 180, 0.8);
 }
 
 /*-- Additional custom styles --*/
@@ -2249,24 +2249,7 @@ color: #2d2d2d !important;
 line-height: inherit;
 }
 
-/*
-Darkmode
-*/
-
-html {
-  transition: color 300ms, background-color 300ms;
-}
-
-html .dark, body .dark {
-    filter: invert(1) hue-rotate(180deg);
-    background-color: #151515;
-}
-
-html .dark img,
-picture .dark,
-video .dark {
-    filter: invert(1) hue-rotate(180deg);
-}</style>
+</style>
 <style type="text/css">
 /* base style */
 
@@ -2451,9 +2434,6 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../contact.html">
 <i class="fas fa-envelope" aria-hidden="true"></i>
 </a>
-<a>
-<i class="fas fa-adjust" aria-hidden="true"></i>
-</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2487,16 +2467,6 @@ d-appendix d-footnote-list a.footnote-backlink {
 
 
 <!--radix_placeholder_site_after_body-->
-<script>
-// Select the button
-let btn = document.getElementsByClassName('fas fa-adjust')[0];
-// Listen for a click on the button
-btn.addEventListener('click', function() {
-  // Then toggle (add/remove) the .dark class to the body
-  document.body.classList.toggle('dark');
-})
-</script>
-
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">

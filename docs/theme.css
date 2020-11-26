@@ -73,7 +73,7 @@ d-appendix {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       var(--primary);
+  --bkgd-color:       rgba(180, 180, 180, 0.8);
 }
 
 /*-- Additional custom styles --*/
@@ -161,21 +161,4 @@ color: #2d2d2d !important;
 line-height: inherit;
 }
 
-/*
-Darkmode
-*/
 
-html {
-  transition: color 300ms, background-color 300ms;
-}
-
-html .dark, body .dark {
-    filter: invert(1) hue-rotate(180deg);
-    background-color: #151515;
-}
-
-html .dark img,
-picture .dark,
-video .dark {
-    filter: invert(1) hue-rotate(180deg);
-}

@@ -1,16 +1,14 @@
 ---
-title: "Testing Rmarkdown Features"
+title: "demonstration"
 description: |
-  This is just a test post. Nothing special
-  to see. But you can play pong here!
-date: '2020-02-15'
+  A short description of the post.
+author:
+  - name: Jannik Buhr
+    url: {}
+date: 11-26-2020
 output:
   distill::distill_article:
     self_contained: false
-    toc: true
-categories:
-  - demonstration
-  - testing
 ---
 
 ```{r setup, include=FALSE}
