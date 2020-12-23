@@ -66,14 +66,14 @@ d-appendix {
   --text-color:       rgba(0, 0, 0, 0.8);
   --text-size:        17px;
   --hover-color:      var(--primary);
-  --bkgd-color:       rgba(180, 180, 180, 0.8); /* #0F2E3D; */
+  --bkgd-color:       rgba(210, 210, 210, 0.8); #0F2E3D; */
 }
 
 .distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-color:       rgba(0, 0, 0, 0.6);
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       rgba(180, 180, 180, 0.8);
+  --hover-color:      var(--primary);
+  --bkgd-color:       rgba(210, 210, 210, 0.8);
 }
 
 /*-- Additional custom styles --*/
@@ -102,11 +102,17 @@ d-appendix {
   font-size: 2rem;
 }
 
-a {
+a, i, svg {
   transition: all .2s ease-in-out;
 }
 
-a:hover {
+.profile a:hover {
+  transform: scale(1.2);
+  color: var(--primary);
+}
+
+.profile svg:hover {
+  transform: scale(1.2);
   color: var(--primary);
 }
 

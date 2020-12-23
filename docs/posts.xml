@@ -17,7 +17,8 @@
       <title>demonstration</title>
       <dc:creator>Jannik Buhr</dc:creator>
       <link>https://jmbuhr.de/posts/2020-02-15-demonstration</link>
-      <description>A short description of the post.</description>
+      <description>&lt;p&gt;A short description of the post.&lt;/p&gt;
+</description>
       <guid>https://jmbuhr.de/posts/2020-02-15-demonstration</guid>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       <media:content url="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/figure-html5/prev-1.png" medium="image" type="image/png" width="1248" height="768"/>
@@ -26,7 +27,8 @@
       <title>Counting Characters</title>
       <dc:creator>Jannik Buhr</dc:creator>
       <link>https://jmbuhr.de/posts/2020-11-08-counting-characters</link>
-      <description>Using python and R to improve my typing experience.</description>
+      <description>&lt;p&gt;Using python and R to improve my typing experience.&lt;/p&gt;
+</description>
       <guid>https://jmbuhr.de/posts/2020-11-08-counting-characters</guid>
       <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
       <media:content url="https://jmbuhr.de/posts/2020-11-08-counting-characters/counting-characters_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
@@ -34,7 +36,8 @@
     <item>
       <title>The father</title>
       <link>https://jmbuhr.de/posts/2020-10-26-12-the-father</link>
-      <description>Theater project at the anglistic seminar.</description>
+      <description>&lt;p&gt;Theater project at the anglistic seminar.&lt;/p&gt;
+</description>
       <category>theater</category>
       <guid>https://jmbuhr.de/posts/2020-10-26-12-the-father</guid>
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
@@ -43,7 +46,8 @@
     <item>
       <title>12 Angry Men</title>
       <link>https://jmbuhr.de/posts/2020-10-26-12-angry-men</link>
-      <description>Theater project at the anglistic seminar.</description>
+      <description>&lt;p&gt;Theater project at the anglistic seminar.&lt;/p&gt;
+</description>
       <category>theater</category>
       <guid>https://jmbuhr.de/posts/2020-10-26-12-angry-men</guid>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>

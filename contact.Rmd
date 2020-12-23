@@ -137,6 +137,4 @@ In this case, please just send me a regular mail.
 }
 </style>
 
-### Legal
 
-[Privacy notice](legal/privacy.html) and [Impressum](legal/impressum.html)

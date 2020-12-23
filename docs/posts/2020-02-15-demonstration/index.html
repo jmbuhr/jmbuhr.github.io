@@ -473,8 +473,15 @@ d-title {
   top: 0;
 }
 
+/* adjust viewport for navbar height */
+/* helps vertically center bootstrap (non-distill) content */
+.min-vh-100 {
+  min-height: calc(100vh - 100px) !important;
+}
+
 </style>
 
+<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -587,6 +594,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         },
         templates: {
           suggestion: function(suggestion) {
+            var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+              ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+              : '';
             var html = `
               <div class="search-item">
                 <h3>${suggestion.title}</h3>
@@ -594,7 +604,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
                   ${suggestion.description}
                 </div>
                 <div class="search-item-preview">
-                  <img src="${suggestion.preview ? offsetURL(suggestion.preview) : ''}"</img>
+                  ${img}
                 </div>
               </div>
             `;
@@ -617,6 +627,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 
 <style type="text/css">
+
+.nav-search {
+  font-size: x-small;
+}
 
 /* Algolioa Autocomplete */
 
@@ -2160,14 +2174,14 @@ d-appendix {
   --text-color:       rgba(0, 0, 0, 0.8);
   --text-size:        17px;
   --hover-color:      var(--primary);
-  --bkgd-color:       rgba(180, 180, 180, 0.8); /* #0F2E3D; */
+  --bkgd-color:       rgba(210, 210, 210, 0.8); #0F2E3D; */
 }
 
 .distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-color:       rgba(0, 0, 0, 0.6);
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       rgba(180, 180, 180, 0.8);
+  --hover-color:      var(--primary);
+  --bkgd-color:       rgba(210, 210, 210, 0.8);
 }
 
 /*-- Additional custom styles --*/
@@ -2196,11 +2210,17 @@ d-appendix {
   font-size: 2rem;
 }
 
-a {
+a, i, svg {
   transition: all .2s ease-in-out;
 }
 
-a:hover {
+.profile a:hover {
+  transform: scale(1.2);
+  color: var(--primary);
+}
+
+.profile svg:hover {
+  transform: scale(1.2);
   color: var(--primary);
 }
 
@@ -2281,7 +2301,7 @@ h1, h2, h3, h4, h5, h6,
 
 d-article div.sourceCode code,
 d-article pre code {
-	font-family: var(--mono-font), var(--mono-default);
+  font-family: var(--mono-font), var(--mono-default);
 }
 
 
@@ -2315,91 +2335,98 @@ d-article > p {
 /*-- CODE --*/
 d-article div.sourceCode code,
 d-article pre code {
-	font-size: var(--code-size, 14px);
+  font-size: var(--code-size, 14px);
 }
 
 /*-- ASIDE --*/
 d-article aside {
-	font-size: var(--aside-size, 12px);
-	color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  font-size: var(--aside-size, 12px);
+  color: var(--aside-color, rgba(0, 0, 0, 0.6));
 }
 
 /*-- FIGURE CAPTIONS --*/
 figure .caption,
 figure figcaption,
 .figure .caption {
-	font-size: var(--fig-cap-size, 13px);
-	color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  font-size: var(--fig-cap-size, 13px);
+  color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
 }
 
 /*-- METADATA --*/
 d-byline h3 {
-	font-size: var(--heading-size, 0.6rem);
-	color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  font-size: var(--heading-size, 0.6rem);
+  color: var(--heading-color, rgba(0, 0, 0, 0.5));
 }
 
 d-byline {
-	font-size: var(--body-size, 0.8rem);
-	color: var(--body-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--body-size, 0.8rem);
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
 }
 
 d-byline a,
 d-article d-byline a {
-	color: var(--body-color, rgba(0, 0, 0, 0.8));
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
 }
 
 /*-- TABLE OF CONTENTS --*/
 .d-contents nav h3 {
-	font-size: var(--heading-size, 18px);
+  font-size: var(--heading-size, 18px);
 }
 
 .d-contents nav a {
-	font-size: var(--contents-size, 13px);
+  font-size: var(--contents-size, 13px);
 }
 
 /*-- APPENDIX --*/
 d-appendix h3 {
   font-size: var(--heading-size, 15px);
-	color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  color: var(--heading-color, rgba(0, 0, 0, 0.65));
 }
 
 d-appendix {
   font-size: var(--text-size, 0.8em);
-	color: var(--text-color, rgba(0, 0, 0, 0.5));
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
 }
 
 d-appendix d-footnote-list a.footnote-backlink {
-	color: var(--text-color, rgba(0, 0, 0, 0.5));
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
 .distill-site-header .title {
-	font-size: var(--title-size, 18px);
-	font-family: var(--navbar-font), var(--heading-default);
-}
-
-.distill-site-header a {
+  font-size: var(--title-size, 18px);
   font-family: var(--navbar-font), var(--heading-default);
 }
 
-.distill-site-header a:hover {
-	color: var(--hover-color, white);
+.distill-site-header a,
+.nav-dropdown .nav-dropbtn {
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.nav-dropdown .nav-dropbtn {
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  font-size: var(--text-size, 15px);
+}
+
+.distill-site-header a:hover,
+.nav-dropdown:hover .nav-dropbtn {
+  color: var(--hover-color, white);
 }
 
 .distill-site-header {
-	font-size: var(--text-size, 15px);
-	color: var(--text-color, rgba(255, 255, 255, 0.8));
-	background-color: var(--bkgd-color, #0F2E3D);
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
 }
 
 .distill-site-footer {
-	font-size: var(--text-size, 15px);
-	color: var(--text-color, rgba(255, 255, 255, 0.8));
-	background-color: var(--bkgd-color, #0F2E3D);
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
 }
 
 .distill-site-footer a:hover {
-	color: var(--hover-color, white);
+  color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
   <script src="../../site_libs/header-attrs-2.5/header-attrs.js"></script>
@@ -2457,7 +2484,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../posts.html">Posts</a>
 <a href="../../teaching.html">Teaching</a>
 <a href="../../contact.html">
-<i class="fas fa-envelope" aria-hidden="true"></i>
+<i class="far fa-envelope" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2533,7 +2560,8 @@ d-appendix d-footnote-list a.footnote-backlink {
 <pre><code><span class='fu'>DT</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/DT/man/datatable.html'>datatable</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>iris</span><span class='op'>)</span><span class='op'>)</span>
 </code></pre>
 </div>
-<p>preserve7666bf141b64df85</p>
+<div id="htmlwidget-a43129010be9279e1910" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a43129010be9279e1910">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[5.1,4.9,4.7,4.6,5,5.4],[3.5,3,3.2,3.1,3.6,3.9],[1.4,1.4,1.3,1.5,1.4,1.7],[0.2,0.2,0.2,0.2,0.2,0.4],["setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <h2 id="plotly">Plotly</h2>
 <div class="layout-chunk" data-layout="l-body">
@@ -2548,7 +2576,8 @@ d-appendix d-footnote-list a.footnote-backlink {
 <span class='fu'>plotly</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/plotly/man/ggplotly.html'>ggplotly</a></span><span class='op'>(</span><span class='va'>plt</span><span class='op'>)</span>
 </code></pre>
 </div>
-<p>preserve49a14479462d9436</p>
+<div id="htmlwidget-659a8ac010b9106def2f" style="width:624px;height:384px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-659a8ac010b9106def2f">{"x":{"data":[{"x":[1.8,1.8,2,2,2.8,2.8,3.1,1.8,1.8,2,2,2.8,2.8,3.1,3.1,2.8,3.1,4.2,5.3,5.3,5.3,5.7,6,5.7,5.7,6.2,6.2,7,5.3,5.3,5.7,6.5,2.4,2.4,3.1,3.5,3.6,2.4,3,3.3,3.3,3.3,3.3,3.3,3.8,3.8,3.8,4,3.7,3.7,3.9,3.9,4.7,4.7,4.7,5.2,5.2,3.9,4.7,4.7,4.7,5.2,5.7,5.9,4.7,4.7,4.7,4.7,4.7,4.7,5.2,5.2,5.7,5.9,4.6,5.4,5.4,4,4,4,4,4.6,5,4.2,4.2,4.6,4.6,4.6,5.4,5.4,3.8,3.8,4,4,4.6,4.6,4.6,4.6,5.4,1.6,1.6,1.6,1.6,1.6,1.8,1.8,1.8,2,2.4,2.4,2.4,2.4,2.5,2.5,3.3,2,2,2,2,2.7,2.7,2.7,3,3.7,4,4.7,4.7,4.7,5.7,6.1,4,4.2,4.4,4.6,5.4,5.4,5.4,4,4,4.6,5,2.4,2.4,2.5,2.5,3.5,3.5,3,3,3.5,3.3,3.3,4,5.6,3.1,3.8,3.8,3.8,5.3,2.5,2.5,2.5,2.5,2.5,2.5,2.2,2.2,2.5,2.5,2.5,2.5,2.5,2.5,2.7,2.7,3.4,3.4,4,4.7,2.2,2.2,2.4,2.4,3,3,3.5,2.2,2.2,2.4,2.4,3,3,3.3,1.8,1.8,1.8,1.8,1.8,4.7,5.7,2.7,2.7,2.7,3.4,3.4,4,4,2,2,2,2,2.8,1.9,2,2,2,2,2.5,2.5,2.8,2.8,1.9,1.9,2,2,2.5,2.5,1.8,1.8,2,2,2.8,2.8,3.6],"y":[18,21,20,21,16,18,18,18,16,20,19,15,17,17,15,15,17,16,14,11,14,13,12,16,15,16,15,15,14,11,11,14,19,22,18,18,17,18,17,16,16,17,17,11,15,15,16,16,15,14,13,14,14,14,9,11,11,13,13,9,13,11,13,11,12,9,13,13,12,9,11,11,13,11,11,11,12,14,15,14,13,13,13,14,14,13,13,13,11,13,18,18,17,16,15,15,15,15,14,28,24,25,23,24,26,25,24,21,18,18,21,21,18,18,19,19,19,20,20,17,16,17,17,15,15,14,9,14,13,11,11,12,12,11,11,11,12,14,13,13,13,21,19,23,23,19,19,18,19,19,14,15,14,12,18,16,17,18,16,18,18,20,19,20,18,21,19,19,19,20,20,19,20,15,16,15,15,16,14,21,21,21,21,18,18,19,21,21,21,22,18,18,18,24,24,26,28,26,11,13,15,16,17,15,15,15,16,21,19,21,22,17,33,21,19,22,21,21,21,16,17,35,29,21,19,20,20,21,18,19,21,16,18,17],"text":["displ: 1.8<br />cty: 18","displ: 1.8<br />cty: 21","displ: 2.0<br />cty: 20","displ: 2.0<br />cty: 21","displ: 2.8<br />cty: 16","displ: 2.8<br />cty: 18","displ: 3.1<br />cty: 18","displ: 1.8<br />cty: 18","displ: 1.8<br />cty: 16","displ: 2.0<br />cty: 20","displ: 2.0<br />cty: 19","displ: 2.8<br />cty: 15","displ: 2.8<br />cty: 17","displ: 3.1<br />cty: 17","displ: 3.1<br />cty: 15","displ: 2.8<br />cty: 15","displ: 3.1<br />cty: 17","displ: 4.2<br />cty: 16","displ: 5.3<br />cty: 14","displ: 5.3<br />cty: 11","displ: 5.3<br />cty: 14","displ: 5.7<br />cty: 13","displ: 6.0<br />cty: 12","displ: 5.7<br />cty: 16","displ: 5.7<br />cty: 15","displ: 6.2<br />cty: 16","displ: 6.2<br />cty: 15","displ: 7.0<br />cty: 15","displ: 5.3<br />cty: 14","displ: 5.3<br />cty: 11","displ: 5.7<br />cty: 11","displ: 6.5<br />cty: 14","displ: 2.4<br />cty: 19","displ: 2.4<br />cty: 22","displ: 3.1<br />cty: 18","displ: 3.5<br />cty: 18","displ: 3.6<br />cty: 17","displ: 2.4<br />cty: 18","displ: 3.0<br />cty: 17","displ: 3.3<br />cty: 16","displ: 3.3<br />cty: 16","displ: 3.3<br />cty: 17","displ: 3.3<br />cty: 17","displ: 3.3<br />cty: 11","displ: 3.8<br />cty: 15","displ: 3.8<br />cty: 15","displ: 3.8<br />cty: 16","displ: 4.0<br />cty: 16","displ: 3.7<br />cty: 15","displ: 3.7<br />cty: 14","displ: 3.9<br />cty: 13","displ: 3.9<br />cty: 14","displ: 4.7<br />cty: 14","displ: 4.7<br />cty: 14","displ: 4.7<br />cty:  9","displ: 5.2<br />cty: 11","displ: 5.2<br />cty: 11","displ: 3.9<br />cty: 13","displ: 4.7<br />cty: 13","displ: 4.7<br />cty:  9","displ: 4.7<br />cty: 13","displ: 5.2<br />cty: 11","displ: 5.7<br />cty: 13","displ: 5.9<br />cty: 11","displ: 4.7<br />cty: 12","displ: 4.7<br />cty:  9","displ: 4.7<br />cty: 13","displ: 4.7<br />cty: 13","displ: 4.7<br />cty: 12","displ: 4.7<br />cty:  9","displ: 5.2<br />cty: 11","displ: 5.2<br />cty: 11","displ: 5.7<br />cty: 13","displ: 5.9<br />cty: 11","displ: 4.6<br />cty: 11","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 12","displ: 4.0<br />cty: 14","displ: 4.0<br />cty: 15","displ: 4.0<br />cty: 14","displ: 4.0<br />cty: 13","displ: 4.6<br />cty: 13","displ: 5.0<br />cty: 13","displ: 4.2<br />cty: 14","displ: 4.2<br />cty: 14","displ: 4.6<br />cty: 13","displ: 4.6<br />cty: 13","displ: 4.6<br />cty: 13","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 13","displ: 3.8<br />cty: 18","displ: 3.8<br />cty: 18","displ: 4.0<br />cty: 17","displ: 4.0<br />cty: 16","displ: 4.6<br />cty: 15","displ: 4.6<br />cty: 15","displ: 4.6<br />cty: 15","displ: 4.6<br />cty: 15","displ: 5.4<br />cty: 14","displ: 1.6<br />cty: 28","displ: 1.6<br />cty: 24","displ: 1.6<br />cty: 25","displ: 1.6<br />cty: 23","displ: 1.6<br />cty: 24","displ: 1.8<br />cty: 26","displ: 1.8<br />cty: 25","displ: 1.8<br />cty: 24","displ: 2.0<br />cty: 21","displ: 2.4<br />cty: 18","displ: 2.4<br />cty: 18","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 21","displ: 2.5<br />cty: 18","displ: 2.5<br />cty: 18","displ: 3.3<br />cty: 19","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 20","displ: 2.0<br />cty: 20","displ: 2.7<br />cty: 17","displ: 2.7<br />cty: 16","displ: 2.7<br />cty: 17","displ: 3.0<br />cty: 17","displ: 3.7<br />cty: 15","displ: 4.0<br />cty: 15","displ: 4.7<br />cty: 14","displ: 4.7<br />cty:  9","displ: 4.7<br />cty: 14","displ: 5.7<br />cty: 13","displ: 6.1<br />cty: 11","displ: 4.0<br />cty: 11","displ: 4.2<br />cty: 12","displ: 4.4<br />cty: 12","displ: 4.6<br />cty: 11","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 12","displ: 4.0<br />cty: 14","displ: 4.0<br />cty: 13","displ: 4.6<br />cty: 13","displ: 5.0<br />cty: 13","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 19","displ: 2.5<br />cty: 23","displ: 2.5<br />cty: 23","displ: 3.5<br />cty: 19","displ: 3.5<br />cty: 19","displ: 3.0<br />cty: 18","displ: 3.0<br />cty: 19","displ: 3.5<br />cty: 19","displ: 3.3<br />cty: 14","displ: 3.3<br />cty: 15","displ: 4.0<br />cty: 14","displ: 5.6<br />cty: 12","displ: 3.1<br />cty: 18","displ: 3.8<br />cty: 16","displ: 3.8<br />cty: 17","displ: 3.8<br />cty: 18","displ: 5.3<br />cty: 16","displ: 2.5<br />cty: 18","displ: 2.5<br />cty: 18","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 18","displ: 2.2<br />cty: 21","displ: 2.2<br />cty: 19","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.7<br />cty: 15","displ: 2.7<br />cty: 16","displ: 3.4<br />cty: 15","displ: 3.4<br />cty: 15","displ: 4.0<br />cty: 16","displ: 4.7<br />cty: 14","displ: 2.2<br />cty: 21","displ: 2.2<br />cty: 21","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 21","displ: 3.0<br />cty: 18","displ: 3.0<br />cty: 18","displ: 3.5<br />cty: 19","displ: 2.2<br />cty: 21","displ: 2.2<br />cty: 21","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 22","displ: 3.0<br />cty: 18","displ: 3.0<br />cty: 18","displ: 3.3<br />cty: 18","displ: 1.8<br />cty: 24","displ: 1.8<br />cty: 24","displ: 1.8<br />cty: 26","displ: 1.8<br />cty: 28","displ: 1.8<br />cty: 26","displ: 4.7<br />cty: 11","displ: 5.7<br />cty: 13","displ: 2.7<br />cty: 15","displ: 2.7<br />cty: 16","displ: 2.7<br />cty: 17","displ: 3.4<br />cty: 15","displ: 3.4<br />cty: 15","displ: 4.0<br />cty: 15","displ: 4.0<br />cty: 16","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 22","displ: 2.8<br />cty: 17","displ: 1.9<br />cty: 33","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 22","displ: 2.0<br />cty: 21","displ: 2.5<br />cty: 21","displ: 2.5<br />cty: 21","displ: 2.8<br />cty: 16","displ: 2.8<br />cty: 17","displ: 1.9<br />cty: 35","displ: 1.9<br />cty: 29","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 20","displ: 1.8<br />cty: 21","displ: 1.8<br />cty: 18","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 21","displ: 2.8<br />cty: 16","displ: 2.8<br />cty: 18","displ: 3.6<br />cty: 17"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":27.8721461187215,"r":7.30593607305936,"b":41.8264840182648,"l":37.2602739726027},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1.33,7.27],"tickmode":"array","ticktext":["2","3","4","5","6","7"],"tickvals":[2,3,4,5,6,7],"categoryorder":"array","categoryarray":["2","3","4","5","6","7"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"displ","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[7.7,36.3],"tickmode":"array","ticktext":["10","15","20","25","30","35"],"tickvals":[10,15,20,25,30,35],"categoryorder":"array","categoryarray":["10","15","20","25","30","35"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"cty","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"68d54af7008b":{"x":{},"y":{},"type":"scatter"}},"cur_data":"68d54af7008b","visdat":{"68d54af7008b":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 <p>However, while this options brings back plotly, it also disables math rendering for this document on the site.</p>
 <h2 id="math">Math</h2>
@@ -2569,7 +2598,8 @@ E--&gt;F
 "</span><span class='op'>)</span>
 </code></pre>
 </div>
-<p>preservec14a68f79c86d0e6</p>
+<div id="htmlwidget-5876156a63f9249da0c5" style="width:624px;height:384px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5876156a63f9249da0c5">{"x":{"diagram":"\ngraph TB\nA-->B\nA-->C\nC-->E\nB-->D\nC-->D\nD-->F\nE-->F\n"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
@@ -2623,7 +2653,20 @@ E--&gt;F
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+  <html>
+    <body>
+      <p>
+      Made with <a href="https://rstudio.github.io/distill/">distill and Rmarkdown</a>
+    </p>
+      <p><a href="https://jmbuhr.de/legal/privacy.html">Privacy notice</a> and
+    <a href="https://jmbuhr.de/legal/impressum.html">impressum</a>
+    </p>
+    </body>
+  </html>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 
