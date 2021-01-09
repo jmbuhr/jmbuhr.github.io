@@ -2,9 +2,6 @@
 title: "Blender3d School Open Movie"
 description: |
   WalnOt, a shortfilm made with blender in 2 weeks.
-author:
-  - name: Jannik Buhr
-    url: 'https://jmbuhr.de'
 date: 01-10-2019
 categories:
   - blender

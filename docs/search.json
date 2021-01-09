@@ -5,28 +5,28 @@
       "title": "Contact Me",
       "author": [],
       "contents": "\nContact\nNOTE: This form appears to not work with firefox when I use an encrypted connection, and I can’t figure out why. But if you attempt to submit the form, you will see my email address in the browser header bar. In this case, please just send me a regular mail.\n\nFull Name Email Address Message\n\n/* reset */\n#fs-frm input,\n#fs-frm select,\n#fs-frm textarea,\n#fs-frm fieldset,\n#fs-frm optgroup,\n#fs-frm label,\n#fs-frm #card-element:disabled {\n  font-family: inherit;\n  font-size: 100%;\n  color: inherit;\n  border: none;\n  border-radius: 0;\n  display: block;\n  width: 100%;\n  padding: 0;\n  margin: 0;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n}\n#fs-frm label,\n#fs-frm legend,\n#fs-frm ::placeholder {\n  font-size: .825rem;\n  margin-bottom: .5rem;\n  padding-top: .2rem;\n  display: flex;\n  align-items: baseline;\n}\n\n/* border, padding, margin, width */\n#fs-frm input,\n#fs-frm select,\n#fs-frm textarea,\n#fs-frm #card-element {\n  border: 1px solid rgba(0,0,0,0.2);\n  background-color: rgba(255,255,255,0.9);\n  padding: .75em 1rem;\n  margin-bottom: 1.5rem;\n}\n#fs-frm input:focus,\n#fs-frm select:focus,\n#fs-frm textarea:focus {\n  background-color: white;\n  outline-style: solid;\n  outline-width: thin;\n  outline-color: gray;\n  outline-offset: -1px;\n}\n#fs-frm [type=\"text\"],\n#fs-frm [type=\"email\"] {\n  width: 100%;\n}\n#fs-frm [type=\"button\"],\n#fs-frm [type=\"submit\"],\n#fs-frm [type=\"reset\"] {\n  width: auto;\n  cursor: pointer;\n  -webkit-appearance: button;\n  -moz-appearance: button;\n  appearance: button;\n}\n#fs-frm [type=\"button\"]:focus,\n#fs-frm [type=\"submit\"]:focus,\n#fs-frm [type=\"reset\"]:focus {\n  outline: none;\n}\n#fs-frm [type=\"submit\"],\n#fs-frm [type=\"reset\"] {\n  margin-bottom: 0;\n}\n#fs-frm select {\n  text-transform: none;\n}\n\n#fs-frm [type=\"checkbox\"] {\n  -webkit-appearance: checkbox;\n  -moz-appearance: checkbox;\n  appearance: checkbox;\n  display: inline-block;\n  width: auto;\n  margin: 0 .5em 0 0 !important;\n}\n\n#fs-frm [type=\"radio\"] {\n  -webkit-appearance: radio;\n  -moz-appearance: radio;\n  appearance: radio;\n}\n\n/* address, locale */\n#fs-frm fieldset.locale input[name=\"city\"],\n#fs-frm fieldset.locale select[name=\"state\"],\n#fs-frm fieldset.locale input[name=\"postal-code\"] {\n  display: inline;\n}\n#fs-frm fieldset.locale input[name=\"city\"] {\n  width: 52%;\n}\n#fs-frm fieldset.locale select[name=\"state\"],\n#fs-frm fieldset.locale input[name=\"postal-code\"] {\n  width: 20%;\n}\n#fs-frm fieldset.locale input[name=\"city\"],\n#fs-frm fieldset.locale select[name=\"state\"] {\n  margin-right: 3%;\n}\n\n\n\n",
-      "last_modified": "2021-01-09T14:58:08+01:00"
+      "last_modified": "2021-01-09T15:11:55+01:00"
     },
     {
       "path": "index.html",
       "title": "Hi!",
       "author": [],
       "contents": "\n\n\nd-title, d-byline {\n  display: none\n}\n\n\n\nJannik Buhr\nBiochemist / Bioinformatician\n [ comment ]   [ comment ]   [ comment ]   [ comment ]   [ comment ] \n\nHi!\nI am a master student of Biochemistry at Heidelberg University. As a research assistant for data analysis and R in the Brügger Lipidomics Group at the Heidelberg Center for Biochemistry (BZH) I pursue my interest in programming and data visualization.\nBeing a mentor on the R for Data Science online learning community enables me to help new R users and I enjoy the challenges that come with solving the diverse set of problems from the many fields that these users come from.\nMy academic interests are balanced out by regular theater projects or creative work with the open source 3d software blender.\n\n\n\n",
-      "last_modified": "2021-01-09T14:58:10+01:00"
+      "last_modified": "2021-01-09T15:11:57+01:00"
     },
     {
       "path": "posts.html",
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-09T14:58:11+01:00"
+      "last_modified": "2021-01-09T15:11:58+01:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-09T14:58:12+01:00"
+      "last_modified": "2021-01-09T15:11:59+01:00"
     }
   ],
   "collections": ["posts/posts.json", "teaching/teaching.json"]

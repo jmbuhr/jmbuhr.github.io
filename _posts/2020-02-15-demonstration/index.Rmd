@@ -2,9 +2,6 @@
 title: "demonstration"
 description: |
   A short description of the post.
-author:
-  - name: Jannik Buhr
-    url: 'https://jmbuhr.de'
 date: 11-26-2020
 output:
   distill::distill_article:

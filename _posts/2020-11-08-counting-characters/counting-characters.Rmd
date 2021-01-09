@@ -2,7 +2,6 @@
 title: "Counting Characters"
 description: |
   Using python and R to improve my typing experience.
-author: Jannik Buhr
 draft: false
 date: 11-08-2020
 output:
