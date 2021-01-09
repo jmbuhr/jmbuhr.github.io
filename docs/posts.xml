@@ -34,11 +34,23 @@
       <media:content url="https://jmbuhr.de/posts/2020-11-08-counting-characters/counting-characters_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
+      <title>Blender3d School Open Movie</title>
+      <dc:creator>Jannik Buhr</dc:creator>
+      <link>https://jmbuhr.de/posts/2021-01-09-blenderschoolopenmovie2019</link>
+      <description>&lt;p&gt;WalnOt, a shortfilm made with blender in 2 weeks.&lt;/p&gt;
+</description>
+      <category>blender</category>
+      <category>project</category>
+      <guid>https://jmbuhr.de/posts/2021-01-09-blenderschoolopenmovie2019</guid>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The father</title>
       <link>https://jmbuhr.de/posts/2020-10-26-12-the-father</link>
       <description>&lt;p&gt;Theater project at the anglistic seminar.&lt;/p&gt;
 </description>
       <category>theater</category>
+      <category>project</category>
       <guid>https://jmbuhr.de/posts/2020-10-26-12-the-father</guid>
       <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       <media:content url="https://jmbuhr.de/posts/2020-10-26-12-the-father/father.jpg" medium="image" type="image/jpeg"/>
@@ -49,6 +61,7 @@
       <description>&lt;p&gt;Theater project at the anglistic seminar.&lt;/p&gt;
 </description>
       <category>theater</category>
+      <category>project</category>
       <guid>https://jmbuhr.de/posts/2020-10-26-12-angry-men</guid>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <media:content url="https://jmbuhr.de/posts/2020-10-26-12-angry-men/12am.jpg" medium="image" type="image/jpeg"/>
