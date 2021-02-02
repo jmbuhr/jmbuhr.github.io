@@ -12,9 +12,9 @@ d-title, d-byline {
 <div class=profile>
 <img src="assets/img/profile.png" class="profile-circle">
 
-Jannik Buhr
+Jannik M. Buhr
 
-Biochemist / Bioinformatician
+Computational Biochemist
 
 [`r icon::fontawesome("envelope")`](https://jmbuhr.de/#contact)
 [`r icon::fontawesome("twitter")`](https://twitter.com/JannikBuhr)
