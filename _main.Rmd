@@ -1,0 +1,229 @@
+---
+title: "Hi!"
+site: distill::distill_website
+---
+
+<style>
+d-title, d-byline {
+  display: none
+}
+</style>
+
+<div class=profile>
+<img src="assets/img/profile.png" class="profile-circle">
+
+Jannik M. Buhr
+
+Computational Biochemist
+
+[`r icon::fontawesome("envelope")`](https://jmbuhr.de/#contact)
+[`r icon::fontawesome("twitter")`](https://twitter.com/JannikBuhr)
+[`r icon::fontawesome("github")`](https://github.com/jmbuhr)
+[`r icon::fontawesome("linkedin")`](https://www.linkedin.com/in/jmbuhr/)
+[`r icon::fontawesome("stack-overflow")`](https://stackoverflow.com/users/9130337/jannik-buhr?tab=profile)
+</div>
+
+## Hi!
+
+I am a PhD student in the [Molecular Biomechanics](https://www.h-its.org/research/mbm/) group of [Prof. Dr. Frauke Gräter](https://www.h-its.org/people/prof-dr-frauke-grater/) at the [Heidelberg Institute for Theoretical Studies](https://www.h-its.org/) (HITS).
+I study the chemistry of collagen under physical stress using computer simulations.
+
+I very much enjoy thinking about mental models and teaching concepts
+and focus on data analysis with the programming language R.
+Have a look at my current courses [here](teaching.html).
+Being a mentor on the R for Data Science [online learning community](https://www.rfordatasci.com/)
+enables me to help new R users and I enjoy the challenges that come with
+solving the diverse set of problems from the many fields that these users come from.
+
+My academic interests are balanced out by regular theater projects or creative work with
+the open source 3d software [blender](https://www.blender.org/).
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "Contact Me"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Contact
+
+**NOTE**: This form appears to not work with **firefox**
+when I use an encrypted connection,
+and I can't figure out why.
+But if you attempt to submit the form,
+you will see my email address in the browser header bar.
+In this case, please just send me a regular mail.
+
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/jannik.m.buhr@gmail.com" method="POST">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+
+<style>/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+</style>
+
+
+
+<!--chapter:end:contact.Rmd-->
+
+---
+title: "Posts"
+site: distill::distill_website
+listing: posts
+---
+
+<!--chapter:end:posts.Rmd-->
+
+---
+title: "Teaching"
+site: distill::distill_website
+listing: teaching
+---
+
+<!--chapter:end:teaching.Rmd-->
+
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web. 
+
+Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+
+
+
+
+
+
+<!--chapter:end:test.Rmd-->
+

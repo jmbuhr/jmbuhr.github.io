@@ -20,10 +20,14 @@ navbar:
       href: teaching.html
     - icon: far fa-envelope
       href: contact.html
+    # - icon: fas fa-adjust
+    #   href: "javascript:switchTheme();"
 output:
   distill::distill_article:
     theme: theme.css
     highlight: rstudio
+    # includes:
+    #   in_header: "_header.html"
 twitter:
   site: "@jannikbuhr"
 creative_commons: CC BY

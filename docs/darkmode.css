@@ -1,0 +1,43 @@
+body {
+  background-color: #252729;
+}
+
+img {
+  opacity: .75;
+  transition: opacity .5s ease-in-out;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+html {
+  --title-color:     #b1bcc8;
+  --header-color:    #b1bcc8;
+  --body-color:      #b1bcc8;
+  --aside-color:     #b1bcc8;
+  --fig-cap-color:   #b1bcc8;
+}
+
+d-article {
+  color: #b1bcc8;
+}
+
+.distill-site-footer {
+  --text-color: #b1bcc8;
+  --bkgd-color: #252729;
+}
+
+d-byline {
+  --heading-color: #b1bcc8;
+  --body-color: #b1bcc8;
+}
+
+d-appendix {
+  --heading-color: #b1bcc8;
+  --text-color: #b1bcc8;
+}
+
+d-appendix a {
+  color: rgb(83 255 35 / 60%);
+}
