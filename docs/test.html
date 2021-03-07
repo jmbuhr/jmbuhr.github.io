@@ -91,8 +91,8 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-03-02"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-03-02"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-03-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-03-07"/>
   <meta name="article:author" content="Nora Jones"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -112,7 +112,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Untitled"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-03-02"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Untitled"]},{"type":"character","attributes":{},"value":["A new article created using the Distill format.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["2021-03-07"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2282,6 +2282,86 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   color: #2d2d2d !important;
   line-height: inherit;
   }
+
+
+  /* Darkmode */
+
+  .darkmode {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #fff;
+    --header-color:    #fff;
+    --body-color:      #fff;
+    --aside-color:     #fff;
+    --fig-cap-color:   #fff;
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    'IBM Plex Sans', sans-serif;
+    --mono-font:       'IBM Plex Mono', monospace;
+    --body-font:       'IBM Plex Sans', sans-serif;
+    --navbar-font:     'IBM Plex Sans', serif; /* websites + blogs only */
+    background-color: #333;
+    color: #fff;
+  }
+
+  .darkmode body {
+    background-color: #333;
+  }
+
+  .darkmode d-article {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .darkmode d-title {
+    color: #fff;
+  }
+
+  .darkmode d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   #fff;
+    --body-size:       0.8rem;
+    --body-color:      #fff;
+  }
+
+  .darkmode .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  .darkmode d-appendix {
+    --heading-size:    15px;
+    --heading-color:   #fff;
+    --text-size:       0.8em;
+    --text-color:      #fff;
+  }
+
+  .darkmode d-appendix a {
+    color:      #fff;
+  }
+
+  .darkmode .distill-site-header {
+    --title-size:       18px;
+    --text-color:       #fff;
+    --text-size:        17px;
+    --hover-color:      var(--primary);
+    --bkgd-color:       #333;
+  }
+
+  .darkmode .distill-site-footer {
+    --text-color:       #fff;
+    --text-size:        15px;
+    --hover-color:      var(--primary);
+    --bkgd-color:       #333;
+  }
+
+  .darkmode d-article .sourceCode {
+    background-color: #555;
+  }
   </style>
   <style type="text/css">
   /* base style */
@@ -2458,7 +2538,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","description":"A new article created using the Distill format.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-03-02T00:00:00.000+01:00","citationText":"Jones, 2021"}
+{"title":"Untitled","description":"A new article created using the Distill format.","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-03-07T00:00:00.000+01:00","citationText":"Jones, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2479,6 +2559,9 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <a href="contact.html">
 <i class="far fa-envelope" aria-hidden="true"></i>
 </a>
+<a>
+<i class="fas fa-adjust" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2497,7 +2580,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <div class="d-byline">
   Nora Jones <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
   
-<br/>2021-03-02
+<br/>2021-03-07
 </div>
 
 <div class="d-article">
@@ -2513,6 +2596,41 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
 
 <!--radix_placeholder_site_after_body-->
+<script>
+const darkmodeToggle = document.getElementsByClassName("fas fa-adjust")[0];
+let theme = localStorage.getItem("theme");
+
+if (!theme) {
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches ) {
+    theme = "dark";
+  } else {
+    theme = "light";
+  }
+}
+setTheme();
+
+function switchTheme() {
+  if (theme === "light") {
+    theme = "dark";
+  } else {
+    theme = "light";
+  }
+  localStorage.setItem("theme", theme);
+  setTheme();
+  console.log(theme);
+}
+
+function setTheme() {
+  if (theme === "dark") {
+    document.body.classList.add('darkmode');
+  } else {
+    document.body.classList.remove('darkmode');
+  }
+}
+
+darkmodeToggle.addEventListener('click', switchTheme)
+</script>
+
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
