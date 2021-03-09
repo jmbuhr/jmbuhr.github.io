@@ -2596,13 +2596,7 @@ details h4 {
   margin-bottom: 1.5rem;
 }
 
-.darkmode #fs-frm input,
-.darkmode #fs-frm select,
-.darkmode #fs-frm textarea,
-.darkmode #fs-frm #card-element {
-  border: 1px solid var(--nord1);
-  background-color: var(--nord1);
-}
+
 
 #fs-frm input:focus,
 #fs-frm select:focus,
@@ -2612,14 +2606,6 @@ details h4 {
   outline-width: thin;
   outline-color: gray;
   outline-offset: -1px;
-}
-
-.darkmode #fs-frm input:focus,
-.darkmode #fs-frm [type="submit"]:hover,
-.darkmode #fs-frm [type="submit"] input:focus,
-.darkmode #fs-frm select:focus,
-.darkmode #fs-frm textarea:focus {
-  background-color: var(--nord2);
 }
 
 #fs-frm [type="text"],
@@ -2645,6 +2631,27 @@ details h4 {
   margin-bottom: 0;
 }
 
+/* Scrollbar */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--nord1);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--nord1);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 20px;
+  border: 3px solid var(--nord1);
+}
 
 
 /* Darkmode */
@@ -2675,6 +2682,7 @@ details h4 {
 }
 
 .darkmode d-appendix {
+  border-color: var(--nord4);
   --heading-color:   var(--nord5);
   --text-color:      var(--nord5);
 }
@@ -2694,6 +2702,10 @@ details h4 {
 }
 
 .darkmode a {
+  border-color: var(--nord5);
+}
+
+.darkmode .posts-list .post-preview {
   border-color: var(--nord5);
 }
 
@@ -2723,7 +2735,26 @@ details h4 {
   background-color: var(--nord1);
   color: var(--nord5);
 }
-</style>
+
+.darkmode .social_footer {
+  color: var(--nord5);
+}
+
+.darkmode #fs-frm input:focus,
+.darkmode #fs-frm [type="submit"]:hover,
+.darkmode #fs-frm [type="submit"] input:focus,
+.darkmode #fs-frm select:focus,
+.darkmode #fs-frm textarea:focus {
+  background-color: var(--nord2);
+}
+
+.darkmode #fs-frm input,
+.darkmode #fs-frm select,
+.darkmode #fs-frm textarea,
+.darkmode #fs-frm #card-element {
+  border: 1px solid var(--nord1);
+  background-color: var(--nord1);
+}</style>
 <style type="text/css">
 /* base style */
 
@@ -2963,6 +2994,19 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p><a href="https://jmbuhr.de/dataIntro20/">dataIntro20 website</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
+<div class="article-footer">
+  <p class="social_footer">
+    <span class="article-sharing">
+      Share: &nbsp;
+      <a href="https://twitter.com/share?text=Introduction%20to%20data%20analysis%20with%20R%20%28Online%29&amp;url=https%3A%2F%2Fjmbuhr.de%2Fteaching%2Fdataintro20%2F">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fjmbuhr.de%2Fteaching%2Fdataintro20%2F&amp;title=Introduction%20to%20data%20analysis%20with%20R%20%28Online%29">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </span>
+  </p>
+</div>
 <!--/radix_placeholder_article_footer-->
 </div>
 
@@ -3047,7 +3091,7 @@ darkmodeToggle.addEventListener('click', switchTheme)
     </p>
   </div>
   <p>
-Made with <a href="https://rstudio.github.io/distill/">distill and Rmarkdown</a>.
+Made with <a href="https://rstudio.github.io/distill/">distill and Rmarkdown</a>.<br/>
 <a href="https://jmbuhr.de/legal/privacy.html">Privacy notice</a> and
 <a href="https://jmbuhr.de/legal/impressum.html">impressum</a>.
 </p>

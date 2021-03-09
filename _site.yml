@@ -40,3 +40,7 @@ collections:
     categories: true
     categories_metadata: true
     authors_metadata: true
+    share: [twitter, linkedin]
+preview: assets/img/site-preview.png
+rss:
+  full_content: false

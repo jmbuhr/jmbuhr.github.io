@@ -37,3 +37,19 @@ solving the diverse set of problems from the many fields that these users come f
 
 My academic interests are balanced out by climbing, theater projects or creative work with
 the open source 3d software [blender](https://www.blender.org/).
+
+```{r, include=FALSE, results='asis'}
+library(metathis)
+meta() %>%
+  meta_social(
+    title = "jmbuhr.de",
+    description = "Personal website of Jannik Buhr",
+    url = "https://jmbuhr.de/",
+    image = "https://raw.githubusercontent.com/jmbuhr/jmbuhr.github.io/master/assets/img/logo.png",
+    image_alt = "the letter j in front of green background",
+    og_type = "website",
+    og_author = "Jannik Buhr",
+    twitter_card_type = "summary",
+    twitter_creator = "@jannikbuhr"
+  )
+```
