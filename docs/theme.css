@@ -514,6 +514,15 @@ details h4 {
   border: 3px solid var(--nord1);
 }
 
+/* Listing Pages */
+.posts-list .post-preview {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.posts-list .post-preview img {
+}
 
 /* Darkmode */
 .darkmode {
