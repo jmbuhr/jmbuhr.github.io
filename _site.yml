@@ -26,6 +26,7 @@ output:
     theme: theme.css
     highlight: rstudio
     includes:
+      in_header: "_utterances.html"
       after_body: "_after_body.html"
 twitter:
   site: "@jannikbuhr"
