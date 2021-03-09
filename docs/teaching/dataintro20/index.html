@@ -2506,6 +2506,25 @@ a, i, svg {
   border-style: none;
 }
 
+
+/* Code */
+d-article div.sourceCode {
+  background-color: var(--nord1);
+}
+
+.darkmode d-article div.sourceCode,
+.darkmode code {
+  background-color: var(--nord1);
+}
+
+.darkmode d-article pre {
+  color: var(--nord4);
+}
+
+.darkmode code span {
+  color: var(--nord6);
+}
+
 /* Code Folding by Thomas Mock https://themockup.blog/about.html */
 details {
   background-color: hsla(60, 7%, 80%, 0.2);
@@ -2518,9 +2537,12 @@ details {
   outline: none;
 }
 
+.darkmode details {
+  color: var(--nord4);
+}
+
 .active, details:hover {
   transition: max-height 0.2s ease-out;
-  /* background-color: #acc2c2; */
 }
 
 details {
@@ -2765,6 +2787,20 @@ details h4 {
 .darkmode #fs-frm textarea,
 .darkmode #fs-frm #card-element {
   border: 1px solid var(--nord1);
+  background-color: var(--nord1);
+}
+
+
+.darkmode div.datatables,
+.darkmode table.dataTable.stripe tbody tr.odd, .darkmode table.dataTable.display tbody tr.odd,
+.darkmode table.dataTable tbody tr,
+.darkmode input,
+.darkmode .dataTables_wrapper .dataTables_length,
+.darkmode .dataTables_wrapper .dataTables_filter,
+.darkmode .dataTables_wrapper .dataTables_info,
+.darkmode .dataTables_wrapper .dataTables_processing,
+.darkmode .dataTables_wrapper .dataTables_paginate {
+  color: var(--nord4);
   background-color: var(--nord1);
 }</style>
 <style type="text/css">
