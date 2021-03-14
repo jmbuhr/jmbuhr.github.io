@@ -233,10 +233,15 @@
     },
     "distill": {
       "Package": "distill",
-      "Version": "1.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "5edf0b55f685c668d5e800051bc31f3d"
+      "Version": "1.2.4",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "jmbuhr",
+      "RemoteRepo": "distill",
+      "RemoteRef": "modify-listing-item-order",
+      "RemoteSha": "ecee9a9b09f951f92b33fa5f8d90e22b08028968",
+      "Hash": "dac75c593c03b1bef8f210787ab2c915"
     },
     "downlit": {
       "Package": "downlit",
@@ -481,10 +486,10 @@
     },
     "lubridate": {
       "Package": "lubridate",
-      "Version": "1.7.9.2",
+      "Version": "1.7.10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5b5b02f621d39a499def7923a5aee746"
+      "Hash": "1ebfdc8a3cfe8fe19184f5481972b092"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -499,6 +504,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "61e4a10781dd00d7d81dd06ca9b94e95"
+    },
+    "metathis": {
+      "Package": "metathis",
+      "Version": "1.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5056a889bccd51d78697799bc25ece39"
     },
     "mgcv": {
       "Package": "mgcv",

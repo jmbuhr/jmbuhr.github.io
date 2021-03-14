@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -85,49 +86,57 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>jmbuhr.de: Counting Characters</title>
+<title>jmbuhr.de: Making a Darkmode for your distill site</title>
 
-<meta property="description" itemprop="description" content="Using python and R to improve my typing experience."/>
+<meta property="description" itemprop="description" content="We build a darkmode for our distill site using css and a bit of java script."/>
 
-<link rel="canonical" href="https://jmbuhr.de/posts/2020-11-08-counting-characters/"/>
+<link rel="canonical" href="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/"/>
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 <link rel="icon" type="image/png" href="../../assets/img/favicon.png"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2020-11-08"/>
-<meta property="article:created" itemprop="dateCreated" content="2020-11-08"/>
+<meta property="article:published" itemprop="datePublished" content="2021-03-14"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-03-14"/>
+<meta name="article:author" content="Jannik Buhr"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="jmbuhr.de: Counting Characters"/>
+<meta property="og:title" content="jmbuhr.de: Making a Darkmode for your distill site"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Using python and R to improve my typing experience."/>
-<meta property="og:url" content="https://jmbuhr.de/posts/2020-11-08-counting-characters/"/>
-<meta property="og:image" content="https://jmbuhr.de/posts/2020-11-08-counting-characters/counting-characters_files/figure-html5/unnamed-chunk-3-1.png"/>
-<meta property="og:image:width" content="1248"/>
-<meta property="og:image:height" content="768"/>
+<meta property="og:description" content="We build a darkmode for our distill site using css and a bit of java script."/>
+<meta property="og:url" content="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/"/>
+<meta property="og:image" content="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/images/cookies.png"/>
+<meta property="og:image:width" content="350"/>
+<meta property="og:image:height" content="263"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="jmbuhr.de"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:title" content="jmbuhr.de: Counting Characters"/>
-<meta property="twitter:description" content="Using python and R to improve my typing experience."/>
-<meta property="twitter:url" content="https://jmbuhr.de/posts/2020-11-08-counting-characters/"/>
-<meta property="twitter:image" content="https://jmbuhr.de/posts/2020-11-08-counting-characters/counting-characters_files/figure-html5/unnamed-chunk-3-1.png"/>
-<meta property="twitter:image:width" content="1248"/>
-<meta property="twitter:image:height" content="768"/>
+<meta property="twitter:title" content="jmbuhr.de: Making a Darkmode for your distill site"/>
+<meta property="twitter:description" content="We build a darkmode for our distill site using css and a bit of java script."/>
+<meta property="twitter:url" content="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/"/>
+<meta property="twitter:image" content="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/images/cookies.png"/>
+<meta property="twitter:image:width" content="350"/>
+<meta property="twitter:image:height" content="263"/>
 <meta property="twitter:site" content="@jannikbuhr"/>
 
+<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
+<meta name="citation_title" content="jmbuhr.de: Making a Darkmode for your distill site"/>
+<meta name="citation_fulltext_html_url" content="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/"/>
+<meta name="citation_fulltext_world_readable" content=""/>
+<meta name="citation_online_date" content="2021/03/14"/>
+<meta name="citation_publication_date" content="2021/03/14"/>
+<meta name="citation_author" content="Jannik Buhr"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","draft","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["Counting Characters"]},{"type":"character","attributes":{},"value":["Using python and R to improve my typing experience."]},{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["11-08-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://jmbuhr.de/posts/2020-11-08-counting-characters/"]},{"type":"character","attributes":{},"value":["https://jmbuhr.de/posts/2020-11-08-counting-characters/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","preview","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["Making a Darkmode for your distill site"]},{"type":"character","attributes":{},"value":["We build a darkmode for our distill site using css and a bit of java script."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Jannik Buhr"]}]}]},{"type":"character","attributes":{},"value":["2021-03-14"]},{"type":"character","attributes":{},"value":["images/cookies.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/"]},{"type":"character","attributes":{},"value":["https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["counting-characters_files/anchor-4.2.2/anchor.min.js","counting-characters_files/bowser-1.9.3/bowser.min.js","counting-characters_files/distill-2.2.21/template.v2.js","counting-characters_files/figure-html5/unnamed-chunk-3-1.png","counting-characters_files/figure-html5/unnamed-chunk-4-1.png","counting-characters_files/header-attrs-2.5/header-attrs.js","counting-characters_files/jquery-1.11.3/jquery.min.js","counting-characters_files/pagedtable-1.1/css/pagedtable.css","counting-characters_files/pagedtable-1.1/js/pagedtable.js","counting-characters_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["images/cookies.png","making-a-darkmode-for-your-distill-site_files/anchor-4.2.2/anchor.min.js","making-a-darkmode-for-your-distill-site_files/bowser-1.9.3/bowser.min.js","making-a-darkmode-for-your-distill-site_files/distill-2.2.21/template.v2.js","making-a-darkmode-for-your-distill-site_files/header-attrs-2.7.2/header-attrs.js","making-a-darkmode-for-your-distill-site_files/jquery-1.11.3/jquery.min.js","making-a-darkmode-for-your-distill-site_files/popper-2.6.0/popper.min.js","making-a-darkmode-for-your-distill-site_files/tippy-6.2.7/tippy-bundle.umd.min.js","making-a-darkmode-for-your-distill-site_files/tippy-6.2.7/tippy-light-border.css","making-a-darkmode-for-your-distill-site_files/tippy-6.2.7/tippy.css","making-a-darkmode-for-your-distill-site_files/tippy-6.2.7/tippy.umd.min.js","making-a-darkmode-for-your-distill-site_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2131,19 +2140,7 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 </style>
-<style type="text/css">
-/* base variables */
-
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif:ital,wght@1,600&family=Lato&display=swap');
+<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif:ital,wght@1,600&family=Lato&display=swap');
 
 /* Nord */
 /*
@@ -2163,225 +2160,104 @@ d-appendix {
  *   https://github.com/kss-node/kss-node
  */
 
-/*
-An arctic, north-bluish color palette.
-Created for the clean- and minimal flat design pattern to achieve a optimal focus and readability for code syntax
-highlighting and UI.
-It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful
-ambiance.
-
-Styleguide Nord
-*/
 
 :root {
   /*
   Base component color of "Polar Night".
-
   Used for texts, backgrounds, carets and structuring characters like curly- and square brackets.
-
-  Markup:
-  <div style="background-color:#2e3440; width=60; height=60"></div>
-
-  Styleguide Nord - Polar Night
   */
   --nord0: #2e3440;
-
   /*
   Lighter shade color of the base component color.
-
   Used as a lighter background color for UI elements like status bars.
-
-  Markup:
-  <div style="background-color:#3b4252; width=60; height=60"></div>
-
-  Styleguide Nord - Polar Night
   */
   --nord1: #3b4252;
-
   /*
   Lighter shade color of the base component color.
-
   Used as line highlighting in the editor.
   In the UI scope it may be used as selection- and highlight color.
-
-  Markup:
-  <div style="background-color:#434c5e; width=60; height=60"></div>
-
-  Styleguide Nord - Polar Night
   */
   --nord2: #434c5e;
-
   /*
   Lighter shade color of the base component color.
-
   Used for comments, invisibles, indent- and wrap guide marker.
   In the UI scope used as pseudoclass color for disabled elements.
-
-  Markup:
-  <div style="background-color:#4c566a; width=60; height=60"></div>
-
-  Styleguide Nord - Polar Night
   */
   --nord3: #4c566a;
-
   /*
   Base component color of "Snow Storm".
-
   Main color for text, variables, constants and attributes.
   In the UI scope used as semi-light background depending on the theme shading design.
-
-  Markup:
-  <div style="background-color:#d8dee9; width=60; height=60"></div>
-
-  Styleguide Nord - Snow Storm
   */
   --nord4: #d8dee9;
-
   /*
   Lighter shade color of the base component color.
-
   Used as a lighter background color for UI elements like status bars.
   Used as semi-light background depending on the theme shading design.
-
-  Markup:
-  <div style="background-color:#e5e9f0; width=60; height=60"></div>
-
-  Styleguide Nord - Snow Storm
   */
   --nord5: #e5e9f0;
-
   /*
   Lighter shade color of the base component color.
-
   Used for punctuations, carets and structuring characters like curly- and square brackets.
   In the UI scope used as background, selection- and highlight color depending on the theme shading design.
-
-  Markup:
-  <div style="background-color:#eceff4; width=60; height=60"></div>
-
-  Styleguide Nord - Snow Storm
   */
   --nord6: #eceff4;
-
   /*
   Bluish core color.
-
   Used for classes, types and documentation tags.
-
-  Markup:
-  <div style="background-color:#8fbcbb; width=60; height=60"></div>
-
-  Styleguide Nord - Frost
   */
   --nord7: #8fbcbb;
-
   /*
   Bluish core accent color.
-
   Represents the accent color of the color palette.
   Main color for primary UI elements and methods/functions.
-
   Can be used for
     - Markup quotes
     - Markup link URLs
-
-  Markup:
-  <div style="background-color:#88c0d0; width=60; height=60"></div>
-
-  Styleguide Nord - Frost
   */
   --nord8: #88c0d0;
-
   /*
   Bluish core color.
-
   Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
   punctuations like (semi)colons,commas and braces.
-
-  Markup:
-  <div style="background-color:#81a1c1; width=60; height=60"></div>
-
-  Styleguide Nord - Frost
   */
   --nord9: #81a1c1;
-
   /*
   Bluish core color.
-
   Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
-
-  Markup:
-  <div style="background-color:#5e81ac; width=60; height=60"></div>
-
-  Styleguide Nord - Frost
   */
   --nord10: #5e81ac;
-
   /*
   Colorful component color.
-
   Used for errors, git/diff deletion and linter marker.
-
-  Markup:
-  <div style="background-color:#bf616a; width=60; height=60"></div>
-
-  Styleguide Nord - Aurora
   */
   --nord11: #bf616a;
-
   /*
   Colorful component color.
-
   Used for annotations.
-
-  Markup:
-  <div style="background-color:#d08770; width=60; height=60"></div>
-
-  Styleguide Nord - Aurora
   */
   --nord12: #d08770;
-
   /*
   Colorful component color.
-
   Used for escape characters, regular expressions and markup entities.
   In the UI scope used for warnings and git/diff renamings.
-
-  Markup:
-  <div style="background-color:#ebcb8b; width=60; height=60"></div>
-
-  Styleguide Nord - Aurora
   */
   --nord13: #ebcb8b;
-
   /*
   Colorful component color.
-
   Main color for strings and attribute values.
   In the UI scope used for git/diff additions and success visualizations.
-
-  Markup:
-  <div style="background-color:#a3be8c; width=60; height=60"></div>
-
-  Styleguide Nord - Aurora
   */
   --nord14: #a3be8c;
-
   /*
   Colorful component color.
-
   Used for numbers.
-
-  Markup:
-  <div style="background-color:#b48ead; width=60; height=60"></div>
-
-  Styleguide Nord - Aurora
   */
   --nord15: #b48ead;
 }
 
-/* Theme */
 
+/* Theme */
 :root {
   --primary: #388e00;
 }
@@ -2413,7 +2289,6 @@ body {
   background-color: var(--nord5);
   color: var(--nord0);
 }
-
 
 /*-- ARTICLE METADATA --*/
 d-byline {
@@ -2453,6 +2328,10 @@ d-appendix {
   --text-size:        15px;
   --hover-color:      var(--primary);
   --bkgd-color:       rgba(210, 210, 210, 0.8);
+}
+
+.distill-site-footer a {
+  text-decoration: underline;
 }
 
 /*-- Additional custom styles --*/
@@ -2500,21 +2379,9 @@ a, i, svg {
 
 /* Code */
 d-article div.sourceCode {
-  background-color: var(--nord1);
+  background-color: var(--nord5);
 }
 
-.darkmode d-article div.sourceCode,
-.darkmode code {
-  background-color: var(--nord1);
-}
-
-.darkmode d-article pre {
-  color: var(--nord4);
-}
-
-.darkmode code span {
-  color: var(--nord6);
-}
 
 /* Code Folding by Thomas Mock https://themockup.blog/about.html */
 details {
@@ -2528,9 +2395,6 @@ details {
   outline: none;
 }
 
-.darkmode details {
-  color: var(--nord4);
-}
 
 .active, details:hover {
   transition: max-height 0.2s ease-out;
@@ -2612,8 +2476,6 @@ details h4 {
   margin-bottom: 1.5rem;
 }
 
-
-
 #fs-frm input:focus,
 #fs-frm select:focus,
 #fs-frm textarea:focus {
@@ -2676,9 +2538,6 @@ details h4 {
   margin-right: auto;
 }
 
-.posts-list .post-preview img {
-}
-
 /* Darkmode */
 .darkmode {
   --title-color:     var(--nord5);
@@ -2698,6 +2557,10 @@ details h4 {
 }
 
 .darkmode d-title {
+  color: var(--nord5);
+}
+
+.darkmode d-article blockquote {
   color: var(--nord5);
 }
 
@@ -2726,6 +2589,19 @@ details h4 {
   --bkgd-color: var(--nord1);
 }
 
+.darkmode d-article div.sourceCode,
+.darkmode code {
+  background-color: var(--nord1);
+}
+
+.darkmode d-article pre {
+  color: var(--nord4);
+}
+
+.darkmode code span {
+  color: var(--nord6);
+}
+
 .darkmode a {
   border-color: var(--nord5);
 }
@@ -2742,14 +2618,18 @@ details h4 {
   color: var(--nord5);
 }
 
-.darkmode .posts-list .dt-tags .dt-tag {
+.darkmode .posts-list .dt-tags .dt-tag,
+.darkmode .dt-tags .dt-tag {
   color: var(--nord5);
   border-color: var(--nord5);
 }
 
-
 .darkmode d-article .sourceCode {
   background-color: var(--nord1);
+}
+
+.darkmode details {
+  color: var(--nord4);
 }
 
 .darkmode .algolia-autocomplete,
@@ -2949,8 +2829,12 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.6.4/header-attrs.js"></script>
+  <script src="../../site_libs/header-attrs-2.7.2/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="../../site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
   <script src="../../site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
   <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
@@ -2995,7 +2879,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Counting Characters","description":"Using python and R to improve my typing experience.","authors":[],"publishedDate":"2020-11-08T00:00:00.000+01:00"}
+{"title":"Making a Darkmode for your distill site","description":"We build a darkmode for our distill site using css and a bit of java script.","authors":[{"author":"Jannik Buhr","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-14T00:00:00.000+01:00","citationText":"Buhr, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -3013,11 +2897,12 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../index.html">Home</a>
 <a href="../../posts.html">Posts</a>
 <a href="../../teaching.html">Teaching</a>
-<a href="../../contact.html">
-<i class="far fa-envelope" aria-hidden="true"></i>
-</a>
+<a href="../../contact.html">Contact</a>
 <a>
 <i class="fas fa-adjust" aria-hidden="true"></i>
+</a>
+<a href="https://github.com/jmbuhr/jmbuhr.github.io" aria-label="Link to source">
+<i class="fab fa-github" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -3028,104 +2913,94 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Counting Characters</h1>
+<h1>Making a Darkmode for your distill site</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Using python and R to improve my typing experience.</p></p>
+<p><p>We build a darkmode for our distill site using css and a bit of java script.</p></p>
 </div>
 
+<div class="d-byline">
+  
+  Jannik Buhr
+  
+<br/>2021-03-14
+</div>
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
-<ul>
-<li><a href="#the-why">The Why</a></li>
-<li><a href="#the-how">The How</a></li>
-<li><a href="#the-result">The Result</a></li>
-</ul>
-</nav>
-</div>
-<h2 id="the-why">The Why</h2>
-<p>In this post I am doing something slightly unusual. I am using python (in an Rmarkdown document of course) to count the key utilization of R and Rmarkdown files. The goal is twofold:</p>
-<p>Firstly, I want to get better at python, beyond theoretical studies and watching videos, so I have to practice. Secondly, I recently acquired a new keyboard (the <a href="https://www.zsa.io/moonlander/">moonlander</a>) and while I tried to stick to a layout that makes transitioning between my laptop and the keyboard easy, I still have some space left on on of my symbols layer that I want to populate with the most used keys. And of course we will be doing this based on data! So, without further ado, let’s jump in.</p>
-<h2 id="the-how">The How</h2>
-<p>I wasn’t sure how many R files I had in my projects folder, so I resorted to python’s generator expressions to make sure to not load everything into memory at once.</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> glob <span class="im">import</span> iglob</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> Counter</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> functools <span class="im">import</span> <span class="bu">reduce</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> <span class="st">&quot;/home/jannik/Documents/projects/rstats&quot;</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_count(p):</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">try</span>:</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(p, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> f:</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>      cs <span class="op">=</span> [c <span class="cf">for</span> x <span class="kw">in</span> f.readlines()</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>              <span class="cf">for</span> c <span class="kw">in</span> x]</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> {char : cs.count(char) <span class="cf">for</span> char <span class="kw">in</span> <span class="bu">set</span>(cs)}</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">except</span>:</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {<span class="st">&#39;a&#39;</span>:<span class="dv">0</span>}</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> add_counts(d1, d2):</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  result <span class="op">=</span> Counter(d1) <span class="op">+</span> Counter(d2)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> result</span></code></pre></div>
-</div>
-<p>Using functional programming techniques, this process becomes rather compact. A map of character counts per file is reduced to a single dictionary of counts.</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>files <span class="op">=</span> iglob(path <span class="op">+</span> <span class="st">&quot;/*/**/*.R&quot;</span>, recursive <span class="op">=</span> <span class="va">True</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>counts <span class="op">=</span> <span class="bu">map</span>(get_count, files)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">reduce</span>(add_counts, counts))</span></code></pre></div>
-</div>
-<h2 id="the-result">The Result</h2>
-<p>And now back to R for visualization. The <code>reticulate</code> package translates python dictionaries to named lists in R, so we are good to go.</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre><code><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
+<h1 id="join-the-dark-side">Join the Dark Side!</h1>
+<p>… we have cookies.</p>
+<figure>
+<img src="images/cookies.png" class="external" alt="From: knowyourmeme" /><figcaption aria-hidden="true">From: <a href="https://knowyourmeme.com/photos/954929-come-to-the-dark-side">knowyourmeme</a></figcaption>
+</figure>
+<p>There are many motivations to adding a dark mode to your site. I just like it, when things look consistent. So I also want my site to reflect that. But because at the same time I am also not very good at making things look consistent, which is why I mostly outsource design choices as much as I can. Here, for example, this means that I took the color values for the dark theme from the amazing <a href="https://www.nordtheme.com/">nord</a> color palette.</p>
+<p>But let’s get into the practical side! How do we add a dark theme to complement our light theme to our distill site?</p>
+<h1 id="adding-the-button-css-and-java-script">Adding the button, css and java script</h1>
+<p>First, we want a button that a user can click on to change the theme. I opted for the <code>adjust</code> button from <a href="https://fontawesome.com/">Font Awesome</a>. There is not much to do here, because those are already available in distill. Open up your <code>_site.yml</code> file and add an icon to the navbar:</p>
+<pre><code>navbar:
+  right:
+    - icon: fas fa-adjust</code></pre>
+<p>While we are in this file, let’s also add the <code>includes</code> for the html file which will make the button work:</p>
+<pre><code>output:
+  distill::distill_article:
+    includes:
+      after_body: &quot;_after_body.html&quot;</code></pre>
+<blockquote>
+<p>Note: I am omitting all the other things in our <code>.yml</code> file here and only show, what is being added. But I include the indentation-levels above the thing being added to show where to put it.</p>
+</blockquote>
+<p>This is what <code>_after_body.html</code> looks like:</p>
+<pre><code>&lt;script&gt;
+const darkmodeToggle = document.getElementsByClassName(&quot;fas fa-adjust&quot;)[0];
+let theme = localStorage.getItem(&quot;theme&quot;);
 
-<span class='va'>res</span> <span class='op'>&lt;-</span> <span class='fu'>enframe</span><span class='op'>(</span><span class='va'>py</span><span class='op'>$</span><span class='va'>result</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>value <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/unlist.html'>unlist</a></span><span class='op'>(</span><span class='va'>value</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>arrange</span><span class='op'>(</span><span class='fu'>desc</span><span class='op'>(</span><span class='va'>value</span><span class='op'>)</span><span class='op'>)</span>
+if (!theme) {
+  if (window.matchMedia(&quot;(prefers-color-scheme: dark)&quot;).matches ) {
+    theme = &quot;dark&quot;;
+  } else {
+    theme = &quot;light&quot;;
+  }
+}
+setTheme();
 
-<span class='va'>res</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>name <span class='op'>=</span> <span class='fu'>case_when</span><span class='op'>(</span>
-    <span class='va'>name</span> <span class='op'>==</span> <span class='st'>" "</span> <span class='op'>~</span> <span class='st'>"space"</span>,
-    <span class='va'>name</span> <span class='op'>==</span> <span class='st'>"\n"</span> <span class='op'>~</span> <span class='st'>"enter"</span>,
-    <span class='cn'>TRUE</span> <span class='op'>~</span> <span class='va'>name</span>
-  <span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='op'>!</span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/chartr.html'>tolower</a></span><span class='op'>(</span><span class='va'>name</span><span class='op'>)</span> <span class='op'>%in%</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='va'>letters</span>, <span class='st'>"space"</span>, <span class='st'>"enter"</span>, <span class='fl'>0</span><span class='op'>:</span><span class='fl'>9</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>slice_max</span><span class='op'>(</span><span class='va'>value</span>, n <span class='op'>=</span> <span class='fl'>20</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>name <span class='op'>=</span> <span class='fu'>fct_reorder</span><span class='op'>(</span><span class='va'>name</span>, <span class='va'>value</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span><span class='va'>value</span>, <span class='va'>name</span>, fill <span class='op'>=</span> <span class='va'>value</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_col</span><span class='op'>(</span>color <span class='op'>=</span> <span class='st'>"black"</span>, width <span class='op'>=</span> <span class='fl'>0.8</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_text</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>label <span class='op'>=</span> <span class='va'>name</span><span class='op'>)</span>,
-            hjust    <span class='op'>=</span> <span class='op'>-</span><span class='fl'>1</span>,
-            fontface <span class='op'>=</span> <span class='st'>"bold"</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>scale_fill_viridis_c</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>scale_x_continuous</span><span class='op'>(</span>expand <span class='op'>=</span> <span class='fu'>expand_scale</span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0.01</span>, <span class='fl'>0.05</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>scale_y_discrete</span><span class='op'>(</span>labels <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>guides</span><span class='op'>(</span>fill <span class='op'>=</span> <span class='st'>"none"</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>theme</span><span class='op'>(</span>axis.ticks.y <span class='op'>=</span> <span class='fu'>element_blank</span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>labs</span><span class='op'>(</span>y       <span class='op'>=</span> <span class='st'>""</span>,
-       x       <span class='op'>=</span> <span class='st'>"count"</span>,
-       caption <span class='op'>=</span> <span class='st'>"excluding letters and numbers"</span><span class='op'>)</span>
-</code></pre>
-</div>
-<p><img src="counting-characters_files/figure-html5/unnamed-chunk-3-1.png" width="624" /></p>
-</div>
-<p>The overwhelming result: I need a better place for the minus sign! Not because I am subtracting numbers all the time, but because it is also in the assignment operator <code>&lt;-</code>, which can be inserted in RStudio using Alt+Minus.</p>
-<p><a href="https://configure.ergodox-ez.com/moonlander/layouts/bdZ6A/latest/0">This</a> is what my layout currently looks like.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+function switchTheme() {
+  if (theme === &quot;light&quot;) {
+    theme = &quot;dark&quot;;
+  } else {
+    theme = &quot;light&quot;;
+  }
+  localStorage.setItem(&quot;theme&quot;, theme);
+  setTheme();
+  console.log(theme);
+}
+
+function setTheme() {
+  if (theme === &quot;dark&quot;) {
+    document.body.classList.add(&#39;darkmode&#39;);
+  } else {
+    document.body.classList.remove(&#39;darkmode&#39;);
+  }
+}
+
+darkmodeToggle.addEventListener(&#39;click&#39;, switchTheme)
+&lt;/script&gt;</code></pre>
+<p>Unfortunately, the only way I found to refer to the darkmode toggle icon in the navbar was by class name. I could not find a way to give it an id from <code>_site.yml</code>. However, this should be fine because the navbar is usually the first thing on the page and the script refers to the first element of class <code>fas fa-adjust</code> that it can find. It is also important to have this script be included after the body, so that the rest of the site can load first before the script tries to find the button. Typically you would do this using a script file and sourcing it with the option <code>defer</code>, but sourcing a script file doesn’t work here due to the way distill changes file-path’s between top-level sites and posts. This is why the complete script is in the html here. The script adds a class <code>.darkmode</code> to the html body (and removes it when toggled off). This choice is first based on browser preferences and then saved to local storage.</p>
+<p>The last thing to modify is our <code>theme.css</code> to make use of this <code>.darkmode</code> class. For each thing we want to change about our theme when it get’s dark, we take the corresponding class and the darkmode class and add our styling e.g.</p>
+<pre><code>.darkmode d-article,
+.darkmode d-appendix,
+.darkmode body {
+  background-color: black;
+  color: white;
+}</code></pre>
+<p>You can have a look at my <code>theme.css</code> file for inspiration on what thing you need to change (though the css could be way cleaner): <a href="https://github.com/jmbuhr/jmbuhr.github.io/blob/master/theme.css" class="uri">https://github.com/jmbuhr/jmbuhr.github.io/blob/master/theme.css</a></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Counting%20Characters&amp;url=https%3A%2F%2Fjmbuhr.de%2Fposts%2F2020-11-08-counting-characters%2F">
+      <a href="https://twitter.com/share?text=Making%20a%20Darkmode%20for%20your%20distill%20site&amp;url=https%3A%2F%2Fjmbuhr.de%2Fposts%2F2021-03-14-making-a-darkmode-for-your-distill-site%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fjmbuhr.de%2Fposts%2F2020-11-08-counting-characters%2F&amp;title=Counting%20Characters">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fjmbuhr.de%2Fposts%2F2021-03-14-making-a-darkmode-for-your-distill-site%2F&amp;title=Making%20a%20Darkmode%20for%20your%20distill%20site">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>
@@ -3181,6 +3056,16 @@ darkmodeToggle.addEventListener('click', switchTheme)
   <p>If you see mistakes or want to suggest changes, please <a href="https://github.com/jmbuhr/jmbuhr.github.io/issues/new">create an issue</a> on the source repository.</p>
   <h3 id="reuse">Reuse</h3>
   <p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/jmbuhr/jmbuhr.github.io">https://github.com/jmbuhr/jmbuhr.github.io</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+  <h3 id="citation">Citation</h3>
+  <p>For attribution, please cite this work as</p>
+  <pre class="citation-appendix short">Buhr (2021, March 14). jmbuhr.de: Making a Darkmode for your distill site. Retrieved from https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/</pre>
+  <p>BibTeX citation</p>
+  <pre class="citation-appendix long">@misc{buhr2021making,
+  author = {Buhr, Jannik},
+  title = {jmbuhr.de: Making a Darkmode for your distill site},
+  url = {https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/},
+  year = {2021}
+}</pre>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
@@ -3205,7 +3090,10 @@ darkmodeToggle.addEventListener('click', switchTheme)
     </p>
   </div>
   <p>
-Made with <a href="https://rstudio.github.io/distill/">distill and Rmarkdown</a>.<br/>
+Made with <a href="https://rstudio.github.io/distill/">distill</a>,
+<a href="https://github.com/rstudio/rmarkdown">Rmarkdown</a> and
+the <a href="https://www.nordtheme.com/">Nord color palette</a>.<br/>
+Legal things:
 <a href="https://jmbuhr.de/legal/privacy.html">Privacy notice</a> and
 <a href="https://jmbuhr.de/legal/impressum.html">impressum</a>.
 </p>

@@ -2111,19 +2111,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
   </style>
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif:ital,wght@1,600&family=Lato&display=swap');
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=IBM+Plex+Mono&family=IBM+Plex+Sans&family=IBM+Plex+Serif:ital,wght@1,600&family=Lato&display=swap');
 
   /* Nord */
   /*
@@ -2143,225 +2131,104 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
    *   https://github.com/kss-node/kss-node
    */
 
-  /*
-  An arctic, north-bluish color palette.
-  Created for the clean- and minimal flat design pattern to achieve a optimal focus and readability for code syntax
-  highlighting and UI.
-  It consists of a total of sixteen, carefully selected, dimmed pastel colors for a eye-comfortable, but yet colorful
-  ambiance.
-
-  Styleguide Nord
-  */
 
   :root {
     /*
     Base component color of "Polar Night".
-
     Used for texts, backgrounds, carets and structuring characters like curly- and square brackets.
-
-    Markup:
-    <div style="background-color:#2e3440; width=60; height=60"></div>
-
-    Styleguide Nord - Polar Night
     */
     --nord0: #2e3440;
-
     /*
     Lighter shade color of the base component color.
-
     Used as a lighter background color for UI elements like status bars.
-
-    Markup:
-    <div style="background-color:#3b4252; width=60; height=60"></div>
-
-    Styleguide Nord - Polar Night
     */
     --nord1: #3b4252;
-
     /*
     Lighter shade color of the base component color.
-
     Used as line highlighting in the editor.
     In the UI scope it may be used as selection- and highlight color.
-
-    Markup:
-    <div style="background-color:#434c5e; width=60; height=60"></div>
-
-    Styleguide Nord - Polar Night
     */
     --nord2: #434c5e;
-
     /*
     Lighter shade color of the base component color.
-
     Used for comments, invisibles, indent- and wrap guide marker.
     In the UI scope used as pseudoclass color for disabled elements.
-
-    Markup:
-    <div style="background-color:#4c566a; width=60; height=60"></div>
-
-    Styleguide Nord - Polar Night
     */
     --nord3: #4c566a;
-
     /*
     Base component color of "Snow Storm".
-
     Main color for text, variables, constants and attributes.
     In the UI scope used as semi-light background depending on the theme shading design.
-
-    Markup:
-    <div style="background-color:#d8dee9; width=60; height=60"></div>
-
-    Styleguide Nord - Snow Storm
     */
     --nord4: #d8dee9;
-
     /*
     Lighter shade color of the base component color.
-
     Used as a lighter background color for UI elements like status bars.
     Used as semi-light background depending on the theme shading design.
-
-    Markup:
-    <div style="background-color:#e5e9f0; width=60; height=60"></div>
-
-    Styleguide Nord - Snow Storm
     */
     --nord5: #e5e9f0;
-
     /*
     Lighter shade color of the base component color.
-
     Used for punctuations, carets and structuring characters like curly- and square brackets.
     In the UI scope used as background, selection- and highlight color depending on the theme shading design.
-
-    Markup:
-    <div style="background-color:#eceff4; width=60; height=60"></div>
-
-    Styleguide Nord - Snow Storm
     */
     --nord6: #eceff4;
-
     /*
     Bluish core color.
-
     Used for classes, types and documentation tags.
-
-    Markup:
-    <div style="background-color:#8fbcbb; width=60; height=60"></div>
-
-    Styleguide Nord - Frost
     */
     --nord7: #8fbcbb;
-
     /*
     Bluish core accent color.
-
     Represents the accent color of the color palette.
     Main color for primary UI elements and methods/functions.
-
     Can be used for
       - Markup quotes
       - Markup link URLs
-
-    Markup:
-    <div style="background-color:#88c0d0; width=60; height=60"></div>
-
-    Styleguide Nord - Frost
     */
     --nord8: #88c0d0;
-
     /*
     Bluish core color.
-
     Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
     punctuations like (semi)colons,commas and braces.
-
-    Markup:
-    <div style="background-color:#81a1c1; width=60; height=60"></div>
-
-    Styleguide Nord - Frost
     */
     --nord9: #81a1c1;
-
     /*
     Bluish core color.
-
     Used for markup doctypes, import/include/require statements, pre-processor statements and at-rules (`@`).
-
-    Markup:
-    <div style="background-color:#5e81ac; width=60; height=60"></div>
-
-    Styleguide Nord - Frost
     */
     --nord10: #5e81ac;
-
     /*
     Colorful component color.
-
     Used for errors, git/diff deletion and linter marker.
-
-    Markup:
-    <div style="background-color:#bf616a; width=60; height=60"></div>
-
-    Styleguide Nord - Aurora
     */
     --nord11: #bf616a;
-
     /*
     Colorful component color.
-
     Used for annotations.
-
-    Markup:
-    <div style="background-color:#d08770; width=60; height=60"></div>
-
-    Styleguide Nord - Aurora
     */
     --nord12: #d08770;
-
     /*
     Colorful component color.
-
     Used for escape characters, regular expressions and markup entities.
     In the UI scope used for warnings and git/diff renamings.
-
-    Markup:
-    <div style="background-color:#ebcb8b; width=60; height=60"></div>
-
-    Styleguide Nord - Aurora
     */
     --nord13: #ebcb8b;
-
     /*
     Colorful component color.
-
     Main color for strings and attribute values.
     In the UI scope used for git/diff additions and success visualizations.
-
-    Markup:
-    <div style="background-color:#a3be8c; width=60; height=60"></div>
-
-    Styleguide Nord - Aurora
     */
     --nord14: #a3be8c;
-
     /*
     Colorful component color.
-
     Used for numbers.
-
-    Markup:
-    <div style="background-color:#b48ead; width=60; height=60"></div>
-
-    Styleguide Nord - Aurora
     */
     --nord15: #b48ead;
   }
 
-  /* Theme */
 
+  /* Theme */
   :root {
     --primary: #388e00;
   }
@@ -2393,7 +2260,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     background-color: var(--nord5);
     color: var(--nord0);
   }
-
 
   /*-- ARTICLE METADATA --*/
   d-byline {
@@ -2433,6 +2299,10 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     --text-size:        15px;
     --hover-color:      var(--primary);
     --bkgd-color:       rgba(210, 210, 210, 0.8);
+  }
+
+  .distill-site-footer a {
+    text-decoration: underline;
   }
 
   /*-- Additional custom styles --*/
@@ -2480,21 +2350,9 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 
   /* Code */
   d-article div.sourceCode {
-    background-color: var(--nord1);
+    background-color: var(--nord5);
   }
 
-  .darkmode d-article div.sourceCode,
-  .darkmode code {
-    background-color: var(--nord1);
-  }
-
-  .darkmode d-article pre {
-    color: var(--nord4);
-  }
-
-  .darkmode code span {
-    color: var(--nord6);
-  }
 
   /* Code Folding by Thomas Mock https://themockup.blog/about.html */
   details {
@@ -2508,9 +2366,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     outline: none;
   }
 
-  .darkmode details {
-    color: var(--nord4);
-  }
 
   .active, details:hover {
     transition: max-height 0.2s ease-out;
@@ -2592,8 +2447,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     margin-bottom: 1.5rem;
   }
 
-
-
   #fs-frm input:focus,
   #fs-frm select:focus,
   #fs-frm textarea:focus {
@@ -2656,9 +2509,6 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     margin-right: auto;
   }
 
-  .posts-list .post-preview img {
-  }
-
   /* Darkmode */
   .darkmode {
     --title-color:     var(--nord5);
@@ -2678,6 +2528,10 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   }
 
   .darkmode d-title {
+    color: var(--nord5);
+  }
+
+  .darkmode d-article blockquote {
     color: var(--nord5);
   }
 
@@ -2706,6 +2560,19 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     --bkgd-color: var(--nord1);
   }
 
+  .darkmode d-article div.sourceCode,
+  .darkmode code {
+    background-color: var(--nord1);
+  }
+
+  .darkmode d-article pre {
+    color: var(--nord4);
+  }
+
+  .darkmode code span {
+    color: var(--nord6);
+  }
+
   .darkmode a {
     border-color: var(--nord5);
   }
@@ -2722,14 +2589,18 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     color: var(--nord5);
   }
 
-  .darkmode .posts-list .dt-tags .dt-tag {
+  .darkmode .posts-list .dt-tags .dt-tag,
+  .darkmode .dt-tags .dt-tag {
     color: var(--nord5);
     border-color: var(--nord5);
   }
 
-
   .darkmode d-article .sourceCode {
     background-color: var(--nord1);
+  }
+
+  .darkmode details {
+    color: var(--nord4);
   }
 
   .darkmode .algolia-autocomplete,
@@ -2996,11 +2867,12 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
 <a href="index.html">Home</a>
 <a href="posts.html">Posts</a>
 <a href="teaching.html">Teaching</a>
-<a href="contact.html">
-<i class="far fa-envelope" aria-hidden="true"></i>
-</a>
+<a href="contact.html">Contact</a>
 <a>
 <i class="fas fa-adjust" aria-hidden="true"></i>
+</a>
+<a href="https://github.com/jmbuhr/jmbuhr.github.io" aria-label="Link to source">
+<i class="fab fa-github" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -3145,6 +3017,23 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Posts">Posts</h1>
+<a href="posts/2021-03-14-making-a-darkmode-for-your-distill-site/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="description">
+<h2>Making a Darkmode for your distill site</h2>
+<div class="dt-tags"></div>
+<p>We build a darkmode for our distill site using css and a bit of java script.</p>
+</div>
+<div class="thumbnail">
+<img src="posts/2021-03-14-making-a-darkmode-for-your-distill-site/images/cookies.png"/>
+</div>
+<div class="metadata">
+<div class="publishedDate">March 14, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Jannik Buhr</div>
+</div>
+</div>
+</a>
 <a href="posts/2020-02-15-demonstration/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":[]}</script>
 <div class="description">
@@ -3160,21 +3049,6 @@ function init_posts_list() {
 <div class="dt-authors"></div>
 </div>
 </a>
-<a href="posts/2020-11-08-counting-characters/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="description">
-<h2>Counting Characters</h2>
-<div class="dt-tags"></div>
-<p>Using python and R to improve my typing experience.</p>
-</div>
-<div class="thumbnail">
-<img src="posts/2020-11-08-counting-characters/counting-characters_files/figure-html5/unnamed-chunk-3-1.png"/>
-</div>
-<div class="metadata">
-<div class="publishedDate">Nov. 8, 2020</div>
-<div class="dt-authors"></div>
-</div>
-</a>
 <a href="posts/2021-01-09-blenderschoolopenmovie2019/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["blender","project"]}</script>
 <div class="description">
@@ -3186,7 +3060,7 @@ function init_posts_list() {
 <p>WalnOt, a shortfilm made with blender in 2 weeks.</p>
 </div>
 <div class="thumbnail">
-<img/>
+<img src="posts/2021-01-09-blenderschoolopenmovie2019/images/walnot.png"/>
 </div>
 <div class="metadata">
 <div class="publishedDate">Jan. 10, 2019</div>
@@ -3328,7 +3202,10 @@ darkmodeToggle.addEventListener('click', switchTheme)
 <p><a href="https://jmbuhr.de/#contact"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"> [ comment ] <path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg></a> <a href="https://twitter.com/JannikBuhr"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"> [ comment ] <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a> <a href="https://github.com/jmbuhr"><svg viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"> [ comment ] <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a> <a href="https://www.linkedin.com/in/jmbuhr/"><svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"> [ comment ] <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a> <a href="https://stackoverflow.com/users/9130337/jannik-buhr?tab=profile"><svg viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" style="height:1em;fill:currentColor;position:relative;display:inline-block;top:.1em;"> [ comment ] <path d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"></path></svg></a></p>
 </div>
 <p>
-Made with <a href="https://rstudio.github.io/distill/">distill and Rmarkdown</a>.<br/>
+Made with <a href="https://rstudio.github.io/distill/">distill</a>,
+<a href="https://github.com/rstudio/rmarkdown">Rmarkdown</a> and
+the <a href="https://www.nordtheme.com/">Nord color palette</a>.<br/>
+Legal things:
 <a href="https://jmbuhr.de/legal/privacy.html">Privacy notice</a> and
 <a href="https://jmbuhr.de/legal/impressum.html">impressum</a>.
 </p>
