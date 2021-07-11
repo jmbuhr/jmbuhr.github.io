@@ -1,0 +1,44 @@
+---
+title: "Effective Data Visualisation with R"
+description: |
+  For: Heidelberg Biosciences International Graduate School (HBIGS)
+author:
+  - name: Jannik Buhr
+date: 2021-10-01
+output:
+  distill::distill_article:
+    self_contained: false
+preview: favicon.png
+draft: True
+---
+
+Greetings Adventurers,
+
+And welcome to the next iteration of my introductory
+R course for data visualization and analysis.
+Because the concepts you will learn in this course
+will be most useful in areas where the working language
+is English, this course will also be in English.
+But feel free to ask questions in German as well any time.
+Let us start with the formalities.
+
+## Sign up
+
+I will not use your email address other than to contact you for
+the course.
+
+## Schedule
+
+
+## Preparation and material
+
+For the course we will use R inside of Rstudio,
+you can download them here:
+
+- [Download R](https://cran.uni-muenster.de/)
+- [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+The course material and exercise solutions will get
+their own little website in due time and the link
+will also be found here:
+

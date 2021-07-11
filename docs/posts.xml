@@ -12,7 +12,16 @@
       <link>https://jmbuhr.de</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 14 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Why the Dunning-Krueger Effect is Probably Not Real</title>
+      <dc:creator>Jannik Buhr</dc:creator>
+      <link>https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real</link>
+      <description>Explaining cut-off effects through examples.</description>
+      <guid>https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real</guid>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/why-the-dunning-krueger-effect-is-probably-not-real_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Making a Darkmode for your distill site</title>
       <dc:creator>Jannik Buhr</dc:creator>

@@ -2800,7 +2800,7 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7.2/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.9.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2810,7 +2810,10 @@ code span.wa { color: #008000; font-weight: bold; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <script src="/test.js"></script>
+
   <script>
+    // utterances
     document.addEventListener("DOMContentLoaded", function () {
       if (!/posts/.test(location.pathname)) {
         return;
@@ -3017,6 +3020,23 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Posts">Posts</h1>
+<a href="posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="description">
+<h2>Why the Dunning-Krueger Effect is Probably Not Real</h2>
+<div class="dt-tags"></div>
+<p>Explaining cut-off effects through examples.</p>
+</div>
+<div class="thumbnail">
+<img src="posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/why-the-dunning-krueger-effect-is-probably-not-real_files/figure-html5/unnamed-chunk-2-1.png"/>
+</div>
+<div class="metadata">
+<div class="publishedDate">July 11, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Jannik Buhr</div>
+</div>
+</div>
+</a>
 <a href="posts/2021-03-14-making-a-darkmode-for-your-distill-site/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":[]}</script>
 <div class="description">
@@ -3096,7 +3116,7 @@ function init_posts_list() {
 <p>Theater project at the anglistic seminar.</p>
 </div>
 <div class="thumbnail">
-<img src="posts/2020-10-26-12-angry-men/12am.jpg"/>
+<img data-src="posts/2020-10-26-12-angry-men/12am.jpg"/>
 </div>
 <div class="metadata">
 <div class="publishedDate">May 1, 2018</div>
@@ -3110,7 +3130,7 @@ function init_posts_list() {
 <ul>
 <li>
 <a href="#category:articles">articles</a>
-<span class="category-count">(5)</span>
+<span class="category-count">(6)</span>
 </li>
 <li>
 <a href="#category:blender">blender</a>
