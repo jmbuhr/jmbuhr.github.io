@@ -1,0 +1,90 @@
+---
+title: "demonstration"
+description: |
+  A short description of the post.
+date: 11-26-2020
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Tests
+
+## Preview Image
+
+```{r prev, preview=TRUE}
+plt <- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +
+  ggplot2::geom_point()
+plt
+```
+
+
+## Details
+
+<details>
+
+```{r}
+print("hello world")
+```
+
+</details>
+
+## p5
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="p5_style.css">
+<script src="sketch.js"></script>
+<script src="puck.js"></script>
+<script src="paddle.js"></script>
+
+**w** and **s** move the left paddle, **o** and **l** move the right paddle.
+
+<div id="sketch-holder">
+</div>
+
+## Xaringan Slides
+
+```{r}
+knitr::include_url("slides1.html")
+```
+
+## DT
+
+```{r}
+DT::datatable(head(iris))
+```
+
+## Plotly
+
+```{r}
+print("test")
+plt <- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +
+  ggplot2::geom_point()
+plotly::ggplotly(plt)
+```
+
+However, while this options brings back plotly,
+it also disables math rendering for this document on the site.
+
+## Math
+
+
+$$sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }$$
+
+## diagrammeR
+
+```{r}
+DiagrammeR::mermaid(
+"
+graph TB
+A-->B
+A-->C
+C-->E
+B-->D
+C-->D
+D-->F
+E-->F
+")
+```

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Hugo Apéro</title>
+    <link>https://jmbuhr.de/teaching/</link>
+    <description>Recent content in Teaching on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;#169; 2021 Jannik Buhr</copyright>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jmbuhr.de/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to data analysis with R (Online)</title>
+      <link>https://jmbuhr.de/teaching/dataintro20/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmbuhr.de/teaching/dataintro20/</guid>
+      <description>Greetings Adventurers,
+And welcome to the next iteration of my introductory R course for data visualization and analysis. Because the concepts you will learn in this course will be most useful in areas where the working language is English, this course will also be in English. But feel free to ask questions in German as well any time. Let us start with the formalities.
+Sign up     In order for us to stay connected during the course, please send me an email via my contact form and mention your name, as well as the course you are referring to (bachelor, master).</description>
+    </item>
+    
+    <item>
+      <title>Introduction to data analysis with R</title>
+      <link>https://jmbuhr.de/teaching/dataintro19/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmbuhr.de/teaching/dataintro19/</guid>
+      <description>This course is available in English (master students) and German (bachelor students).</description>
+    </item>
+    
+  </channel>
+</rss>

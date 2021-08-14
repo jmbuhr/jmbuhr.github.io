@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on Hugo Apéro</title>
+    <link>https://jmbuhr.de/categories/project/</link>
+    <description>Recent content in project on Hugo Apéro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;#169; 2021 Jannik Buhr</copyright>
+    <lastBuildDate>Tue, 27 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://jmbuhr.de/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The father</title>
+      <link>https://jmbuhr.de/posts/2020-10-26-12-the-father/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmbuhr.de/posts/2020-10-26-12-the-father/</guid>
+      <description>Teaser   The Father (by Florian Zeller) tells the story of a father-daughter relationship, put under strain by the increasing dementia of the father. The story is told from the perspective of the father, André, and allows the audience to see the world through his perspective - with all the disjunctures, confusion and distress that dementia causes.
+The production is co-directed by Dennis Massmann and Timothy Williams (previously &amp;lsquo;Twelve Angry Men&amp;rsquo;) and integrates this modern dramatic farce with elements of physical theatre to transport the audience into the mind of André.</description>
+    </item>
+    
+    <item>
+      <title>12 Angry Men</title>
+      <link>https://jmbuhr.de/posts/2020-10-26-12-angry-men/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmbuhr.de/posts/2020-10-26-12-angry-men/</guid>
+      <description>Teaser A young man is accused of having killed his father, the evidence points in this direction, the witnesses corroborate the story against him. His fate rests in the hand of a jury - twelve men and women to decide if he should be executed. Eleven jurors are certain he is the murderer, but for one some questions remain open. This Anglistic Seminar performance approaches a modern classic from a fresh perspective, drawing the audience into the moral conundrum.</description>
+    </item>
+    
+    <item>
+      <title>Blender3d School Open Movie</title>
+      <link>https://jmbuhr.de/posts/2021-01-09-blenderschoolopenmovie2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmbuhr.de/posts/2021-01-09-blenderschoolopenmovie2019/</guid>
+      <description>At the end of the Summer 2019 we got together as a group that met at the blender3d Summer School, a yearly event with blender workshops, to produce a short movie within 2 weeks. This is the result:
+ You can learn more about it on the project website. I was very lucky to work with such talented and inspirational people and am proud of what we achieved in such a small amount of time.</description>
+    </item>
+    
+  </channel>
+</rss>
