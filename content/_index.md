@@ -11,7 +11,7 @@ show_action_link: true
 show_social_links: true
 subtitle: Computational Biochemist
 text_align_left: false
-title: Jannik M. Buhr
+title: Jannik Buhr
 type: home
 ---
 

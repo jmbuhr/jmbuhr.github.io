@@ -1,15 +1,17 @@
 ---
-## Configure sidebar content in narrow column
 author: "Jannik Buhr"
 role: "Computational Biochemist"
-avatar_shape: circle # circle, square, rounded, leave blank to exclude
-show_social_links: true # specify social accounts in site config
-audio_link_label: "" # leave blank to exclude
-link_list_label: "Interests" # bookmarks, elsewhere, etc.
-link_list:
-  - name: R
-  - name: python
-  - name: Biochemistry
+avatar_shape: circle
+show_social_links: true 
+audio_link_label: "" 
+# link_list_label: ""
+# link_list: []
+  # - name: R
+  #   url: https://www.r-project.org/ 
+  # - name: python
+  #   url: https://www.python.org/
+  # - name: haskell
+  #   url: https://www.haskell.org/
 ---
 
 ** index doesn't contain a body, just front matter above.

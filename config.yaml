@@ -42,7 +42,7 @@ params:
   textFontFamily: ''
   description: ''
   favicon: /img/favicon.png
-  logo: /img/logo.png
+  logo: /img/favicon.png
   mainSections:
     - posts
     - teaching

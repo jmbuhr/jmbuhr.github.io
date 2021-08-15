@@ -91,12 +91,19 @@ Used for numbers.
 */
 $nord15: #b48ead;
 
-// set custom hex colors
+/*
+  0-3 polar night: light to dark,0 is base
+  4-6 snow strom: light to dark, 3 is base
+  7-10 frost: green-ish to blue-ish
+  11-15 aurora: red, orange, yellow, green, purple
+*/
+
+
 $siteBgColorCustom: $nord4;
-$sidebarBgColorCustom: $nord4;
+$sidebarBgColorCustom: $nord5;
 $textColorCustom: $nord3;
 $sidebarTextColorCustom: $nord3;
-$headlineColorCustom: $nord3;
+$headlineColorCustom: $nord10;
 $headingColorCustom: $nord3;
 $bodyLinkColorCustom: $nord3;
 $navLinkColorCustom: $nord3;
@@ -104,7 +111,7 @@ $sidebarLinkColorCustom: $nord3;
 $footerTextColorCustom: $nord3;
 $buttonTextColorCustom: $nord3;
 $buttonHoverTextColorCustom: $nord13;
-$buttonBgColorCustom: $nord4;
+$buttonBgColorCustom: $nord3;
 $buttonHoverBgColorCustom: $nord3;
 $borderColorCustom: $nord3;
 

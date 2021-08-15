@@ -1,9 +1,9 @@
 ---
-bibliography: ./references.bib
-date: "2021-07-11"
+title: "Why the Dunning-Krueger Effect is Probably Not Real"
 excerpt: |
   Explaining cut-off effects through examples.
-title: Why the Dunning-Krueger Effect is Probably Not Real
+date: 2021-07-11
+bibliography: ./references.bib
 ---
 
 # The Dunning-Krueger Effect is Probably Not Real
@@ -161,6 +161,8 @@ The rank of those values is the order of those vales:
 If we use this rank procedure to transform the actual and perceived scores, this is what we end up with:
 
 <img src="./unnamed-chunk-9-1.png" width="672" />
+
+# References
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 

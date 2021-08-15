@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.87.0" />
+<title>demonstration | jmbuhr.de</title>
+
+
+<meta property="twitter:site" content="@jannikbuhr">
+<meta property="twitter:creator" content="@jannikbuhr">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Testing Rmarkdown features.
+">
+
+
+<meta property="og:site_name" content="jmbuhr.de">
+<meta property="og:title" content="demonstration | jmbuhr.de">
+<meta property="og:description" content="Testing Rmarkdown features.
+" />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://jmbuhr.de/posts/2020-02-15-demonstration/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://jmbuhr.de/posts/2020-02-15-demonstration/featured-1.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://jmbuhr.de/posts/2020-02-15-demonstration/featured-1.png" >
+    
+    
+  <meta itemprop="name" content="demonstration">
+<meta itemprop="description" content="Tests   Citations     R Core Team (2020)
+Math     $$\alpha$$
+\(\alpha\)
+Preview Image     plt &lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) &#43; ggplot2::geom_point() plt Details      print(&#34;hello world&#34;) ## [1] &quot;hello world&quot;   p5          w and s move the left paddle, o and l move the right paddle.">
+
+<meta itemprop="wordCount" content="836"><meta itemprop="image" content="https://jmbuhr.de/posts/2020-02-15-demonstration/featured-1.png">
+<meta itemprop="keywords" content="" />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.168e3a938509a2255b9d7b6adb90af0d8c32faf3be4f2acba40b0280609fce73.css" integrity="sha256-Fo46k4UJoiVbnXtq25CvDYwy&#43;vO&#43;TyrLpAsCgGCfznM=" media="screen">
+  
+  
+  <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.b2dbda2f67df74204537f397aa9a031ef0e6c7831f9057ac489af713d6bccd5b.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://jmbuhr.de" title="Home">
+      <img src="/img/favicon.png" class="dib db-l h2 w-auto" alt="jmbuhr.de">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/posts/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/teaching/" title="Teaching">Teaching</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">demonstration</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Jannik Buhr</p>
+        <p class="f7 db mv0 ttu">January 1, 0001</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/fitvids/fitvids.min.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/jquery/jquery.min.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/datatables-binding/datatables.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/dt-core/js/jquery.dataTables.min.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/crosstalk/js/crosstalk.min.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/plotly-binding/plotly.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/typedarray/typedarray.min.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/jquery/jquery.min.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/crosstalk/js/crosstalk.min.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/plotly-main/plotly-latest.min.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/d3/d3.min.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/dagre/dagre-d3.min.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/mermaid/dist/mermaid.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/mermaid/dist/mermaid.slim.min.js"></script>
+<link href="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/DiagrammeR-styles/styles.css" rel="stylesheet" />
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/chromatography/chromatography.js"></script>
+<script src="https://jmbuhr.de/posts/2020-02-15-demonstration/index_files/DiagrammeR-binding/DiagrammeR.js"></script>
+
+
+
+
+<h1 id="tests">Tests
+  <a href="#tests"></a>
+</h1>
+
+
+
+
+<h2 id="citations">Citations
+  <a href="#citations"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>R Core Team (2020)</p>
+
+
+
+
+<h2 id="math">Math
+  <a href="#math"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><code>$$\alpha$$</code></p>
+<p><code>\(\alpha\)</code></p>
+
+
+
+
+<h2 id="preview-image">Preview Image
+  <a href="#preview-image"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">plt <span style="color:#000;font-weight:bold">&lt;-</span> ggplot2<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">ggplot</span>(ggplot2<span style="color:#000;font-weight:bold">::</span>mpg, ggplot2<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">aes</span>(displ, cty)) <span style="color:#000;font-weight:bold">+</span>
+  ggplot2<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">geom_point</span>()
+plt
+</code></pre></div><p><img src="./featured-1.png" width="672" /></p>
+
+
+
+
+<h2 id="details">Details
+  <a href="#details"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<details>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">print</span>(<span style="color:#d14">&#34;hello world&#34;</span>)
+</code></pre></div><pre><code>## [1] &quot;hello world&quot;
+</code></pre>
+</details>
+
+
+
+
+<h2 id="p5">p5
+  <a href="#p5"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+<link rel="stylesheet" type="text/css" href="p5_style.css">
+<script src="sketch.js"></script>
+<script src="puck.js"></script>
+<script src="paddle.js"></script>
+<p><strong>w</strong> and <strong>s</strong> move the left paddle, <strong>o</strong> and <strong>l</strong> move the right paddle.</p>
+<div id="sketch-holder">
+</div>
+
+
+
+
+<h2 id="xaringan-slides">Xaringan Slides
+  <a href="#xaringan-slides"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">xaringanExtra<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">embed_xaringan</span>(<span style="color:#d14">&#34;/slides/test&#34;</span>)
+</code></pre></div><div class="shareagain" style="min-width:300px;margin:1em auto;">
+<iframe src="/slides/test" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
+
+
+
+
+<h2 id="dt">DT
+  <a href="#dt"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">DT<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">datatable</span>(<span style="color:#900;font-weight:bold">head</span>(iris))
+</code></pre></div><div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[5.1,4.9,4.7,4.6,5,5.4],[3.5,3,3.2,3.1,3.6,3.9],[1.4,1.4,1.3,1.5,1.4,1.7],[0.2,0.2,0.2,0.2,0.2,0.4],["setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+
+
+
+
+<h2 id="plotly">Plotly
+  <a href="#plotly"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">print</span>(<span style="color:#d14">&#34;test&#34;</span>)
+</code></pre></div><pre><code>## [1] &quot;test&quot;
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">plt <span style="color:#000;font-weight:bold">&lt;-</span> ggplot2<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">ggplot</span>(ggplot2<span style="color:#000;font-weight:bold">::</span>mpg, ggplot2<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">aes</span>(displ, cty)) <span style="color:#000;font-weight:bold">+</span>
+  ggplot2<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">geom_point</span>()
+plotly<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">ggplotly</span>(plt)
+</code></pre></div><div id="htmlwidget-2" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"data":[{"x":[1.8,1.8,2,2,2.8,2.8,3.1,1.8,1.8,2,2,2.8,2.8,3.1,3.1,2.8,3.1,4.2,5.3,5.3,5.3,5.7,6,5.7,5.7,6.2,6.2,7,5.3,5.3,5.7,6.5,2.4,2.4,3.1,3.5,3.6,2.4,3,3.3,3.3,3.3,3.3,3.3,3.8,3.8,3.8,4,3.7,3.7,3.9,3.9,4.7,4.7,4.7,5.2,5.2,3.9,4.7,4.7,4.7,5.2,5.7,5.9,4.7,4.7,4.7,4.7,4.7,4.7,5.2,5.2,5.7,5.9,4.6,5.4,5.4,4,4,4,4,4.6,5,4.2,4.2,4.6,4.6,4.6,5.4,5.4,3.8,3.8,4,4,4.6,4.6,4.6,4.6,5.4,1.6,1.6,1.6,1.6,1.6,1.8,1.8,1.8,2,2.4,2.4,2.4,2.4,2.5,2.5,3.3,2,2,2,2,2.7,2.7,2.7,3,3.7,4,4.7,4.7,4.7,5.7,6.1,4,4.2,4.4,4.6,5.4,5.4,5.4,4,4,4.6,5,2.4,2.4,2.5,2.5,3.5,3.5,3,3,3.5,3.3,3.3,4,5.6,3.1,3.8,3.8,3.8,5.3,2.5,2.5,2.5,2.5,2.5,2.5,2.2,2.2,2.5,2.5,2.5,2.5,2.5,2.5,2.7,2.7,3.4,3.4,4,4.7,2.2,2.2,2.4,2.4,3,3,3.5,2.2,2.2,2.4,2.4,3,3,3.3,1.8,1.8,1.8,1.8,1.8,4.7,5.7,2.7,2.7,2.7,3.4,3.4,4,4,2,2,2,2,2.8,1.9,2,2,2,2,2.5,2.5,2.8,2.8,1.9,1.9,2,2,2.5,2.5,1.8,1.8,2,2,2.8,2.8,3.6],"y":[18,21,20,21,16,18,18,18,16,20,19,15,17,17,15,15,17,16,14,11,14,13,12,16,15,16,15,15,14,11,11,14,19,22,18,18,17,18,17,16,16,17,17,11,15,15,16,16,15,14,13,14,14,14,9,11,11,13,13,9,13,11,13,11,12,9,13,13,12,9,11,11,13,11,11,11,12,14,15,14,13,13,13,14,14,13,13,13,11,13,18,18,17,16,15,15,15,15,14,28,24,25,23,24,26,25,24,21,18,18,21,21,18,18,19,19,19,20,20,17,16,17,17,15,15,14,9,14,13,11,11,12,12,11,11,11,12,14,13,13,13,21,19,23,23,19,19,18,19,19,14,15,14,12,18,16,17,18,16,18,18,20,19,20,18,21,19,19,19,20,20,19,20,15,16,15,15,16,14,21,21,21,21,18,18,19,21,21,21,22,18,18,18,24,24,26,28,26,11,13,15,16,17,15,15,15,16,21,19,21,22,17,33,21,19,22,21,21,21,16,17,35,29,21,19,20,20,21,18,19,21,16,18,17],"text":["displ: 1.8<br />cty: 18","displ: 1.8<br />cty: 21","displ: 2.0<br />cty: 20","displ: 2.0<br />cty: 21","displ: 2.8<br />cty: 16","displ: 2.8<br />cty: 18","displ: 3.1<br />cty: 18","displ: 1.8<br />cty: 18","displ: 1.8<br />cty: 16","displ: 2.0<br />cty: 20","displ: 2.0<br />cty: 19","displ: 2.8<br />cty: 15","displ: 2.8<br />cty: 17","displ: 3.1<br />cty: 17","displ: 3.1<br />cty: 15","displ: 2.8<br />cty: 15","displ: 3.1<br />cty: 17","displ: 4.2<br />cty: 16","displ: 5.3<br />cty: 14","displ: 5.3<br />cty: 11","displ: 5.3<br />cty: 14","displ: 5.7<br />cty: 13","displ: 6.0<br />cty: 12","displ: 5.7<br />cty: 16","displ: 5.7<br />cty: 15","displ: 6.2<br />cty: 16","displ: 6.2<br />cty: 15","displ: 7.0<br />cty: 15","displ: 5.3<br />cty: 14","displ: 5.3<br />cty: 11","displ: 5.7<br />cty: 11","displ: 6.5<br />cty: 14","displ: 2.4<br />cty: 19","displ: 2.4<br />cty: 22","displ: 3.1<br />cty: 18","displ: 3.5<br />cty: 18","displ: 3.6<br />cty: 17","displ: 2.4<br />cty: 18","displ: 3.0<br />cty: 17","displ: 3.3<br />cty: 16","displ: 3.3<br />cty: 16","displ: 3.3<br />cty: 17","displ: 3.3<br />cty: 17","displ: 3.3<br />cty: 11","displ: 3.8<br />cty: 15","displ: 3.8<br />cty: 15","displ: 3.8<br />cty: 16","displ: 4.0<br />cty: 16","displ: 3.7<br />cty: 15","displ: 3.7<br />cty: 14","displ: 3.9<br />cty: 13","displ: 3.9<br />cty: 14","displ: 4.7<br />cty: 14","displ: 4.7<br />cty: 14","displ: 4.7<br />cty:  9","displ: 5.2<br />cty: 11","displ: 5.2<br />cty: 11","displ: 3.9<br />cty: 13","displ: 4.7<br />cty: 13","displ: 4.7<br />cty:  9","displ: 4.7<br />cty: 13","displ: 5.2<br />cty: 11","displ: 5.7<br />cty: 13","displ: 5.9<br />cty: 11","displ: 4.7<br />cty: 12","displ: 4.7<br />cty:  9","displ: 4.7<br />cty: 13","displ: 4.7<br />cty: 13","displ: 4.7<br />cty: 12","displ: 4.7<br />cty:  9","displ: 5.2<br />cty: 11","displ: 5.2<br />cty: 11","displ: 5.7<br />cty: 13","displ: 5.9<br />cty: 11","displ: 4.6<br />cty: 11","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 12","displ: 4.0<br />cty: 14","displ: 4.0<br />cty: 15","displ: 4.0<br />cty: 14","displ: 4.0<br />cty: 13","displ: 4.6<br />cty: 13","displ: 5.0<br />cty: 13","displ: 4.2<br />cty: 14","displ: 4.2<br />cty: 14","displ: 4.6<br />cty: 13","displ: 4.6<br />cty: 13","displ: 4.6<br />cty: 13","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 13","displ: 3.8<br />cty: 18","displ: 3.8<br />cty: 18","displ: 4.0<br />cty: 17","displ: 4.0<br />cty: 16","displ: 4.6<br />cty: 15","displ: 4.6<br />cty: 15","displ: 4.6<br />cty: 15","displ: 4.6<br />cty: 15","displ: 5.4<br />cty: 14","displ: 1.6<br />cty: 28","displ: 1.6<br />cty: 24","displ: 1.6<br />cty: 25","displ: 1.6<br />cty: 23","displ: 1.6<br />cty: 24","displ: 1.8<br />cty: 26","displ: 1.8<br />cty: 25","displ: 1.8<br />cty: 24","displ: 2.0<br />cty: 21","displ: 2.4<br />cty: 18","displ: 2.4<br />cty: 18","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 21","displ: 2.5<br />cty: 18","displ: 2.5<br />cty: 18","displ: 3.3<br />cty: 19","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 20","displ: 2.0<br />cty: 20","displ: 2.7<br />cty: 17","displ: 2.7<br />cty: 16","displ: 2.7<br />cty: 17","displ: 3.0<br />cty: 17","displ: 3.7<br />cty: 15","displ: 4.0<br />cty: 15","displ: 4.7<br />cty: 14","displ: 4.7<br />cty:  9","displ: 4.7<br />cty: 14","displ: 5.7<br />cty: 13","displ: 6.1<br />cty: 11","displ: 4.0<br />cty: 11","displ: 4.2<br />cty: 12","displ: 4.4<br />cty: 12","displ: 4.6<br />cty: 11","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 11","displ: 5.4<br />cty: 12","displ: 4.0<br />cty: 14","displ: 4.0<br />cty: 13","displ: 4.6<br />cty: 13","displ: 5.0<br />cty: 13","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 19","displ: 2.5<br />cty: 23","displ: 2.5<br />cty: 23","displ: 3.5<br />cty: 19","displ: 3.5<br />cty: 19","displ: 3.0<br />cty: 18","displ: 3.0<br />cty: 19","displ: 3.5<br />cty: 19","displ: 3.3<br />cty: 14","displ: 3.3<br />cty: 15","displ: 4.0<br />cty: 14","displ: 5.6<br />cty: 12","displ: 3.1<br />cty: 18","displ: 3.8<br />cty: 16","displ: 3.8<br />cty: 17","displ: 3.8<br />cty: 18","displ: 5.3<br />cty: 16","displ: 2.5<br />cty: 18","displ: 2.5<br />cty: 18","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 18","displ: 2.2<br />cty: 21","displ: 2.2<br />cty: 19","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.7<br />cty: 15","displ: 2.7<br />cty: 16","displ: 3.4<br />cty: 15","displ: 3.4<br />cty: 15","displ: 4.0<br />cty: 16","displ: 4.7<br />cty: 14","displ: 2.2<br />cty: 21","displ: 2.2<br />cty: 21","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 21","displ: 3.0<br />cty: 18","displ: 3.0<br />cty: 18","displ: 3.5<br />cty: 19","displ: 2.2<br />cty: 21","displ: 2.2<br />cty: 21","displ: 2.4<br />cty: 21","displ: 2.4<br />cty: 22","displ: 3.0<br />cty: 18","displ: 3.0<br />cty: 18","displ: 3.3<br />cty: 18","displ: 1.8<br />cty: 24","displ: 1.8<br />cty: 24","displ: 1.8<br />cty: 26","displ: 1.8<br />cty: 28","displ: 1.8<br />cty: 26","displ: 4.7<br />cty: 11","displ: 5.7<br />cty: 13","displ: 2.7<br />cty: 15","displ: 2.7<br />cty: 16","displ: 2.7<br />cty: 17","displ: 3.4<br />cty: 15","displ: 3.4<br />cty: 15","displ: 4.0<br />cty: 15","displ: 4.0<br />cty: 16","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 22","displ: 2.8<br />cty: 17","displ: 1.9<br />cty: 33","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 22","displ: 2.0<br />cty: 21","displ: 2.5<br />cty: 21","displ: 2.5<br />cty: 21","displ: 2.8<br />cty: 16","displ: 2.8<br />cty: 17","displ: 1.9<br />cty: 35","displ: 1.9<br />cty: 29","displ: 2.0<br />cty: 21","displ: 2.0<br />cty: 19","displ: 2.5<br />cty: 20","displ: 2.5<br />cty: 20","displ: 1.8<br />cty: 21","displ: 1.8<br />cty: 18","displ: 2.0<br />cty: 19","displ: 2.0<br />cty: 21","displ: 2.8<br />cty: 16","displ: 2.8<br />cty: 18","displ: 3.6<br />cty: 17"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,0,1)","opacity":1,"size":5.66929133858268,"symbol":"circle","line":{"width":1.88976377952756,"color":"rgba(0,0,0,1)"}},"hoveron":"points","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":26.2283105022831,"r":7.30593607305936,"b":40.1826484018265,"l":37.2602739726027},"plot_bgcolor":"rgba(235,235,235,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1.33,7.27],"tickmode":"array","ticktext":["2","3","4","5","6","7"],"tickvals":[2,3,4,5,6,7],"categoryorder":"array","categoryarray":["2","3","4","5","6","7"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"displ","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[7.7,36.3],"tickmode":"array","ticktext":["10","15","20","25","30","35"],"tickvals":[10,15,20,25,30,35],"categoryorder":"array","categoryarray":["10","15","20","25","30","35"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(255,255,255,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"cty","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"5d6d22a72940":{"x":{},"y":{},"type":"scatter"}},"cur_data":"5d6d22a72940","visdat":{"5d6d22a72940":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>However, while this options brings back plotly,
+it also disables math rendering for this document on the site.</p>
+
+
+
+
+<h2 id="math-1">Math
+  <a href="#math-1"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><code>$$sd = \sqrt{\frac{\sum_{i=0}^{n}{(x_i-\bar x)^2}}{(n-1)} }$$</code></p>
+
+
+
+
+<h2 id="diagrammer">diagrammeR
+  <a href="#diagrammer"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">DiagrammeR<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">mermaid</span>(
+<span style="color:#d14">&#34;
+</span><span style="color:#d14">graph TB
+</span><span style="color:#d14">A--&gt;B
+</span><span style="color:#d14">A--&gt;C
+</span><span style="color:#d14">C--&gt;E
+</span><span style="color:#d14">B--&gt;D
+</span><span style="color:#d14">C--&gt;D
+</span><span style="color:#d14">D--&gt;F
+</span><span style="color:#d14">E--&gt;F
+</span><span style="color:#d14">&#34;</span>)
+</code></pre></div><div id="htmlwidget-3" style="width:672px;height:480px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"diagram":"\ngraph TB\nA-->B\nA-->C\nC-->E\nB-->D\nC-->D\nD-->F\nE-->F\n"},"evals":[],"jsHooks":[]}</script>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-rcoreteamLanguageEnvironmentStatistical2020" class="csl-entry">
+<p>R Core Team. 2020. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing.</p>
+</div>
+</div>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 1, 0001</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">4 minute read, 836 words</dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://jmbuhr.de/posts/2021-01-09-blenderschoolopenmovie2019/">&larr; Blender3d School Open Movie</a>
+  
+  
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="jmbuhr/jmbuhr.github.io"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &#169; 2021 Jannik Buhr
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/contact/" title="envelope" >
+      <i class="fas fa-envelope fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/jmbuhr" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/jannikbuhr" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="http://orcid.org/0000-0002-9350-2629" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/posts/index.xml" title="rss" >
+      <i class="fas fa-rss fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/jmbuhr/" title="linkedin" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/impressum/" title="Impressum">Impressum</a>
+      
+      <a class="dib pv1 ph2 link" href="/contributors/" title="Thanks!">Thanks</a>
+      
+    </div>
+  </nav>
+  
+  
+    
+    <script src="//yihui.org/js/math-code.js" type="text/javascript"></script>
+    <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>
