@@ -1,0 +1,146 @@
+baseURL: "https://jmbuhr.de"
+theme: hugo-apero
+languageCode: en
+title: jmbuhr.de
+author: Jannik Buhr
+formspree_form_id: "jannik.m.buhr@gmail.com"
+copyright: '&#169; 2021 Jannik Buhr'
+publishDir: "docs"
+googleAnalytics: ''
+disqusShortname: ''
+metaDataFormat: yaml
+footnoteReturnLinkContents: '&#8617;'
+paginate: 5
+preserveTaxonomyNames: yes
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+enableEmoji: yes
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      hardwraps: no
+      unsafe: yes
+  highlight:
+    style: github
+  tableOfContents:
+    endLevel: 2
+    ordered: no
+    startLevel: 2
+params:
+  math:
+    renderer: mathjax
+  theme: ''
+  custom_theme: hex-colors
+  customheadingFontFamily: Fira Sans
+  customtextFontFamily: Roboto
+  headingFontFamily: ''
+  textFontFamily: ''
+  description: ''
+  favicon: /img/favicon.png
+  logo: /img/favicon.png
+  mainSections:
+    - posts
+    - teaching
+    - talk
+  navallcaps: yes
+  orgLocal: Heidelberg
+  orgName: Jannik Buhr
+  sharing_image: /img/profile.png
+  social:
+  # Social icons may appear on homepage and in site header or footer
+  # Configure show/hide above - add as many as you like below
+  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
+  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+    - icon      : "envelope" # icon name without the 'fa-'
+      icon_pack : "fas"
+      url       : "/contact/"
+    - icon      : "github" # icon name without the 'fa-'
+      icon_pack : "fab"
+      url       : "https://github.com/jmbuhr"
+    - icon      : "twitter" # icon name without the 'fa-'
+      icon_pack : "fab"
+      url       : "https://twitter.com/jannikbuhr"
+    - icon      : "orcid" # icon name without the 'fa-'
+      icon_pack : "ai"
+      url       : "http://orcid.org/0000-0002-9350-2629"
+    - icon      : "rss" # icon name without the 'fa-'
+      icon_pack : "fas"
+      url       : "/posts/index.xml"
+    - icon      : "linkedin" # icon name without the 'fa-'
+      icon_pack : "fab"
+      url       : "https://www.linkedin.com/in/jmbuhr/"
+  socialInFooter: yes
+  socialInHeader: no
+  twitter: jannikbuhr
+  utterances:
+    use_utterances : true
+    repo_name : "jmbuhr/jmbuhr.github.io"
+    issue_term : "pathname" # url, pathname, or title
+    theme : "boxy-light"
+    label : "comments :crystal_ball:"
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+menu:
+  header:
+    - name : "About"
+      title : "About me"
+      url : "/about/"
+      weight : 1
+    - name : "Blog"
+      title : "Blog"
+      url : "/posts/"
+      weight : 2
+    - name : "Teaching"
+      title : "Teaching"
+      url : "/teaching/"
+      weight : 2
+    - name : "Talks"
+      title : "Talks"
+      url : "/talk/"
+      weight : 4
+  footer:
+    - name : "License"
+      title : "License"
+      url : "/license/"
+      weight : 1
+    - name : "Contact"
+      title : "Contact form"
+      url : "/contact/"
+      weight : 2
+    - name : "Impressum"
+      title : "Impressum"
+      url : "/Impressum/"
+      weight : 3
+    - name : "Thanks"
+      title : "Thanks!"
+      url : "/contributors/"
+      weight : 3
+privacy:
+  disqus:
+    disable: no
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: yes
+    respectDoNotTrack: yes
+  instagram:
+    disable: yes
+    simple: yes
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
+  vimeo:
+    disable: no
+    enableDNT: yes
+    simple: yes
+  youtube:
+    disable: no
+    privacyEnhanced: yes

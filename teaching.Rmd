@@ -1,5 +1,0 @@
----
-title: "Teaching"
-site: distill::distill_website
-listing: teaching
----
