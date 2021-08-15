@@ -1,19 +1,35 @@
 ---
 title: "demonstration"
-description: |
-  A short description of the post.
+excerpt: |
+  Testing Rmarkdown features.
 date: 11-26-2020
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+  fig.path = "./")
 ```
+
 
 # Tests
 
+## Citations
+
+@rcoreteamLanguageEnvironmentStatistical2020
+
+## Math
+
+$$\alpha$$
+
+
+$\alpha$
+
+
+
 ## Preview Image
 
-```{r prev, preview=TRUE}
+```{r featured}
 plt <- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +
   ggplot2::geom_point()
 plt
@@ -47,7 +63,7 @@ print("hello world")
 ## Xaringan Slides
 
 ```{r}
-knitr::include_url("slides1.html")
+xaringanExtra::embed_xaringan("/slides/test")
 ```
 
 ## DT

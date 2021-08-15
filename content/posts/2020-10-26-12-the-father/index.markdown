@@ -1,21 +1,17 @@
 ---
-title: "The father"
-subtitle: BY FLORIAN ZELLER
-date: 2018-11-27
-description: |
-  Theater project at the anglistic seminar.
-output:
-  distill::distill_article:
-    self_contained: false
 categories:
-  - theater
-  - project
-preview: "father.jpg"
+- theater
+- project
+date: "2018-11-27"
+excerpt: |
+  Theater project at the anglistic seminar.
+subtitle: BY FLORIAN ZELLER
+title: The father
 ---
 
 
 
-![](father.jpg)<!-- -->
+![](father-featured.jpg)<!-- -->
 
 # Teaser
 

@@ -1,14 +1,8 @@
 ---
 title: "Introduction to data analysis with R (Online)"
-description: |
+excerpt: |
   Heidelberg University, Biochemistry Bachelor and Master (WS 20/21)
-author:
-  - name: Jannik Buhr 
 date: 2020-10-01
-output:
-  distill::distill_article:
-    self_contained: false
-preview: hex.png
 ---
 
 Greetings Adventurers,

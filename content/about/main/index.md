@@ -10,7 +10,7 @@ intro: |
   
   I very much enjoy thinking about mental models and teaching concepts
   and focus on data analysis with the programming language R.
-  Have a look at my current courses [here](teaching.html).
+  Have a look at my current courses [here](/teaching).
   Being a mentor on the R for Data Science [online learning community](https://www.rfordatasci.com/)
   enables me to help new R users and I enjoy the challenges that come with
   solving the diverse set of problems from the many fields that these users come from.

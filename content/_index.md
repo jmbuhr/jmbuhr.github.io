@@ -6,7 +6,7 @@ description: |
   Hi there!
 image_left: false
 images:
-- img/profile.png
+  - img/profile.png
 show_action_link: true
 show_social_links: true
 subtitle: Computational Biochemist

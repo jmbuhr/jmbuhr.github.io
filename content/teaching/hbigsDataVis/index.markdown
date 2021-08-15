@@ -2,14 +2,8 @@
 title: "Effective Data Visualisation with R"
 description: |
   For: Heidelberg Biosciences International Graduate School (HBIGS)
-author:
-  - name: Jannik Buhr
+author: Jannik Buhr
 date: 2021-10-01
-output:
-  distill::distill_article:
-    self_contained: false
-preview: favicon.png
-draft: True
 ---
 
 ## Sign up

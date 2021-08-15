@@ -9,13 +9,7 @@ categories:
   - project
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-```{r prev, preview=TRUE}
-knitr::include_graphics("12am-featured.jpg")
-```
+![](12am-featured.jpg)<!-- -->
 
 # Teaser
 
@@ -27,4 +21,3 @@ This Anglistic Seminar performance approaches a modern classic from a fresh
 perspective, drawing the audience into the moral conundrum.
 
 [source](http://ssg-as-heidelberg.de/2018-season/)
-

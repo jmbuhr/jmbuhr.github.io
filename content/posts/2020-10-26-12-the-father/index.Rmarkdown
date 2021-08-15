@@ -2,15 +2,11 @@
 title: "The father"
 subtitle: BY FLORIAN ZELLER
 date: 2018-11-27
-description: |
+excerpt: |
   Theater project at the anglistic seminar.
-output:
-  distill::distill_article:
-    self_contained: false
 categories:
   - theater
   - project
-preview: "father.jpg"
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r prev, preview=TRUE}
-knitr::include_graphics("father.jpg")
+knitr::include_graphics("father-featured.jpg")
 ```
 
 # Teaser

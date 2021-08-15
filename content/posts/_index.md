@@ -10,7 +10,7 @@ cascade:
     text_link_label: View recent posts
     text_link_url: /posts/
 description: ""
-layout: list-sidebar
+layout: list
 show_author_byline: true
 show_post_date: true
 show_post_thumbnail: true
@@ -22,6 +22,6 @@ sidebar:
   text_link_url: /index.xml
   title: A Sidebar for Your Thoughts
 thumbnail_left: true
-title: "Posts"
+title: Posts
 ---
 

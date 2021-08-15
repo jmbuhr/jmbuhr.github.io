@@ -1,9 +1,9 @@
 ---
-title: "Why the Dunning-Krueger Effect is Probably Not Real"
+bibliography: ./references.bib
+date: "2021-07-11"
 excerpt: |
   Explaining cut-off effects through examples.
-date: 2021-07-11
-bibliography: ./references.bib
+title: Why the Dunning-Krueger Effect is Probably Not Real
 ---
 
 # The Dunning-Krueger Effect is Probably Not Real
