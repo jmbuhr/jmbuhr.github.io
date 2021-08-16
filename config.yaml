@@ -101,11 +101,11 @@ menu:
     - name : "Teaching"
       title : "Teaching"
       url : "/teaching/"
-      weight : 2
-    - name : "Talks"
-      title : "Talks"
-      url : "/talk/"
-      weight : 4
+      weight : 3
+    # - name : "Talks"
+    #   title : "Talks"
+    #   url : "/talk/"
+    #   weight : 4
   footer:
     - name : "License"
       title : "License"
