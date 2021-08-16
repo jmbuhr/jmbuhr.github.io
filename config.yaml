@@ -46,7 +46,6 @@ params:
   mainSections:
     - posts
     - teaching
-    - talk
   navallcaps: yes
   orgLocal: Heidelberg
   orgName: Jannik Buhr

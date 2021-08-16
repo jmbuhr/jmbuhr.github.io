@@ -15,7 +15,7 @@ options(
   blogdown.serve_site.startup = FALSE,
   blogdown.ext = ".Rmarkdown",
   blogdown.method = "markdown",
-  blogdown.subdir = "blog",
+  blogdown.subdir = "posts",
   blogdown.yaml.empty = TRUE,
   blogdown.new_bundle = TRUE,
   blogdown.title_case = TRUE,

@@ -1,11 +1,11 @@
 ---
-date: "2021-03-14"
+title: "Making a Darkmode for your distill site"
 excerpt: |
   We build a darkmode for our distill site using css and a bit of java script.
+date: 2021-03-14
 output:
   distill::distill_article:
     self_contained: false
-title: Making a Darkmode for your distill site
 ---
 
 

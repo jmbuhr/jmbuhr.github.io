@@ -1,16 +1,14 @@
 ---
-categories:
-- blender
-- project
-date: 01-10-2019
+title: "Blender3d School Open Movie"
 description: |
   WalnOt, a shortfilm made with blender in 2 weeks.
-output:
-  distill::distill_article:
-    self_contained: false
+date: 01-10-2019
 preview: images/walnot.png
-title: Blender3d School Open Movie
+categories:
+  - blender
+  - project
 ---
+
 
 
 
