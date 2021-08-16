@@ -1,6 +1,6 @@
 ---
 title: "Introduction to git and GitHub"
-# subtitle: "Testing"
+subtitle: "Testing"
 excerpt: "Introduction to git and GitHub"
 date: 2021-06-20
 date_end: 2021-06-20
