@@ -9,13 +9,7 @@ categories:
   - project
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-```{r prev, preview=TRUE}
-knitr::include_graphics("12am-featured.jpg")
-```
+![](12am-featured.jpg)
 
 # Teaser
 
