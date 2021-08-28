@@ -64,9 +64,23 @@ The production is co-directed by Dennis Massmann and Timothy Williams (previousl
       
       <guid>https://jmbuhr.de/posts/2020-02-15-demonstration/</guid>
       <description>Tests   Citations     R Core Team (2020)
-Math     $$\alpha$$
-\(\alpha\)
-Preview Image     plt &amp;lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) + ggplot2::geom_point() plt Details      print(&amp;#34;hello world&amp;#34;) ## [1] &amp;quot;hello world&amp;quot;   p5          w and s move the left paddle, o and l move the right paddle.</description>
+Math     Example from the mathjax demo:
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+If I have a random $ and another $ in my text.</description>
+    </item>
+    
+    <item>
+      <title>demonstration 2</title>
+      <link>https://jmbuhr.de/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jmbuhr.de/posts/test/</guid>
+      <description>Rendering mathematical equations     Examples from the mathjax demo:
+Rmarkdown     In .Rmarkdown documents, you can use either
+$a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.
+And you can use
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ to get a math paragraph:
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</description>
     </item>
     
   </channel>
