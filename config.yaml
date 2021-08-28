@@ -3,7 +3,6 @@ theme: hugo-apero
 languageCode: en
 title: jmbuhr.de
 author: Jannik Buhr
-formspree_form_id: "jannik.m.buhr@gmail.com"
 copyright: '&#169; 2021 Jannik Buhr'
 publishDir: "docs"
 googleAnalytics: ''
