@@ -4,13 +4,13 @@ excerpt: |
   Testing Rmarkdown features.
 date: 11-26-2020
 bibliography: references.bib
+format: hugo
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
   fig.path = "./")
 ```
-
 
 # Tests
 
@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = TRUE,
 Example from the [mathjax demo](https://www.mathjax.org/#demo):
 
 When $a \ne 0$, there are two solutions to `\(ax^2 + bx + c = 0\)` and they are
+
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 If I have a random $ and another $ in my text.
@@ -63,9 +64,21 @@ print("hello world")
 
 ## Xaringan Slides
 
-```{r}
-xaringanExtra::embed_xaringan("/slides/test")
-```
+::: {.video-container} 
+<iframe src="/slides/test/index.html" data-external="1"></iframe>
+:::
+
+<style>
+.video-container {
+  width: 100%;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: none;
+}
+</style>
 
 ## DT
 

@@ -9,9 +9,6 @@ categories:
   - project
 ---
 
-
-
-
 ![](walnot-featured.png)
 
 At the end of the Summer 2019 we got together as a group that met at the [blender3d Summer School](https://blender3dschool.de/), a yearly event with [blender](https://www.blender.org/) workshops, to produce a short movie within 2 weeks.

@@ -4,6 +4,7 @@ excerpt: |
   Explaining cut-off effects through examples.
 date: 2021-07-11
 bibliography: ./references.bib
+format: hugo
 ---
 
 ```{r setup, include=FALSE}
