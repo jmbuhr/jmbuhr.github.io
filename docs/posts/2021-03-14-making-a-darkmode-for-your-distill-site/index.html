@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.87.0" />
+<meta name="generator" content="Hugo 0.92.0" />
 <title>Making a Darkmode for your distill site | jmbuhr.de</title>
 
 
@@ -52,6 +52,7 @@ There are many motivations to adding a dark mode to your site. I just like it, w
 <meta itemprop="wordCount" content="567"><meta itemprop="image" content="https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/cookies-featured.png">
 <meta itemprop="keywords" content="" />
   
+  
   <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
   <link rel="icon" href="/img/favicon.png" type="image/x-icon">
@@ -63,7 +64,7 @@ There are many motivations to adding a dark mode to your site. I just like it, w
   <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
   
   
-  <script src="/main.min.b2dbda2f67df74204537f397aa9a031ef0e6c7831f9057ac489af713d6bccd5b.js" type="text/javascript"></script>
+  <script src="/main.min.9236a51b67c34d1e0ce83bd4016796e01b211dfdbd2982ff071e205421b68d98.js" type="text/javascript"></script>
 </head>
 <body>
       <div class="grid-container">
@@ -115,15 +116,17 @@ There are many motivations to adding a dark mode to your site. I just like it, w
   <a href="#join-the-dark-side"></a>
 </h1>
 <p>&hellip; we have cookies.</p>
-<p><img src="cookies-featured.png" alt="From: knowyourmeme"></p>
-<p>There are many motivations to adding a dark mode to your site.
-I just like it, when things look consistent.
-So I also want my site to reflect that.
-But because at the same time I am also not very good at making things look consistent, which is why I mostly outsource design choices as much as I can.
-Here, for example, this means that I took the color values for the dark theme from the amazing 
+<p><img src="cookies-featured.png" alt="From:knowyourmeme"></p>
+<p>There are many motivations to adding a dark mode to your site. I just
+like it, when things look consistent. So I also want my site to reflect
+that. But because at the same time I am also not very good at making
+things look consistent, which is why I mostly outsource design choices
+as much as I can. Here, for example, this means that I took the color
+values for the dark theme from the amazing
+
 <a href="https://www.nordtheme.com/" target="_blank" rel="noopener">nord</a> color palette.</p>
-<p>But let&rsquo;s get into the practical side!
-How do we add a dark theme to complement our light theme to our distill site?</p>
+<p>But let&rsquo;s get into the practical side! How do we add a dark theme to
+complement our light theme to our distill site?</p>
 
 
 
@@ -131,22 +134,27 @@ How do we add a dark theme to complement our light theme to our distill site?</p
 <h1 id="adding-the-button-css-and-java-script">Adding the button, css and java script
   <a href="#adding-the-button-css-and-java-script"></a>
 </h1>
-<p>First, we want a button that a user can click on to change the theme.
-I opted for the <code>adjust</code> button from 
-<a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a>.
-There is not much to do here, because those are already available in distill.
-Open up your <code>_site.yml</code> file and add an icon to the navbar:</p>
+<p>First, we want a button that a user can click on to change the theme. I
+opted for the <code>adjust</code> button from 
+<a href="https://fontawesome.com/" target="_blank" rel="noopener">Font
+Awesome</a>. There is not much to do here,
+because those are already available in distill. Open up your <code>_site.yml</code>
+file and add an icon to the navbar:</p>
 <pre><code>navbar:
   right:
     - icon: fas fa-adjust
-</code></pre><p>While we are in this file, let&rsquo;s also add the <code>includes</code> for the html file which will make the button work:</p>
+</code></pre>
+<p>While we are in this file, let&rsquo;s also add the <code>includes</code> for the html
+file which will make the button work:</p>
 <pre><code>output:
   distill::distill_article:
     includes:
       after_body: &quot;_after_body.html&quot;
-</code></pre><blockquote>
-<p>Note: I am omitting all the other things in our <code>.yml</code> file here and only show, what is being added.
-But I include the indentation-levels above the thing being added to show where to put it.</p>
+</code></pre>
+<blockquote>
+<p>Note: I am omitting all the other things in our <code>.yml</code> file here and
+only show, what is being added. But I include the indentation-levels
+above the thing being added to show where to put it.</p>
 </blockquote>
 <p>This is what <code>_after_body.html</code> looks like:</p>
 <pre><code>&lt;script&gt;
@@ -183,23 +191,35 @@ function setTheme() {
 
 darkmodeToggle.addEventListener('click', switchTheme)
 &lt;/script&gt;
-</code></pre><p>Unfortunately, the only way I found to refer to the darkmode toggle icon in the navbar was by class name.
-I could not find a way to give it an id from <code>_site.yml</code>.
-However, this should be fine because the navbar is usually the first thing on the page and the script refers to the first element of class <code>fas fa-adjust</code> that it can find.
-It is also important to have this script be included after the body, so that the rest of the site can load first before the script tries to find the button.
-Typically you would do this using a script file and sourcing it with the option <code>defer</code>, but sourcing a script file doesn&rsquo;t work here due to the way distill changes file-path&rsquo;s between top-level sites and posts.
-This is why the complete script is in the html here.
-The script adds a class <code>.darkmode</code> to the html body (and removes it when toggled off).
-This choice is first based on browser preferences and then saved to local storage.</p>
-<p>The last thing to modify is our <code>theme.css</code> to make use of this <code>.darkmode</code> class.
-For each thing we want to change about our theme when it get&rsquo;s dark, we take the corresponding class and the darkmode class and add our styling e.g.</p>
+</code></pre>
+<p>Unfortunately, the only way I found to refer to the darkmode toggle icon
+in the navbar was by class name. I could not find a way to give it an id
+from <code>_site.yml</code>. However, this should be fine because the navbar is
+usually the first thing on the page and the script refers to the first
+element of class <code>fas fa-adjust</code> that it can find. It is also important
+to have this script be included after the body, so that the rest of the
+site can load first before the script tries to find the button.
+Typically you would do this using a script file and sourcing it with the
+option <code>defer</code>, but sourcing a script file doesn&rsquo;t work here due to the
+way distill changes file-path&rsquo;s between top-level sites and posts. This
+is why the complete script is in the html here. The script adds a class
+<code>.darkmode</code> to the html body (and removes it when toggled off). This
+choice is first based on browser preferences and then saved to local
+storage.</p>
+<p>The last thing to modify is our <code>theme.css</code> to make use of this
+<code>.darkmode</code> class. For each thing we want to change about our theme when
+it get&rsquo;s dark, we take the corresponding class and the darkmode class
+and add our styling e.g.</p>
 <pre><code>.darkmode d-article,
 .darkmode d-appendix,
 .darkmode body {
   background-color: black;
   color: white;
 }
-</code></pre><p>You can have a look at my <code>theme.css</code> file for inspiration on what thing you need to change (though the css could be way cleaner): 
+</code></pre>
+<p>You can have a look at my <code>theme.css</code> file for inspiration on what thing
+you need to change (though the css could be way cleaner):
+
 <a href="https://github.com/jmbuhr/jmbuhr.github.io/blob/master/theme.css" target="_blank" rel="noopener">https://github.com/jmbuhr/jmbuhr.github.io/blob/master/theme.css</a></p>
 
         

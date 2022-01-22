@@ -14,7 +14,7 @@
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/</guid>
-      <description>The Dunning-Krueger Effect is Probably Not Real   I recently came across this article by Jonathan Jarry (“The Dunning-Kruger Effect Is Probably Not Real” n.d.).
+      <description>The Dunning-Krueger Effect is Probably Not Real   I recently came across this article by Jonathan Jarry (&amp;ldquo;The Dunning-Kruger Effect Is Probably Not Real&amp;rdquo; n.d.).
 I am not going to try and steal his thunder, so please do go ahead and read the article. It is well written, thoroughly researched and presents a valid point. Everything points towards the Dunning-Krueger effect being largely just an artifact of the way the original authors analyzed their data.</description>
     </item>
     
@@ -65,22 +65,10 @@ The production is co-directed by Dennis Massmann and Timothy Williams (previousl
       <guid>https://jmbuhr.de/posts/2020-02-15-demonstration/</guid>
       <description>Tests   Citations     R Core Team (2020)
 Math     Example from the mathjax demo:
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-If I have a random $ and another $ in my text.</description>
-    </item>
-    
-    <item>
-      <title>demonstration 2</title>
-      <link>https://jmbuhr.de/posts/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jmbuhr.de/posts/test/</guid>
-      <description>Rendering mathematical equations     Examples from the mathjax demo:
-Rmarkdown     In .Rmarkdown documents, you can use either
-$a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.
-And you can use
-$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ to get a math paragraph:
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</description>
+When a ≠ 0, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+If I have a random $ and another $ in my text.
+Preview Image     plt &amp;lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) + ggplot2::geom_point() plt   Details      print(&amp;#34;hello world&amp;#34;) [1] &amp;quot;hello world&amp;quot;     p5          w and s move the left paddle, o and l move the right paddle.</description>
     </item>
     
   </channel>
