@@ -49,7 +49,7 @@
 <meta itemprop="description" content="The Dunning-Krueger Effect is Probably Not Real   I recently came across this article by Jonathan Jarry (&ldquo;The Dunning-Kruger Effect Is Probably Not Real&rdquo; n.d.).
 I am not going to try and steal his thunder, so please do go ahead and read the article. It is well written, thoroughly researched and presents a valid point. Everything points towards the Dunning-Krueger effect being largely just an artifact of the way the original authors analyzed their data."><meta itemprop="datePublished" content="2021-07-11T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-07-11T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1751"><meta itemprop="image" content="https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/featured-image-1.png">
+<meta itemprop="wordCount" content="1733"><meta itemprop="image" content="https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/featured-image-1.png">
 <meta itemprop="keywords" content="" />
   
   
@@ -105,6 +105,24 @@ I am not going to try and steal his thunder, so please do go ahead and read the 
         <p class="f7 db mv0 ttu">July 11, 2021</p>
 
       
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://github.com/jmbuhr/jmbuhr.github.io/blob/main/content/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.qmd" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>code</a>
+
+
+      </div>
+      
 
       </header>
       <section class="post-body pt5 pb4">
@@ -131,12 +149,10 @@ somewhat statistical explanation of <strong>why</strong> this happens. This is w
 settled on the current title of this post. In the following I am going
 to explain from basic principles why the results that Dunning and
 Krueger got in their experiments can largely be explained without any
-effect being present. Of course I am going to do so using the
+effect being present. Of course, I am going to do so using the
 statistical programming language R and if you want to try out the code
-yourself feel free to click on the little GitHub icon in the top right
-corner to get sent to the source. You will find this article in the
-<code>content/posts</code> folder. Or use the little <strong>+</strong> buttons to expand code
-sections.</p>
+yourself, feel free to click on the little GitHub icon below the title
+of this post to get sent to the source.</p>
 
 
 
@@ -170,7 +186,7 @@ dive into some numbers to see, how this misconception arises.</p>
 </h1>
 <div class="cell" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-4-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-4-1.png" width="768" />
 </div>
 </div>
 <p>This is what most plots in the original paper by Dunning and Krueger
@@ -250,7 +266,7 @@ skill-distribution might be wider than our score distribution between 0
 and 1.</p>
 <div class="cell" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-6-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-6-1.png" width="768" />
 </div>
 </div>
 <p>This cutoff means that we are getting more 0s and 1s than the other
@@ -262,7 +278,7 @@ assessment. Because self assessments can vary a lot.</p>
 likely that he or she has a higher or lower self-assessment:</p>
 <div class="cell" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-8-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-8-1.png" width="768" />
 </div>
 </div>
 <p>&ldquo;Hang on!&rdquo;, you say: &ldquo;there are some illegal scores in there!&rdquo;. And you
@@ -296,7 +312,7 @@ points within those slices, something interesting happens.</p>
 <p>Imagine rolling a die and calculating the average.</p>
 <div class="cell" fig.asp="0.2" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-10-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-10-1.png" width="768" />
 </div>
 </div>
 <p>The average of the numbers rolled will be close to 3.5. Now, what would
@@ -304,7 +320,7 @@ happen, when every time you rolled a 1, you would write down 2 instead?
 Of course, the average would increase!</p>
 <div class="cell" fig.asp="0.2" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-12-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-12-1.png" width="768" />
 </div>
 </div>
 <p>And the same happens on both ends of the skill-assessments and scores,
@@ -326,7 +342,7 @@ individual scores and self-assessed scores. The individual points are
 colored by the quartile to which they belong.</p>
 <div class="cell" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./featured-image-1.png" width="768" />
+<img src="index_files/figure-gfm/featured-image-1.png" width="768" />
 </div>
 </div>
 <p>Now we see the cut-off in full effect. And it doesn&rsquo;t even matter that
@@ -346,7 +362,7 @@ usually quite large.</p>
 <p>For example, if you use 10 quantiles, we can still observe the effect.</p>
 <div class="cell" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-14-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-14-1.png" width="768" />
 </div>
 </div>
 <p>There is one more thing to take care of. In my plots I used the actual
@@ -372,7 +388,7 @@ those values is the order of those vales:</p>
 scores, this is what we end up with:</p>
 <div class="cell" fig.showtext="false">
 <div class="cell-output-display">
-<img src="./unnamed-chunk-18-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-18-1.png" width="768" />
 </div>
 </div>
 
@@ -415,7 +431,7 @@ Science and Society. Accessed March 25, 2021.
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">9 minute read, 1751 words</dd>
+    <dd class="fw5 ml0">9 minute read, 1733 words</dd>
   </dl>
   
   

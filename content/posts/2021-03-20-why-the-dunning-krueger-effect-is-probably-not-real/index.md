@@ -5,6 +5,16 @@ excerpt: |
 date: 2021-07-11
 bibliography: ./references.bib
 format: hugo
+execute:
+  echo: false
+  warning: false
+  message: false
+  fig-path: ./
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/jmbuhr/jmbuhr.github.io/blob/main/content/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.qmd
 ---
 
 
@@ -29,12 +39,10 @@ somewhat statistical explanation of **why** this happens. This is why I
 settled on the current title of this post. In the following I am going
 to explain from basic principles why the results that Dunning and
 Krueger got in their experiments can largely be explained without any
-effect being present. Of course I am going to do so using the
+effect being present. Of course, I am going to do so using the
 statistical programming language R and if you want to try out the code
-yourself feel free to click on the little GitHub icon in the top right
-corner to get sent to the source. You will find this article in the
-`content/posts` folder. Or use the little **+** buttons to expand code
-sections.
+yourself, feel free to click on the little GitHub icon below the title
+of this post to get sent to the source.
 
 ## The Evidence is Mounting
 
@@ -59,7 +67,7 @@ dive into some numbers to see, how this misconception arises.
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-4-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-4-1.png" width="768" />
 
 </div>
 
@@ -132,7 +140,7 @@ and 1.
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-6-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-6-1.png" width="768" />
 
 </div>
 
@@ -151,7 +159,7 @@ likely that he or she has a higher or lower self-assessment:
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-8-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-8-1.png" width="768" />
 
 </div>
 
@@ -185,7 +193,7 @@ Imagine rolling a die and calculating the average.
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-10-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-10-1.png" width="768" />
 
 </div>
 
@@ -199,7 +207,7 @@ Of course, the average would increase!
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-12-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-12-1.png" width="768" />
 
 </div>
 
@@ -220,7 +228,7 @@ colored by the quartile to which they belong.
 
 <div class="cell-output-display">
 
-<img src="./featured-image-1.png" width="768" />
+<img src="index_files/figure-gfm/featured-image-1.png" width="768" />
 
 </div>
 
@@ -239,7 +247,7 @@ For example, if you use 10 quantiles, we can still observe the effect.
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-14-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-14-1.png" width="768" />
 
 </div>
 
@@ -276,7 +284,7 @@ scores, this is what we end up with:
 
 <div class="cell-output-display">
 
-<img src="./unnamed-chunk-18-1.png" width="768" />
+<img src="index_files/figure-gfm/unnamed-chunk-18-1.png" width="768" />
 
 </div>
 

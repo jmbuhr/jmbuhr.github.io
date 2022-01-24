@@ -5,12 +5,17 @@ excerpt: |
 date: 2021-07-11
 bibliography: ./references.bib
 format: hugo
+execute:
+  echo: false
+  warning: false
+  message: false
+  fig-path: ./
+links:
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/jmbuhr/jmbuhr.github.io/blob/main/content/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.qmd
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(message = FALSE, warning = FALSE, echo = FALSE,
-  fig.path = "./")
-```
 
 
 ```{r}
@@ -86,9 +91,7 @@ Everything points towards the Dunning-Krueger effect being largely just an artif
 Where I felt the article was lacking is in providing the somewhat statistical explanation of **why** this happens.
 This is why I settled on the current title of this post.
 In the following I am going to explain from basic principles why the results that Dunning and Krueger got in their experiments can largely be explained without any effect being present.
-Of course I am going to do so using the statistical programming language R and if you want to try out the code yourself feel free to click on the little GitHub icon in the top right corner to get sent to the source.
-You will find this article in the `content/posts` folder.
-Or use the little **+** buttons to expand code sections.
+Of course, I am going to do so using the statistical programming language R and if you want to try out the code yourself, feel free to click on the little GitHub icon below the title of this post to get sent to the source.
 
 ## The Evidence is Mounting
 

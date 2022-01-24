@@ -516,10 +516,10 @@
     },
     "glue": {
       "Package": "glue",
-      "Version": "1.6.0",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b8bb7aaf248e45bac08ebed86f3a0aa4",
+      "Hash": "de07842fc27ebf60e1102091c0c85e47",
       "Requirements": []
     },
     "googledrive": {
@@ -1234,6 +1234,21 @@
       "Hash": "b227d13e29222b4574486cfcbde077fa",
       "Requirements": []
     },
+    "thematic": {
+      "Package": "thematic",
+      "Version": "0.1.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "77ad63ad98b3434a01284dbf1125e404",
+      "Requirements": [
+        "farver",
+        "ggplot2",
+        "rappdirs",
+        "rlang",
+        "rstudioapi",
+        "scales"
+      ]
+    },
     "tibble": {
       "Package": "tibble",
       "Version": "3.1.6",
@@ -1459,15 +1474,15 @@
     },
     "xaringanExtra": {
       "Package": "xaringanExtra",
-      "Version": "0.5.4",
+      "Version": "0.5.5",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "gadenbuie",
       "RemoteRepo": "xaringanExtra",
-      "RemoteRef": "master",
-      "RemoteSha": "5e2d80bd0c53065cf1c3e55c3f21efb28c44ab5d",
-      "Hash": "f1b63f81a9dedddd43929543a847a739",
+      "RemoteRef": "main",
+      "RemoteSha": "ee5092d2d27bf4b813ea50ec4c264b331283face",
+      "Hash": "e49fa3c30506df0fde14a5ecabfdb0a5",
       "Requirements": [
         "htmltools",
         "jsonlite",
