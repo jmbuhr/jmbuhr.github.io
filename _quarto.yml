@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: jmbuhr.de
+  favicon: ./www/favicon.png
+  site-url: https://jmbuhr.de
+  repo-url: https://github.com/jmbuhr/jmbuhr.github.io
+  repo-actions: [edit, issue]
+  navbar:
+    search: true
+    logo: ./www/favicon.png
+    right:
+      - icon: github
+        href: https://github.com/jmbuhr
+      - icon: mastodon
+        href: https://mastodon.online/@jmbuhr
+      - icon: linkedin
+        url: https://www.linkedin.com/in/jmbuhr/
+    left:
+      - text: "Blog"
+        href: "./posts/"
+      - text: "Teaching"
+        href: "./teaching/"
+  page-footer:
+    left:
+      - text: "License"
+        href: "./license/"
+      - text: "Impressum"
+        href: "./impressum.qmd"
+      - text: "Thanks"
+        href: "./contributors.qmd"
+
+format:
+  html:
+    code-tool: true
+    theme:
+      light: [theme.scss]
+      dark: [theme.scss]
+    css: styles.css
+

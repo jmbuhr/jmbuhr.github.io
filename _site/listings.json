@@ -1,0 +1,41 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html",
+      "/posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html",
+      "/posts/2020-02-15-demonstration/index.html",
+      "/posts/2021-01-09-blenderschoolopenmovie2019/index.html",
+      "/posts/2020-10-26-12-the-father/index.html",
+      "/posts/2020-10-26-12-angry-men/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html",
+      "/posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html",
+      "/posts/2020-02-15-demonstration/index.html",
+      "/posts/2021-01-09-blenderschoolopenmovie2019/index.html",
+      "/posts/2020-10-26-12-the-father/index.html",
+      "/posts/2020-10-26-12-angry-men/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/dataintro/index.html",
+      "/teaching/hbigsDataVis/index.html",
+      "/teaching/gitintro/index.html",
+      "/teaching/dataintro19/ger.html",
+      "/teaching/dataintro19/eng.html",
+      "/teaching/dataintro20/index.html",
+      "/teaching/dataintro19/index.html"
+    ]
+  }
+]
