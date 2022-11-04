@@ -3,6 +3,7 @@ title: "demonstration"
 excerpt: |
   Testing Rmarkdown features.
 date: 11-26-2020
+image: ./featured-1.png
 bibliography: references.bib
 ---
 
