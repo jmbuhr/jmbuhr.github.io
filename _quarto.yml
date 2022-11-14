@@ -5,11 +5,19 @@ project:
 
 website:
   title: jmbuhr.de
+  description: "Personal website of Jannik Buhr"
   favicon: ./www/favicon.png
+  image: ./www/favicon.png
   site-url: https://jmbuhr.de
   repo-url: https://github.com/jmbuhr/jmbuhr.github.io
   repo-actions: [edit, issue]
+  open-graph:
+    title: "jmbuhr"
+    description: "Personal website of Jannik Buhr"
+    image: ./www/favicon.png
+  page-navigation: true
   navbar:
+    title: jmbuhr.de
     search: true
     logo: ./www/favicon.png
     right:
@@ -32,16 +40,29 @@ website:
         href: "./impressum.qmd"
       - text: "Thanks"
         href: "./contributors.qmd"
+    center: |
+      Powered by [Quarto](https://quarto.org).
+    right: |
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+    border: true
 
 format:
   html:
-    code-tool: true
-    theme:
-      light: [theme.scss]
-      dark: [theme-dark.scss]
+    code-tools:
+      source: true
+      toggle: true
+    lang: en
+    highlight-style: github-dark
+    code-copy: true
+    code-link: true
+    anchor-sections: true
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    theme: [theme.scss]
     css: styles.css
 
 comments:
   giscus: 
     repo: jmbuhr/jmbuhr.github.io
+    theme: dark
 

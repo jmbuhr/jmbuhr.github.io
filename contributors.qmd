@@ -3,3 +3,7 @@ description: ""
 title: Thanks!
 ---
 
+
+Thanks to [quarto](https://quarto.org) and the [catppuccin color palette palette](https://github.com/catppuccin/catppuccin)!
+Thanks to [Mickaël Canouil](https://mickael.canouil.fr/) for these sweet navbar link hover effects! 
+
