@@ -10,6 +10,8 @@ about:
       href: https://github.com/jmbuhr
     - icon: mastodon
       href: https://mastodon.online/@jmbuhr
+    - icon: youtube
+      href: https://www.youtube.com/@jmbuhr
     - icon: linkedin
       url: https://www.linkedin.com/in/jmbuhr/
 ---
@@ -20,11 +22,8 @@ I study the chemistry of collagen under physical stress using computer simulatio
 I very much enjoy thinking about mental models and teaching concepts
 and focus on data analysis with the programming language R.
 Have a look at my current courses [here](/teaching).
-Being a mentor on the R for Data Science [online learning community](https://www.rfordatasci.com/)
-enables me to help new R users and I enjoy the challenges that come with
-solving the diverse set of problems from the many fields that these users come from.
 
-My academic interests are balanced out by regular theater projects or creative work with
-the open source 3d software [blender](https://www.blender.org/).
+Lately, I have been writing a bunch of lua, since it is the language used both for plugins of the code editor [neovim](https://github.com/neovim/neovim) and the [quarto](https://quarto.org/) computational document system.
+
 
 <a rel="me" href="https://mastodon.online/@jmbuhr"></a>

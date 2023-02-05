@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto&display=swap');
+
 // catppuccin
 $rosewater: #f5e0dc;
 $flamingo: #f2cdcd;
@@ -39,7 +41,7 @@ $card-color: $body-color !default;
 $card-bg: $body-bg !default;
 $card-border-color: $body-color !default;
 $navbar-fg: $subtext1;
-$font-family-sans-serif: "Roboto", "Sans Serif" !default;
+$font-family-sans-serif: "Roboto", "Sans", "sans-serif" !default;
 $font-family-sans-monospace: "Fira Mono", "Mono" !default;
 
 /*-- scss:rules --*/
