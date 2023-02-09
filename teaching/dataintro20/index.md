@@ -4,7 +4,6 @@ image: featured.png
 excerpt: |
   Heidelberg University, Biochemistry Bachelor and Master (WS 20/21)
 date: 2020-10-01
-image: ./featured.png
 categories:
   - lecture series
 ---
