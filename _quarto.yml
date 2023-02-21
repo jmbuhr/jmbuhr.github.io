@@ -2,8 +2,7 @@ project:
   output-dir: docs
   type: website
   resources:
-    - "./www/fira.ttf"
-    - "./www/roboto.ttf"
+    - "www/*"
     - './CNAME'
 
 website:
