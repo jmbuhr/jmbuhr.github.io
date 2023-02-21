@@ -2,6 +2,7 @@
   {
     "listing": "/teaching/index.html",
     "items": [
+      "/teaching/quarto/index.html",
       "/teaching/dataintro/index.html",
       "/teaching/hbigsDataVis/index.html",
       "/teaching/gitintro/index.html",

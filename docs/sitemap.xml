@@ -2,70 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jmbuhr.de/license.html</loc>
-    <lastmod>2023-02-09T14:35:20.338Z</lastmod>
+    <lastmod>2023-02-09T18:32:31.662Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/teaching/gitintro/index.html</loc>
-    <lastmod>2023-02-09T14:35:20.978Z</lastmod>
+    <lastmod>2023-02-09T18:32:32.258Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/teaching/dataintro20/index.html</loc>
-    <lastmod>2023-02-09T14:35:21.662Z</lastmod>
+    <lastmod>2023-02-09T18:32:32.870Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/teaching/hbigsDataVis/index.html</loc>
-    <lastmod>2023-02-09T14:35:22.470Z</lastmod>
+    <lastmod>2023-02-09T18:32:33.514Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/teaching/index.html</loc>
-    <lastmod>2023-02-09T14:35:22.642Z</lastmod>
+    <lastmod>2023-02-21T12:06:38.263Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/teaching/dataintro/index.html</loc>
-    <lastmod>2023-02-09T14:35:23.346Z</lastmod>
+    <lastmod>2023-02-09T18:32:34.214Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html</loc>
-    <lastmod>2023-02-09T14:35:24.674Z</lastmod>
+    <lastmod>2023-02-09T18:32:35.538Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html</loc>
-    <lastmod>2023-02-09T14:35:25.494Z</lastmod>
+    <lastmod>2023-02-09T18:32:36.310Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2020-10-26-12-angry-men/index.html</loc>
-    <lastmod>2023-02-09T14:35:26.166Z</lastmod>
+    <lastmod>2023-02-09T18:32:37.354Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2020-10-26-12-the-father/index.html</loc>
-    <lastmod>2023-02-09T14:35:26.782Z</lastmod>
+    <lastmod>2023-02-09T18:32:37.962Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/index.html</loc>
-    <lastmod>2023-02-09T14:35:26.954Z</lastmod>
+    <lastmod>2023-02-21T11:56:05.995Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2021-01-09-blenderschoolopenmovie2019/index.html</loc>
-    <lastmod>2023-02-09T14:35:28.098Z</lastmod>
+    <lastmod>2023-02-09T18:32:38.766Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/posts/2020-02-15-demonstration/index.html</loc>
-    <lastmod>2023-02-09T14:35:31.614Z</lastmod>
+    <lastmod>2023-02-09T18:32:41.298Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/impressum.html</loc>
-    <lastmod>2023-02-09T14:35:32.638Z</lastmod>
+    <lastmod>2023-02-09T18:32:42.262Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/about.html</loc>
-    <lastmod>2023-02-09T14:35:33.250Z</lastmod>
+    <lastmod>2023-02-09T18:32:42.850Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/contributors.html</loc>
-    <lastmod>2023-02-09T14:35:33.822Z</lastmod>
+    <lastmod>2023-02-09T18:32:43.538Z</lastmod>
   </url>
   <url>
     <loc>https://jmbuhr.de/index.html</loc>
-    <lastmod>2023-02-09T14:35:33.950Z</lastmod>
+    <lastmod>2023-02-21T12:04:54.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jmbuhr.de/teaching/quarto/index.html</loc>
+    <lastmod>2023-02-21T12:07:20.196Z</lastmod>
   </url>
 </urlset>

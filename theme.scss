@@ -1,13 +1,9 @@
-@font-face {
-  font-family: 'Fira Code';
-  src:  url('www/fira.ttf') format('ttf'),
-}
+/*-- scss:defaults --*/
 
-@font-face {
-  font-family: 'Roboto';
-  src:  url('www/roboto.ttf') format('ttf'),
-}
-
+$font-family-sans-serif: "Roboto";
+$font-family-monospace: "Fira Mono";
+$bs-body-font-family: "Roboto";
+$web-font-path: "No";
 
 // catppuccin
 $rosewater: #f5e0dc;
@@ -37,7 +33,6 @@ $base: #1e1e2e;
 $mantle: #181825;
 $crust: #11111b;
 
-/*-- scss:defaults --*/
 $primary: $text !default;
 $secondary: $base !default;
 $body-bg: $base !default;
@@ -50,10 +45,27 @@ $card-color: $body-color !default;
 $card-bg: $body-bg !default;
 $card-border-color: $body-color !default;
 $navbar-fg: $subtext1;
-$font-family-sans-serif: "Roboto", "Sans", "sans-serif" !default;
-$font-family-sans-monospace: "Fira Mono", "Mono" !default;
+
 
 /*-- scss:rules --*/
+@font-face {
+  font-family: 'Fira Code';
+  src:  url('./www/fira.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src:  url('./www/roboto.ttf') format('ttf');
+  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
   color: $body-color;
 }

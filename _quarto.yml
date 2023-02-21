@@ -1,7 +1,10 @@
 project:
   output-dir: docs
   type: website
-  
+  resources:
+    - "./www/fira.ttf"
+    - "./www/fira.ttf"
+    - "www/*"
 
 website:
   title: jmbuhr.de
@@ -67,4 +70,6 @@ comments:
   giscus: 
     repo: jmbuhr/jmbuhr.github.io
     theme: dark
+
+freeze: true
 
