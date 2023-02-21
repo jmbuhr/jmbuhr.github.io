@@ -5,6 +5,7 @@ project:
     - "./www/fira.ttf"
     - "./www/fira.ttf"
     - "www/*"
+    - './CNAME'
 
 website:
   title: jmbuhr.de
@@ -71,5 +72,6 @@ comments:
     repo: jmbuhr/jmbuhr.github.io
     theme: dark
 
-freeze: true
+execute:
+  freeze: auto
 
