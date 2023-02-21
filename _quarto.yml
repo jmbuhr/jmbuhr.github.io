@@ -3,8 +3,7 @@ project:
   type: website
   resources:
     - "./www/fira.ttf"
-    - "./www/fira.ttf"
-    - "www/*"
+    - "./www/roboto.ttf"
     - './CNAME'
 
 website:
