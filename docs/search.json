@@ -44,9 +44,9 @@
   {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
-    "title": "jmbuhr.de",
+    "title": "",
     "section": "",
-    "text": "A coffee with Quarto and Neovim\n\n\n\nquarto\n\n\nneovim\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R WS21\n\n\n\nlecture series\n\n\n\nHeidelberg University, Biochemistry Bachelor and Master (WS 21/22)\n\n\n\n\n\n\nOct 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEffective Data Visualisation with R\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\n\nOct 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to git and GitHub\n\n\n\nworkshop\n\n\n\n\n\n\n\nJannik Buhr, Kai Riedmiller\n\n\nJun 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R (Online)\n\n\n\nlecture series\n\n\n\n\n\n\n\n\n\n\nOct 1, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA coffee with Quarto and Neovim\n\n\n\nquarto\n\n\nneovim\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R WS21\n\n\n\nlecture series\n\n\n\nHeidelberg University, Biochemistry Bachelor and Master (WS 21/22)\n\n\n\n\n\n\nOct 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEffective Data Visualisation with R\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\n\nOct 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to git and GitHub\n\n\n\nworkshop\n\n\n\n\n\n\n\nJannik Buhr, Kai Riedmiller\n\n\nJun 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R (Online)\n\n\n\nlecture series\n\n\n\n\n\n\n\n\n\n\nOct 1, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/dataintro/index.html",
@@ -61,6 +61,13 @@
     "title": "Why the Dunning-Krueger Effect is Probably Not Real",
     "section": "",
     "text": "I recently came across this article by Jonathan Jarry (“The Dunning-Kruger Effect Is Probably Not Real” n.d.).\nI am not going to try and steal his thunder, so please do go ahead and read the article. It is well written, thoroughly researched and presents a valid point. Everything points towards the Dunning-Krueger effect being largely just an artifact of the way the original authors analyzed their data. Where I felt the article was lacking is in providing the somewhat statistical explanation of why this happens. This is why I settled on the current title of this post. In the following I am going to explain from basic principles why the results that Dunning and Krueger got in their experiments can largely be explained without any effect being present. Of course, I am going to do so using the statistical programming language R and if you want to try out the code yourself, feel free to click on the little GitHub icon below the title of this post to get sent to the source.\n\nLike the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” (Kruger and Dunning 1999). And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) (Nuhfer et al. 2017). But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#the-evidence-is-mounting",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#the-evidence-is-mounting",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "",
+    "text": "Like the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” (Kruger and Dunning 1999). And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) (Nuhfer et al. 2017). But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises."
   },
   {
     "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#what-are-quantiles",
@@ -121,9 +128,9 @@
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "jmbuhr.de",
+    "title": "",
     "section": "",
-    "text": "Why the Dunning-Krueger Effect is Probably Not Real\n\n\n\n\n\n\n\n\n\nJul 11, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Darkmode for your distill site\n\n\n\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndemonstration\n\n\n\n\n\n\n\n\n\nNov 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlender3d School Open Movie\n\n\n\nblender\n\n\nproject\n\n\n\nWalnOt, a shortfilm made with blender in 2 weeks.\n\n\n\n\n\n\nJan 10, 2019\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe father\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nNov 27, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12 Angry Men\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nMay 1, 2018\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhy the Dunning-Krueger Effect is Probably Not Real\n\n\n\n\n\n\n\n\n\nJul 11, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Darkmode for your distill site\n\n\n\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndemonstration\n\n\n\n\n\n\n\n\n\nNov 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nBlender3d School Open Movie\n\n\n\nblender\n\n\nproject\n\n\n\nWalnOt, a shortfilm made with blender in 2 weeks.\n\n\n\n\n\n\nJan 10, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nThe father\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nNov 27, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n12 Angry Men\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nMay 1, 2018\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2021-01-09-blenderschoolopenmovie2019/index.html",
@@ -140,11 +147,74 @@
     "text": "Testing quarto / Rmarkdown features.\n\nR Core Team (2020)\n\nExample from the mathjax demo:\nWhen \\(a \\ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are\n\\[x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.\\]\nIf I have a random $ and another $ in my text.\n\n\nplt &lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +\n  ggplot2::geom_point()\nplt\n\n\n\n\n\n\nprint(\"hello world\")\n\n[1] \"hello world\"\n\n\n\n\nw and s move the left paddle, o and l move the right paddle.\n\n\n\n\n\nDT::datatable(head(iris))\n\n\n\n\n\n\n\n\nprint(\"test\")\n\n[1] \"test\"\n\nplt &lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +\n  ggplot2::geom_point()\nplotly::ggplotly(plt)\n\n\n\n\n\nHowever, while this options brings back plotly, it also disables math rendering for this document on the site.\n\n\\[sd = \\sqrt{\\frac{\\sum_{i=0}^{n}{(x_i-\\bar x)^2}}{(n-1)} }\\]\n\n\n\n\n\ngraph TB\nA--&gt;B\nA--&gt;C\nC--&gt;E\nB--&gt;D\nC--&gt;D\nD--&gt;F\nE--&gt;F"
   },
   {
+    "objectID": "posts/2020-02-15-demonstration/index.html#citations",
+    "href": "posts/2020-02-15-demonstration/index.html#citations",
+    "title": "demonstration",
+    "section": "",
+    "text": "R Core Team (2020)"
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#math",
+    "href": "posts/2020-02-15-demonstration/index.html#math",
+    "title": "demonstration",
+    "section": "",
+    "text": "Example from the mathjax demo:\nWhen \\(a \\ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are\n\\[x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}.\\]\nIf I have a random $ and another $ in my text."
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#preview-image",
+    "href": "posts/2020-02-15-demonstration/index.html#preview-image",
+    "title": "demonstration",
+    "section": "",
+    "text": "plt &lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +\n  ggplot2::geom_point()\nplt"
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#details",
+    "href": "posts/2020-02-15-demonstration/index.html#details",
+    "title": "demonstration",
+    "section": "",
+    "text": "print(\"hello world\")\n\n[1] \"hello world\""
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#p5",
+    "href": "posts/2020-02-15-demonstration/index.html#p5",
+    "title": "demonstration",
+    "section": "",
+    "text": "w and s move the left paddle, o and l move the right paddle."
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#dt",
+    "href": "posts/2020-02-15-demonstration/index.html#dt",
+    "title": "demonstration",
+    "section": "",
+    "text": "DT::datatable(head(iris))"
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#plotly",
+    "href": "posts/2020-02-15-demonstration/index.html#plotly",
+    "title": "demonstration",
+    "section": "",
+    "text": "print(\"test\")\n\n[1] \"test\"\n\nplt &lt;- ggplot2::ggplot(ggplot2::mpg, ggplot2::aes(displ, cty)) +\n  ggplot2::geom_point()\nplotly::ggplotly(plt)\n\n\n\n\n\nHowever, while this options brings back plotly, it also disables math rendering for this document on the site."
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#math-1",
+    "href": "posts/2020-02-15-demonstration/index.html#math-1",
+    "title": "demonstration",
+    "section": "",
+    "text": "\\[sd = \\sqrt{\\frac{\\sum_{i=0}^{n}{(x_i-\\bar x)^2}}{(n-1)} }\\]"
+  },
+  {
+    "objectID": "posts/2020-02-15-demonstration/index.html#mermaid",
+    "href": "posts/2020-02-15-demonstration/index.html#mermaid",
+    "title": "demonstration",
+    "section": "",
+    "text": "graph TB\nA--&gt;B\nA--&gt;C\nC--&gt;E\nB--&gt;D\nC--&gt;D\nD--&gt;F\nE--&gt;F"
+  },
+  {
     "objectID": "impressum.html",
     "href": "impressum.html",
     "title": "Impressum",
     "section": "",
-    "text": "Jannik Buhr\nDa-Vinci Str. 17\n69115 Heidelberg\nE-Mail: jannik [punkt] buhr [at] gmail [punkt] com"
+    "text": "Jannik Buhr\n69115 Heidelberg\nE-Mail: jannik [punkt] buhr [at] gmail [punkt] com"
   },
   {
     "objectID": "impressum.html#haftungsausschluss",

@@ -4,6 +4,7 @@ project:
   resources:
     - "www/*"
     - './CNAME'
+    - fonts/*
 
 website:
   title: jmbuhr.de
