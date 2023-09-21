@@ -1,143 +1,17 @@
 [
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi there!",
     "section": "",
-    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+    "text": "I’m Jannik, a PhD student in the Molecular Biomechanics group of Prof. Dr. Frauke Gräter at the Heidelberg Institute for Theoretical Studies (HITS). I study the chemistry of collagen under physical stress using computer simulations.\nI very much enjoy thinking about mental models and teaching concepts and focus on data analysis with the programming language R. Have a look at my current courses here.\nLately, I have been writing a bunch of lua, since it is the language used both for plugins of the code editor neovim and the quarto computational document system."
   },
   {
-    "objectID": "teaching/dataintro20/index.html",
-    "href": "teaching/dataintro20/index.html",
-    "title": "Introduction to data analysis with R (Online)",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Hi there!",
     "section": "",
-    "text": "Greetings Adventurers,\nAnd welcome to the next iteration of my introductory R course for data visualization and analysis. Because the concepts you will learn in this course will be most useful in areas where the working language is English, this course will also be in English. But feel free to ask questions in German as well any time. Let us start with the formalities."
-  },
-  {
-    "objectID": "teaching/dataintro20/index.html#sign-up",
-    "href": "teaching/dataintro20/index.html#sign-up",
-    "title": "Introduction to data analysis with R (Online)",
-    "section": "Sign up",
-    "text": "Sign up\nIn order for us to stay connected during the course, please send me an email via my contact form and mention your name, as well as the course you are referring to (bachelor, master). I will not use your email address other than to contact you for the course."
-  },
-  {
-    "objectID": "teaching/dataintro20/index.html#schedule",
-    "href": "teaching/dataintro20/index.html#schedule",
-    "title": "Introduction to data analysis with R (Online)",
-    "section": "Schedule",
-    "text": "Schedule\nI am running this course twice to better answer your questions during Office Hours. The first batch for the Bachelor students starts on November 2, 2020. The second batch for the Master students starts on January 11, 2020.\nStarting November 2, 2020, I will upload a lecture video of about 1 hour every Monday (8 in total, the last one is going to be shorter due to Christmas). Corresponding exercises will be discussed during virtual Office Hours via a video conferencing tool the following Friday at 10:00 (the first is on Nov 6). The exercises are not graded, but in order for me to confirm your attendance I ask you to send in at least 6 of the 8 exercises prior to the Office Hour. This also allows me to better answer your questions during the course. Speaking of questions, I will also set up a messaging platform (discord) for you to discuss and ask questions outside of the Office Hours. You will get a confirmation mail with further details."
-  },
-  {
-    "objectID": "teaching/dataintro20/index.html#preparation-and-material",
-    "href": "teaching/dataintro20/index.html#preparation-and-material",
-    "title": "Introduction to data analysis with R (Online)",
-    "section": "Preparation and material",
-    "text": "Preparation and material\nFor the course we will use R inside of Rstudio, you can download them here:\n\nDownload R\nDownload RStudio\n\nThe course material and exercise solutions will get their own little website in due time and the link will also be found here:\ndataIntro20 website"
-  },
-  {
-    "objectID": "teaching/hbigsDataVis/index.html",
-    "href": "teaching/hbigsDataVis/index.html",
-    "title": "Effective Data Visualisation with R",
-    "section": "",
-    "text": "Under construction"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA coffee with Quarto and Neovim\n\n\n\nquarto\n\n\nneovim\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R WS21\n\n\n\nlecture series\n\n\n\nHeidelberg University, Biochemistry Bachelor and Master (WS 21/22)\n\n\n\n\n\n\nOct 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEffective Data Visualisation with R\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\n\nOct 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to git and GitHub\n\n\n\nworkshop\n\n\n\n\n\n\n\nJannik Buhr, Kai Riedmiller\n\n\nJun 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R (Online)\n\n\n\nlecture series\n\n\n\n\n\n\n\n\n\n\nOct 1, 2020\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/dataintro/index.html",
-    "href": "teaching/dataintro/index.html",
-    "title": "Introduction to data analysis with R WS21",
-    "section": "",
-    "text": "Sign up for biochemists at Heidelberg University: https://jmbuhr.de/dataintro/"
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "",
-    "text": "I recently came across this article by Jonathan Jarry (“The Dunning-Kruger Effect Is Probably Not Real” n.d.).\nI am not going to try and steal his thunder, so please do go ahead and read the article. It is well written, thoroughly researched and presents a valid point. Everything points towards the Dunning-Krueger effect being largely just an artifact of the way the original authors analyzed their data. Where I felt the article was lacking is in providing the somewhat statistical explanation of why this happens. This is why I settled on the current title of this post. In the following I am going to explain from basic principles why the results that Dunning and Krueger got in their experiments can largely be explained without any effect being present. Of course, I am going to do so using the statistical programming language R and if you want to try out the code yourself, feel free to click on the little GitHub icon below the title of this post to get sent to the source.\n\nLike the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” (Kruger and Dunning 1999). And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) (Nuhfer et al. 2017). But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises."
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#the-evidence-is-mounting",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#the-evidence-is-mounting",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "",
-    "text": "Like the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” (Kruger and Dunning 1999). And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) (Nuhfer et al. 2017). But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises."
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#what-are-quantiles",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#what-are-quantiles",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "What are Quantiles?",
-    "text": "What are Quantiles?\nFirstly, we must note that these 8 dots are summaries of many dots. And I always tell my students to be extra careful when someone only shows summaries and not the raw data behind those summaries. But what kind of summaries are we dealing with here? Dunning and Krueger hat a total of 87 participants, which where all psychology undergraduate students (We can talk about this selection bias another time, because we have a bigger problem at hand). The original x-axis read “Bottom Quartile, 2nd Quartile, 3rd Quartile and Top Quartile”, which I replaced with percentages. I did so, because these so called quartiles are special cases of so called quantiles. And we are going to explore what those are now. There might already be one such quantile that you are familiar with: The median.\n\nThe median is the datapoint where half of all the other values are lower and the other half is higher.\n\nGenerally, quantiles are any number of points that divide your datapoints into equally sized pieces. If you get 4 of those pieces, they are called quartiles. The first quartile is the point such that one quarter, or 25% of datapoints, are smaller than that point. By that logic, the median can have many names. It could also be called the 2nd quartile or the 50th percentile. I chose the general notion of quantile and used percentages as labels because the problem we are about to uncover is a general problem, not just a problem of quartiles. As we will later show, it will also appear if we use infinitely small pieces to divide our data with, so it is not a “binning problem” as I initially thought when I read that they summarized within the quartiles. Speaking of summarizing, let’s look into what happened to our raw datapoints."
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#simulating-the-data",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#simulating-the-data",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "Simulating the Data",
-    "text": "Simulating the Data\nNow, Dunning and Krueger only had 87 participants. But we are on a computer and we can simulate as many participants as we want, so let’s start with 10’000! This will also help to show that the problem is intrinsic to the way the data is summarized and not just a sample-size issue. We will talk about the raw data and then make our way to the plot above.\nImagine we have all 10’000 participants take part in a test. The lowest score they can achieve is 0 and the highest is 1. Let us also assume that all the participants have some sort of skill, which we are trying to measure with the test. It is important to note here that this makes our test just a proxy for this skill. And it is a limited proxy. Even if we leave aside that the performance of any individual can vary from day to day (we are sort of making up for that by testing a lot of people), there is still a fundamental limit in our scoring. The lowest score you can get is 0, even though among those that will score a 0, some will be higher and some lower skilled than their peers, and still they all have the same score. The same goes for a score of 1. If we are the highest skilled participant, we would get a score of 1, but other participants that are less skilled would also get a 1. So the actual skill-distribution might be wider than our score distribution between 0 and 1.\n\n\n\n\n\nThis cutoff means that we are getting more 0s and 1s than the other scores. At this point this might not actually be a problem and it really depends on how much the skills and achievable scores are spread out, but it will be a much bigger problem once we ask participants for their self assessment. Because self assessments can vary a lot.\nImagine this: For every score that a participant gets, it is equally likely that he or she has a higher or lower self-assessment:\n\n\n\n\n\n“Hang on!”, you say: “there are some illegal scores in there!”. And you are correct. Because we can get scores lower than 0 and lower than 1, the self-assessment can’t have those as well. After all, who would think that they got 120% in a test? Or a score of -0.3 where 0 is the lowest possible score? And this is the crux."
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#a-cutoff-effect",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#a-cutoff-effect",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "A Cutoff-Effect",
-    "text": "A Cutoff-Effect\nThose participants will be forced to apply a cutoff to their self-assessment so that it lies within 0 and 1. Crucially, when participants are equally likely to over or underestimate their skill, those whose actual skill is low are more likely to run into the cutoff on the lower end. Those whose actual skill is high will run into the cutoff on the upper end more often. This means that on the lower end of the skill spectrum, we are getting more self assessed scores that are 0, but would have been lower than that (e.g. -0.3) and on the other end we are getting more self assessed scores that are 1 but could have been higher than that if the scales allowed it. When we now summarize those values by first separating them into equally sized slices (the quantiles) and then calculating the mean (= the average) of all the points within those slices, something interesting happens.\nImagine rolling a die and calculating the average.\n\n\n\n\n\nThe average of the numbers rolled will be close to 3.5. Now, what would happen, when every time you rolled a 1, you would write down 2 instead? Of course, the average would increase!\n\n\n\n\n\nAnd the same happens on both ends of the skill-assessments and scores, just in opposite directions. So let’s look at the raw numbers behind the plot I initially showed you."
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#behind-the-curtain",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#behind-the-curtain",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "Behind the Curtain",
-    "text": "Behind the Curtain\nThe dark points and lines are the familiar averages just like in the original Dunning and Krueger plot. But now we can also inspect the individual scores and self-assessed scores. The individual points are colored by the quartile to which they belong.\n\n\n\n\n\nNow we see the cut-off in full effect. And it doesn’t even matter that we used quartiles, any number of quantiles would have done. The size of this effect only depends on the spread of the self-assessments, which is usually quite large."
-  },
-  {
-    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#towards-the-continuum",
-    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#towards-the-continuum",
-    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
-    "section": "Towards the Continuum",
-    "text": "Towards the Continuum\nFor example, if you use 10 quantiles, we can still observe the effect.\n\n\n\n\n\nThere is one more thing to take care of. In my plots I used the actual and the perceived scores on the axis, whereas Dunning and Krueger actually used quantiles on both axis. We can show that the effect is independent of how many quantiles we take and still holds up if we use quantiles for the perceived scores by transitioning to the most general notion of what a quantile does. A rank captures the essential idea behind a quantile, without having to decide on the number of quantiles. The rank of a value is just the number of values that are below that value. For example, the average house mouse has a body length of about 8 centimeters, the average human male is 171 and the average human female is 159 cm tall while an average giraffe is 500 cm tall. The rank of those values is the order of those vales:\n\n\n       mouse   human male human female      giraffe \n           1            3            2            4 \n\n\nIf we use this rank procedure to transform the actual and perceived scores, this is what we end up with:"
-  },
-  {
-    "objectID": "posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html",
-    "href": "posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html",
-    "title": "Making a Darkmode for your distill site",
-    "section": "",
-    "text": "Join the Dark Side!\n… we have cookies.\n\n\n\nFrom: knowyourmeme\n\n\nThere are many motivations to adding a dark mode to your site. I just like it, when things look consistent. So I also want my site to reflect that. But because at the same time I am also not very good at making things look consistent, which is why I mostly outsource design choices as much as I can. Here, for example, this means that I took the color values for the dark theme from the amazing nord color palette.\nBut let’s get into the practical side! How do we add a dark theme to complement our light theme to our distill site?\n\n\nAdding the button, css and java script\nFirst, we want a button that a user can click on to change the theme. I opted for the adjust button from Font Awesome. There is not much to do here, because those are already available in distill. Open up your _site.yml file and add an icon to the navbar:\nnavbar:\n  right:\n    - icon: fas fa-adjust\nWhile we are in this file, let’s also add the includes for the html file which will make the button work:\noutput:\n  distill::distill_article:\n    includes:\n      after_body: \"_after_body.html\"\n\nNote: I am omitting all the other things in our .yml file here and only show, what is being added. But I include the indentation-levels above the thing being added to show where to put it.\n\nThis is what _after_body.html looks like:\n&lt;script&gt;\nconst darkmodeToggle = document.getElementsByClassName(\"fas fa-adjust\")[0];\nlet theme = localStorage.getItem(\"theme\");\n\nif (!theme) {\n  if (window.matchMedia(\"(prefers-color-scheme: dark)\").matches ) {\n    theme = \"dark\";\n  } else {\n    theme = \"light\";\n  }\n}\nsetTheme();\n\nfunction switchTheme() {\n  if (theme === \"light\") {\n    theme = \"dark\";\n  } else {\n    theme = \"light\";\n  }\n  localStorage.setItem(\"theme\", theme);\n  setTheme();\n  console.log(theme);\n}\n\nfunction setTheme() {\n  if (theme === \"dark\") {\n    document.body.classList.add('darkmode');\n  } else {\n    document.body.classList.remove('darkmode');\n  }\n}\n\ndarkmodeToggle.addEventListener('click', switchTheme)\n&lt;/script&gt;\nUnfortunately, the only way I found to refer to the darkmode toggle icon in the navbar was by class name. I could not find a way to give it an id from _site.yml. However, this should be fine because the navbar is usually the first thing on the page and the script refers to the first element of class fas fa-adjust that it can find. It is also important to have this script be included after the body, so that the rest of the site can load first before the script tries to find the button. Typically you would do this using a script file and sourcing it with the option defer, but sourcing a script file doesn’t work here due to the way distill changes file-path’s between top-level sites and posts. This is why the complete script is in the html here. The script adds a class .darkmode to the html body (and removes it when toggled off). This choice is first based on browser preferences and then saved to local storage.\nThe last thing to modify is our theme.css to make use of this .darkmode class. For each thing we want to change about our theme when it get’s dark, we take the corresponding class and the darkmode class and add our styling e.g.\n.darkmode d-article,\n.darkmode d-appendix,\n.darkmode body {\n  background-color: black;\n  color: white;\n}\nYou can have a look at my theme.css file for inspiration on what thing you need to change (though the css could be way cleaner): https://github.com/jmbuhr/jmbuhr.github.io/blob/master/theme.css"
-  },
-  {
-    "objectID": "posts/2020-10-26-12-angry-men/index.html",
-    "href": "posts/2020-10-26-12-angry-men/index.html",
-    "title": "12 Angry Men",
-    "section": "",
-    "text": "Teaser\nA young man is accused of having killed his father, the evidence points in this direction, the witnesses corroborate the story against him. His fate rests in the hand of a jury - twelve men and women to decide if he should be executed. Eleven jurors are certain he is the murderer, but for one some questions remain open. This Anglistic Seminar performance approaches a modern classic from a fresh perspective, drawing the audience into the moral conundrum.\nsource"
-  },
-  {
-    "objectID": "posts/2020-10-26-12-the-father/index.html",
-    "href": "posts/2020-10-26-12-the-father/index.html",
-    "title": "The father",
-    "section": "",
-    "text": "Teaser\nThe Father (by Florian Zeller) tells the story of a father-daughter relationship, put under strain by the increasing dementia of the father. The story is told from the perspective of the father, André, and allows the audience to see the world through his perspective - with all the disjunctures, confusion and distress that dementia causes.\nThe production is co-directed by Dennis Massmann and Timothy Williams (previously ‘Twelve Angry Men’) and integrates this modern dramatic farce with elements of physical theatre to transport the audience into the mind of André.\nWhile the play is mildly disturbing, it is an important cultural contribution and allows the audience to see the world through the eyes of someone suffering from dementia.\nYou can by ticketes online!"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhy the Dunning-Krueger Effect is Probably Not Real\n\n\n\n\n\n\n\n\n\nJul 11, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Darkmode for your distill site\n\n\n\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndemonstration\n\n\n\n\n\n\n\n\n\nNov 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nBlender3d School Open Movie\n\n\n\nblender\n\n\nproject\n\n\n\nWalnOt, a shortfilm made with blender in 2 weeks.\n\n\n\n\n\n\nJan 10, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nThe father\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nNov 27, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n12 Angry Men\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nMay 1, 2018\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2021-01-09-blenderschoolopenmovie2019/index.html",
-    "href": "posts/2021-01-09-blenderschoolopenmovie2019/index.html",
-    "title": "Blender3d School Open Movie",
-    "section": "",
-    "text": "At the end of the Summer 2019 we got together as a group that met at the blender3d Summer School, a yearly event with blender workshops, to produce a short movie within 2 weeks. This is the result:\n\nYou can learn more about it on the project website. I was very lucky to work with such talented and inspirational people and am proud of what we achieved in such a small amount of time. Prior to this it had been quite a while since I had last worked with blender, but I kept up to date with the development as it is one of my favorite Open Source projects and a testament to the power of an open community and passionate developers."
+    "text": "I am a PhD student in the Molecular Biomechanics group of Prof. Dr. Frauke Gräter at the Heidelberg Institute for Theoretical Studies (HITS). I study the chemistry of collagen under physical stress using computer simulations.\nI very much enjoy thinking about mental models and teaching concepts and focus on data analysis with the programming language R. Have a look at my current courses here. Being a mentor on the R for Data Science online learning community enables me to help new R users and I enjoy the challenges that come with solving the diverse set of problems from the many fields that these users come from.\nMy academic interests are balanced out by regular theater projects or creative work with the open source 3d software blender."
   },
   {
     "objectID": "posts/2020-02-15-demonstration/index.html",
@@ -210,6 +84,153 @@
     "text": "graph TB\nA--&gt;B\nA--&gt;C\nC--&gt;E\nB--&gt;D\nC--&gt;D\nD--&gt;F\nE--&gt;F"
   },
   {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWhy the Dunning-Krueger Effect is Probably Not Real\n\n\n\n\n\n\n\n\n\nJul 11, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaking a Darkmode for your distill site\n\n\n\n\n\n\n\n\n\nMar 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndemonstration\n\n\n\n\n\n\n\n\n\nNov 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nBlender3d School Open Movie\n\n\n\nblender\n\n\nproject\n\n\n\nWalnOt, a shortfilm made with blender in 2 weeks.\n\n\n\n\n\n\nJan 10, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nThe father\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nNov 27, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n12 Angry Men\n\n\n\ntheater\n\n\nproject\n\n\n\n\n\n\n\n\n\n\nMay 1, 2018\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2020-10-26-12-angry-men/index.html",
+    "href": "posts/2020-10-26-12-angry-men/index.html",
+    "title": "12 Angry Men",
+    "section": "",
+    "text": "Teaser\nA young man is accused of having killed his father, the evidence points in this direction, the witnesses corroborate the story against him. His fate rests in the hand of a jury - twelve men and women to decide if he should be executed. Eleven jurors are certain he is the murderer, but for one some questions remain open. This Anglistic Seminar performance approaches a modern classic from a fresh perspective, drawing the audience into the moral conundrum.\nsource"
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "",
+    "text": "I recently came across this article by Jonathan Jarry (“The Dunning-Kruger Effect Is Probably Not Real” n.d.).\nI am not going to try and steal his thunder, so please do go ahead and read the article. It is well written, thoroughly researched and presents a valid point. Everything points towards the Dunning-Krueger effect being largely just an artifact of the way the original authors analyzed their data. Where I felt the article was lacking is in providing the somewhat statistical explanation of why this happens. This is why I settled on the current title of this post. In the following I am going to explain from basic principles why the results that Dunning and Krueger got in their experiments can largely be explained without any effect being present. Of course, I am going to do so using the statistical programming language R and if you want to try out the code yourself, feel free to click on the little GitHub icon below the title of this post to get sent to the source.\n\nLike the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” (Kruger and Dunning 1999). And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) (Nuhfer et al. 2017). But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#the-evidence-is-mounting",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#the-evidence-is-mounting",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "",
+    "text": "Like the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” (Kruger and Dunning 1999). And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) (Nuhfer et al. 2017). But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#what-are-quantiles",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#what-are-quantiles",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "What are Quantiles?",
+    "text": "What are Quantiles?\nFirstly, we must note that these 8 dots are summaries of many dots. And I always tell my students to be extra careful when someone only shows summaries and not the raw data behind those summaries. But what kind of summaries are we dealing with here? Dunning and Krueger hat a total of 87 participants, which where all psychology undergraduate students (We can talk about this selection bias another time, because we have a bigger problem at hand). The original x-axis read “Bottom Quartile, 2nd Quartile, 3rd Quartile and Top Quartile”, which I replaced with percentages. I did so, because these so called quartiles are special cases of so called quantiles. And we are going to explore what those are now. There might already be one such quantile that you are familiar with: The median.\n\nThe median is the datapoint where half of all the other values are lower and the other half is higher.\n\nGenerally, quantiles are any number of points that divide your datapoints into equally sized pieces. If you get 4 of those pieces, they are called quartiles. The first quartile is the point such that one quarter, or 25% of datapoints, are smaller than that point. By that logic, the median can have many names. It could also be called the 2nd quartile or the 50th percentile. I chose the general notion of quantile and used percentages as labels because the problem we are about to uncover is a general problem, not just a problem of quartiles. As we will later show, it will also appear if we use infinitely small pieces to divide our data with, so it is not a “binning problem” as I initially thought when I read that they summarized within the quartiles. Speaking of summarizing, let’s look into what happened to our raw datapoints."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#simulating-the-data",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#simulating-the-data",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "Simulating the Data",
+    "text": "Simulating the Data\nNow, Dunning and Krueger only had 87 participants. But we are on a computer and we can simulate as many participants as we want, so let’s start with 10’000! This will also help to show that the problem is intrinsic to the way the data is summarized and not just a sample-size issue. We will talk about the raw data and then make our way to the plot above.\nImagine we have all 10’000 participants take part in a test. The lowest score they can achieve is 0 and the highest is 1. Let us also assume that all the participants have some sort of skill, which we are trying to measure with the test. It is important to note here that this makes our test just a proxy for this skill. And it is a limited proxy. Even if we leave aside that the performance of any individual can vary from day to day (we are sort of making up for that by testing a lot of people), there is still a fundamental limit in our scoring. The lowest score you can get is 0, even though among those that will score a 0, some will be higher and some lower skilled than their peers, and still they all have the same score. The same goes for a score of 1. If we are the highest skilled participant, we would get a score of 1, but other participants that are less skilled would also get a 1. So the actual skill-distribution might be wider than our score distribution between 0 and 1.\n\n\n\n\n\nThis cutoff means that we are getting more 0s and 1s than the other scores. At this point this might not actually be a problem and it really depends on how much the skills and achievable scores are spread out, but it will be a much bigger problem once we ask participants for their self assessment. Because self assessments can vary a lot.\nImagine this: For every score that a participant gets, it is equally likely that he or she has a higher or lower self-assessment:\n\n\n\n\n\n“Hang on!”, you say: “there are some illegal scores in there!”. And you are correct. Because we can get scores lower than 0 and lower than 1, the self-assessment can’t have those as well. After all, who would think that they got 120% in a test? Or a score of -0.3 where 0 is the lowest possible score? And this is the crux."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#a-cutoff-effect",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#a-cutoff-effect",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "A Cutoff-Effect",
+    "text": "A Cutoff-Effect\nThose participants will be forced to apply a cutoff to their self-assessment so that it lies within 0 and 1. Crucially, when participants are equally likely to over or underestimate their skill, those whose actual skill is low are more likely to run into the cutoff on the lower end. Those whose actual skill is high will run into the cutoff on the upper end more often. This means that on the lower end of the skill spectrum, we are getting more self assessed scores that are 0, but would have been lower than that (e.g. -0.3) and on the other end we are getting more self assessed scores that are 1 but could have been higher than that if the scales allowed it. When we now summarize those values by first separating them into equally sized slices (the quantiles) and then calculating the mean (= the average) of all the points within those slices, something interesting happens.\nImagine rolling a die and calculating the average.\n\n\n\n\n\nThe average of the numbers rolled will be close to 3.5. Now, what would happen, when every time you rolled a 1, you would write down 2 instead? Of course, the average would increase!\n\n\n\n\n\nAnd the same happens on both ends of the skill-assessments and scores, just in opposite directions. So let’s look at the raw numbers behind the plot I initially showed you."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#behind-the-curtain",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#behind-the-curtain",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "Behind the Curtain",
+    "text": "Behind the Curtain\nThe dark points and lines are the familiar averages just like in the original Dunning and Krueger plot. But now we can also inspect the individual scores and self-assessed scores. The individual points are colored by the quartile to which they belong.\n\n\n\n\n\nNow we see the cut-off in full effect. And it doesn’t even matter that we used quartiles, any number of quantiles would have done. The size of this effect only depends on the spread of the self-assessments, which is usually quite large."
+  },
+  {
+    "objectID": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#towards-the-continuum",
+    "href": "posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/index.html#towards-the-continuum",
+    "title": "Why the Dunning-Krueger Effect is Probably Not Real",
+    "section": "Towards the Continuum",
+    "text": "Towards the Continuum\nFor example, if you use 10 quantiles, we can still observe the effect.\n\n\n\n\n\nThere is one more thing to take care of. In my plots I used the actual and the perceived scores on the axis, whereas Dunning and Krueger actually used quantiles on both axis. We can show that the effect is independent of how many quantiles we take and still holds up if we use quantiles for the perceived scores by transitioning to the most general notion of what a quantile does. A rank captures the essential idea behind a quantile, without having to decide on the number of quantiles. The rank of a value is just the number of values that are below that value. For example, the average house mouse has a body length of about 8 centimeters, the average human male is 171 and the average human female is 159 cm tall while an average giraffe is 500 cm tall. The rank of those values is the order of those vales:\n\n\n       mouse   human male human female      giraffe \n           1            3            2            4 \n\n\nIf we use this rank procedure to transform the actual and perceived scores, this is what we end up with:"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA coffee with Quarto and Neovim\n\n\n\nquarto\n\n\nneovim\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R\n\n\n\nlecture series\n\n\n\nHeidelberg University, Biochemistry Bachelor and Master\n\n\n\n\n\n\nOct 18, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to git and GitHub\n\n\n\nworkshop\n\n\n\n\n\n\n\n\n\n\nJun 20, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to data analysis with R [2020]\n\n\n\nlecture series\n\n\n\n\n\n\n\n\n\n\nOct 1, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/gitintro/index.html",
+    "href": "teaching/gitintro/index.html",
+    "title": "Introduction to git and GitHub",
+    "section": "",
+    "text": "Slides\nCode"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "teaching/quarto/index.html",
+    "href": "teaching/quarto/index.html",
+    "title": "A coffee with Quarto and Neovim",
+    "section": "",
+    "text": "Playlist\nquarto-nvim\nquarto-nvim-kickstarter"
+  },
+  {
+    "objectID": "teaching/dataintro20/index.html",
+    "href": "teaching/dataintro20/index.html",
+    "title": "Introduction to data analysis with R [2020]",
+    "section": "",
+    "text": "Greetings Adventurers,\nAnd welcome to the next iteration of my introductory R course for data visualization and analysis. Because the concepts you will learn in this course will be most useful in areas where the working language is English, this course will also be in English. But feel free to ask questions in German as well any time. Let us start with the formalities."
+  },
+  {
+    "objectID": "teaching/dataintro20/index.html#sign-up",
+    "href": "teaching/dataintro20/index.html#sign-up",
+    "title": "Introduction to data analysis with R [2020]",
+    "section": "Sign up",
+    "text": "Sign up\nIn order for us to stay connected during the course, please send me an email via my contact form and mention your name, as well as the course you are referring to (bachelor, master). I will not use your email address other than to contact you for the course."
+  },
+  {
+    "objectID": "teaching/dataintro20/index.html#schedule",
+    "href": "teaching/dataintro20/index.html#schedule",
+    "title": "Introduction to data analysis with R [2020]",
+    "section": "Schedule",
+    "text": "Schedule\nI am running this course twice to better answer your questions during Office Hours. The first batch for the Bachelor students starts on November 2, 2020. The second batch for the Master students starts on January 11, 2020.\nStarting November 2, 2020, I will upload a lecture video of about 1 hour every Monday (8 in total, the last one is going to be shorter due to Christmas). Corresponding exercises will be discussed during virtual Office Hours via a video conferencing tool the following Friday at 10:00 (the first is on Nov 6). The exercises are not graded, but in order for me to confirm your attendance I ask you to send in at least 6 of the 8 exercises prior to the Office Hour. This also allows me to better answer your questions during the course. Speaking of questions, I will also set up a messaging platform (discord) for you to discuss and ask questions outside of the Office Hours. You will get a confirmation mail with further details."
+  },
+  {
+    "objectID": "teaching/dataintro20/index.html#preparation-and-material",
+    "href": "teaching/dataintro20/index.html#preparation-and-material",
+    "title": "Introduction to data analysis with R [2020]",
+    "section": "Preparation and material",
+    "text": "Preparation and material\nFor the course we will use R inside of Rstudio, you can download them here:\n\nDownload R\nDownload RStudio\n\nThe course material and exercise solutions will get their own little website in due time and the link will also be found here:\ndataIntro20 website"
+  },
+  {
+    "objectID": "teaching/dataintro/index.html",
+    "href": "teaching/dataintro/index.html",
+    "title": "Introduction to data analysis with R",
+    "section": "",
+    "text": "Sign up for biochemists at Heidelberg University: https://jmbuhr.de/dataintro/\n\n\nCourse\nCode\nPlaylist"
+  },
+  {
+    "objectID": "posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html",
+    "href": "posts/2021-03-14-making-a-darkmode-for-your-distill-site/index.html",
+    "title": "Making a Darkmode for your distill site",
+    "section": "",
+    "text": "Join the Dark Side!\n… we have cookies.\n\n\n\nFrom: knowyourmeme\n\n\nThere are many motivations to adding a dark mode to your site. I just like it, when things look consistent. So I also want my site to reflect that. But because at the same time I am also not very good at making things look consistent, which is why I mostly outsource design choices as much as I can. Here, for example, this means that I took the color values for the dark theme from the amazing nord color palette.\nBut let’s get into the practical side! How do we add a dark theme to complement our light theme to our distill site?\n\n\nAdding the button, css and java script\nFirst, we want a button that a user can click on to change the theme. I opted for the adjust button from Font Awesome. There is not much to do here, because those are already available in distill. Open up your _site.yml file and add an icon to the navbar:\nnavbar:\n  right:\n    - icon: fas fa-adjust\nWhile we are in this file, let’s also add the includes for the html file which will make the button work:\noutput:\n  distill::distill_article:\n    includes:\n      after_body: \"_after_body.html\"\n\nNote: I am omitting all the other things in our .yml file here and only show, what is being added. But I include the indentation-levels above the thing being added to show where to put it.\n\nThis is what _after_body.html looks like:\n&lt;script&gt;\nconst darkmodeToggle = document.getElementsByClassName(\"fas fa-adjust\")[0];\nlet theme = localStorage.getItem(\"theme\");\n\nif (!theme) {\n  if (window.matchMedia(\"(prefers-color-scheme: dark)\").matches ) {\n    theme = \"dark\";\n  } else {\n    theme = \"light\";\n  }\n}\nsetTheme();\n\nfunction switchTheme() {\n  if (theme === \"light\") {\n    theme = \"dark\";\n  } else {\n    theme = \"light\";\n  }\n  localStorage.setItem(\"theme\", theme);\n  setTheme();\n  console.log(theme);\n}\n\nfunction setTheme() {\n  if (theme === \"dark\") {\n    document.body.classList.add('darkmode');\n  } else {\n    document.body.classList.remove('darkmode');\n  }\n}\n\ndarkmodeToggle.addEventListener('click', switchTheme)\n&lt;/script&gt;\nUnfortunately, the only way I found to refer to the darkmode toggle icon in the navbar was by class name. I could not find a way to give it an id from _site.yml. However, this should be fine because the navbar is usually the first thing on the page and the script refers to the first element of class fas fa-adjust that it can find. It is also important to have this script be included after the body, so that the rest of the site can load first before the script tries to find the button. Typically you would do this using a script file and sourcing it with the option defer, but sourcing a script file doesn’t work here due to the way distill changes file-path’s between top-level sites and posts. This is why the complete script is in the html here. The script adds a class .darkmode to the html body (and removes it when toggled off). This choice is first based on browser preferences and then saved to local storage.\nThe last thing to modify is our theme.css to make use of this .darkmode class. For each thing we want to change about our theme when it get’s dark, we take the corresponding class and the darkmode class and add our styling e.g.\n.darkmode d-article,\n.darkmode d-appendix,\n.darkmode body {\n  background-color: black;\n  color: white;\n}\nYou can have a look at my theme.css file for inspiration on what thing you need to change (though the css could be way cleaner): https://github.com/jmbuhr/jmbuhr.github.io/blob/master/theme.css"
+  },
+  {
+    "objectID": "posts/2020-10-26-12-the-father/index.html",
+    "href": "posts/2020-10-26-12-the-father/index.html",
+    "title": "The father",
+    "section": "",
+    "text": "Teaser\nThe Father (by Florian Zeller) tells the story of a father-daughter relationship, put under strain by the increasing dementia of the father. The story is told from the perspective of the father, André, and allows the audience to see the world through his perspective - with all the disjunctures, confusion and distress that dementia causes.\nThe production is co-directed by Dennis Massmann and Timothy Williams (previously ‘Twelve Angry Men’) and integrates this modern dramatic farce with elements of physical theatre to transport the audience into the mind of André.\nWhile the play is mildly disturbing, it is an important cultural contribution and allows the audience to see the world through the eyes of someone suffering from dementia.\nYou can by ticketes online!"
+  },
+  {
+    "objectID": "posts/2021-01-09-blenderschoolopenmovie2019/index.html",
+    "href": "posts/2021-01-09-blenderschoolopenmovie2019/index.html",
+    "title": "Blender3d School Open Movie",
+    "section": "",
+    "text": "At the end of the Summer 2019 we got together as a group that met at the blender3d Summer School, a yearly event with blender workshops, to produce a short movie within 2 weeks. This is the result:\n\nYou can learn more about it on the project website. I was very lucky to work with such talented and inspirational people and am proud of what we achieved in such a small amount of time. Prior to this it had been quite a while since I had last worked with blender, but I kept up to date with the development as it is one of my favorite Open Source projects and a testament to the power of an open community and passionate developers."
+  },
+  {
     "objectID": "impressum.html",
     "href": "impressum.html",
     "title": "Impressum",
@@ -238,24 +259,10 @@
     "text": "Datenschutzerklärung\nDiese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb dieses Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).\n\nVerantwortlicher\nJannik Buhr\nDa-Vinci Str. 17\n69115 Heidelberg\nE-Mail: jannik [punkt] buhr [at] gmail [punkt] com\nLink zum Impressum: “https:/jmbuhr.de/impressum/”\n\n\nArten der verarbeiteten Daten:\n\nKontaktdaten (z.B. E-Mail).\nInhaltsdaten (z.B. Texteingaben).\nNutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).\nMeta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).\n\n\n\nKategorien betroffener Personen\nBesucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als „Nutzer“).\n\n\nZweck der Verarbeitung\n\nZurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.\nBeantwortung von Kontaktanfragen und Kommunikation mit Nutzern.\nSicherheitsmaßnahmen.\nReichweitenmessung.\n\n\n\nVerwendete Begrifflichkeiten\n“Personenbezogene Daten”” sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden “betroffene Person”“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.\n“Verarbeitung” ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten.\nAls “Verantwortlicher” wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.\n\n\nMaßgebliche Rechtsgrundlagen\nNach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO, und die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.\nZusammenarbeit mit Auftragsverarbeitern und Dritten Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und Unternehmen (Auftragsverarbeitern oder Dritten) offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen Erlaubnis (z.B. wenn eine Übermittlung der Daten an Dritte, wie an Zahlungsdienstleister, gem. Art. 6 Abs. 1 lit. b DSGVO zur Vertragserfüllung erforderlich ist), Sie eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von Beauftragten, Webhostern, etc.).\nSofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines sog. “Auftragsverarbeitungsvertrages” beauftragen, geschieht dies auf Grundlage des Art. 28 DSGVO.\n\n\nRechte der betroffenen Personen\nSie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend Art. 15 DSGVO.\nSie haben entsprechend. Art. 16 DSGVO das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.\nSie haben nach Maßgabe des Art. 17 DSGVO das Recht zu verlangen, dass betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe des Art. 18 DSGVO eine Einschränkung der Verarbeitung der Daten zu verlangen.\nSie haben das Recht zu verlangen, dass die Sie betreffenden Daten, die Sie uns bereitgestellt haben nach Maßgabe des Art. 20 DSGVO zu erhalten und deren Übermittlung an andere Verantwortliche zu fordern.\nSie haben ferner gem. Art. 77 DSGVO das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.\n\n\nWiderrufsrecht\nSie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO mit Wirkung für die Zukunft zu widerrufen.\n\n\nWiderspruchsrecht\nSie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen.\n\n\nCookies und Widerspruchsrecht bei Direktwerbung\nAls “Cookies” werden kleine Dateien bezeichnet, die auf Rechnern der Nutzer gespeichert werden. Innerhalb der Cookies können unterschiedliche Angaben gespeichert werden. Ein Cookie dient primär dazu, die Angaben zu einem Nutzer (bzw. dem Gerät auf dem das Cookie gespeichert ist) während oder auch nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Als temporäre Cookies, bzw. „Session-Cookies“ oder „transiente Cookies“, werden Cookies bezeichnet, die gelöscht werden, nachdem ein Nutzer ein Onlineangebot verlässt und seinen Browser schließt. In einem solchen Cookie kann z.B. der Inhalt eines Warenkorbs in einem Onlineshop oder ein Login-Staus gespeichert werden. Als “permanent” oder „persistent“ werden Cookies bezeichnet, die auch nach dem Schließen des Browsers gespeichert bleiben. So kann z.B. der Login-Status gespeichert werden, wenn die Nutzer diese nach mehreren Tagen aufsuchen. Ebenso können in einem solchen Cookie die Interessen der Nutzer gespeichert werden, die für Reichweitenmessung oder Marketingzwecke verwendet werden. Als “Third-Party-Cookie” werden Cookies bezeichnet, die von anderen Anbietern als dem Verantwortlichen, der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur dessen Cookies sind spricht man von “First-Party Cookies”).\nWir können temporäre und permanente Cookies einsetzen und klären hierüber im Rahmen unserer Datenschutzerklärung auf.\nFalls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies kann zu Funktionseinschränkungen dieses Onlineangebotes führen.\n\n\nLöschung von Daten\nDie von uns verarbeiteten Daten werden nach Maßgabe der Art. 17 und 18 DSGVO gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen.\n\n\nHosting\nDie von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste, Sicherheitsleistungen sowie technische Wartungsleistungen, die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen.\nHierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und Kommunikationsdaten von Kunden, Interessenten und Besuchern dieses Onlineangebotes auf Grundlage unserer berechtigten Interessen an einer effizienten und sicheren Zurverfügungstellung dieses Onlineangebotes gem. Art. 6 Abs. 1 lit. f DSGVO i.V.m. Art. 28 DSGVO (Abschluss Auftragsverarbeitungsvertrag).\n\n\nKontaktaufnahme\nBei der Kontaktaufnahme mit uns (z.B. E-Mail, Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet. Die Angaben der Nutzer können in einem Customer-Relationship-Management System („CRM System“) oder vergleichbarer Anfragenorganisation gespeichert werden.\nWir löschen die Anfragen, sofern diese nicht mehr erforderlich sind.\nErstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke, vom Websiteinhaber angepasst."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Hi there!",
-    "section": "",
-    "text": "I am a PhD student in the Molecular Biomechanics group of Prof. Dr. Frauke Gräter at the Heidelberg Institute for Theoretical Studies (HITS). I study the chemistry of collagen under physical stress using computer simulations.\nI very much enjoy thinking about mental models and teaching concepts and focus on data analysis with the programming language R. Have a look at my current courses here. Being a mentor on the R for Data Science online learning community enables me to help new R users and I enjoy the challenges that come with solving the diverse set of problems from the many fields that these users come from.\nMy academic interests are balanced out by regular theater projects or creative work with the open source 3d software blender."
-  },
-  {
     "objectID": "contributors.html",
     "href": "contributors.html",
     "title": "Thanks!",
     "section": "",
     "text": "Thanks to quarto and the catppuccin color palette palette! Thanks to Mickaël Canouil for these sweet navbar link hover effects!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi there!",
-    "section": "",
-    "text": "I’m Jannik, a PhD student in the Molecular Biomechanics group of Prof. Dr. Frauke Gräter at the Heidelberg Institute for Theoretical Studies (HITS). I study the chemistry of collagen under physical stress using computer simulations.\nI very much enjoy thinking about mental models and teaching concepts and focus on data analysis with the programming language R. Have a look at my current courses here.\nLately, I have been writing a bunch of lua, since it is the language used both for plugins of the code editor neovim and the quarto computational document system."
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: "Introduction to data analysis with R (Online)"
+title: "Introduction to data analysis with R [2020]"
 image: featured.png
 excerpt: |
   Heidelberg University, Biochemistry Bachelor and Master (WS 20/21)
