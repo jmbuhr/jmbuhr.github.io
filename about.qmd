@@ -18,9 +18,13 @@ I study the chemistry of collagen under physical stress using computer simulatio
 I very much enjoy thinking about mental models and teaching concepts
 and focus on data analysis with the programming language R.
 Have a look at my current courses [here](/teaching).
-Being a mentor on the R for Data Science [online learning community](https://www.rfordatasci.com/)
-enables me to help new R users and I enjoy the challenges that come with
+Being a mentor on the online [Data Science Learning Community](https://dslc.io/)
+enables me to help new R and Python users and I enjoy the challenges that come with
 solving the diverse set of problems from the many fields that these users come from.
 
-My academic interests are balanced out by regular theater projects or creative work with
-the open source 3d software [blender](https://www.blender.org/).
+My academic interests are balanced out by theater projects with the [Drama Group of the Anglistics Seminar](https://ssg-as-heidelberg.de/) of Heidelberg University.
+
+You can also find me on [YouTube](https://www.youtube.com/@jmbuhr), where I publish content about Neovim, Quarto and Data Science. For example, check out my video on getting started with Neovim:
+
+{{< video https://www.youtube.com/embed/uYVlMN_yr0I >}}
+
