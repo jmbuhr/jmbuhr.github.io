@@ -16,6 +16,8 @@ about:
       href: https://www.youtube.com/@jmbuhr
     - icon: linkedin
       url: https://www.linkedin.com/in/jmbuhr/
+    - text: "{{< fa brands bluesky >}}"
+      url: https://jmbuhr.bsky.social
 ---
 
 I am a PhD student in the [Molecular Biomechanics](https://www.h-its.org/research/mbm/) group of [Prof. Dr. Frauke Gräter](https://www.h-its.org/people/prof-dr-frauke-grater/) at the [Heidelberg Institute for Theoretical Studies](https://www.h-its.org/) (HITS).

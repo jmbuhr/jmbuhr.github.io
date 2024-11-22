@@ -32,6 +32,8 @@ website:
         href: https://www.youtube.com/@jmbuhr
       - icon: linkedin
         url: https://www.linkedin.com/in/jmbuhr/
+      - text: "{{< fa brands bluesky >}}"
+        url: https://jmbuhr.bsky.social
     left:
       - text: "Blog"
         href: "./posts/"
