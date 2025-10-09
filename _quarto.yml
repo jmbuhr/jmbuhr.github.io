@@ -4,6 +4,7 @@ project:
   resources:
     - "www/*"
     - './CNAME'
+    - './riot.txt'
     - fonts/*
 
 website:
