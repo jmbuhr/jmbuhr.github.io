@@ -7,41 +7,28 @@ $font-family-monospace: "Fira Mono";
 $bs-body-font-family: "Roboto";
 $web-font-path: "No";
 
+// chaos & calm
+$calm: #2f5b2a;
+$calm-light: #518f3d;
+$chaos: #482b74;
+$chaos-light: #6f4690;
+
 // catppuccin
-$rosewater: #f5e0dc;
-$flamingo: #f2cdcd;
-$pink: #f5c2e7;
-$mauve: #cba6f7;
-$red: #f38ba8;
-$maroon: #eba0ac;
-$peach: #fab387;
-$yellow: #f9e2af;
-$green: #a6e3a1;
-$teal: #94e2d5;
-$sky: #89dceb;
 $sapphire: #74c7ec;
+$text: #000000;
 $blue: #89b4fa;
-$lavender: #b4befe;
-$text: #cdd6f4;
-$subtext1: #bac2de;
-$subtext0: #a6adc8;
-$overlay2: #9399b2;
-$overlay1: #7f849c;
-$overlay0: #6c7086;
-$surface2: #585b70;
-$surface1: #45475a;
-$surface0: #313244;
-$base: #1e1e2e;
-$mantle: #181825;
+$subtext1: #DDD;
+$base: #DDD;
+$mantle: $calm;
 $crust: #11111b;
 
 $primary: $text !default;
 $secondary: $base !default;
 $body-bg: $base !default;
 $body-color: $primary !default;
-$link-color: $blue !default;
-$link-hover-color: $sapphire !default;
-$component-active-color: $sapphire !default;
+$link-color: $calm !default;
+$link-hover-color: $calm-light !default;
+$component-active-color: $calm-light !default;
 $medium: $mantle !default;
 $card-color: $body-color !default;
 $card-bg: $body-bg !default;
@@ -180,6 +167,9 @@ $navbar-fg: $subtext1;
 
 
 // custom
+div.quarto-about-jolla main {
+  text-align: left;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: $body-color;
