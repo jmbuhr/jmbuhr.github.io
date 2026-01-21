@@ -33,10 +33,12 @@ Lately, I have been writing a bunch of lua, since it is the language used both f
 
 My academic interests are balanced out by theater projects with the [Drama Group of the Anglistics Seminar](https://ssg-as-heidelberg.de/) of Heidelberg University.
 
-You can also find me on [YouTube](https://www.youtube.com/@jmbuhr), where I publish content about Neovim, Quarto and Data Science. For example, check out my video on getting started with Neovim:
+You can also find me on [YouTube](https://www.youtube.com/@jmbuhr), where I publish content about Neovim, Quarto and Data Science. For example, check out my video on getting started with Neovim below.
+
+Cheers,\
+Jannik
 
 {{< video https://www.youtube.com/embed/uYVlMN_yr0I >}}
-
 
 
 <a rel="me" href="https://mastodon.online/@jmbuhr"></a>
