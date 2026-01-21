@@ -90,10 +90,10 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-136951b8c29cc95adaef1588fb083fb4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b57508c68beffb2368dc42b8b7d01db3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e7a85e9d4322aa6b4ff8c4e22800b4da.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-678ee30faba0dd577a416b9837457dc9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -121,7 +121,7 @@ div.csl-indent {
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script><link rel="stylesheet" href="../../styles.css">
+}</script>
 <meta property="og:title" content="jmbuhr">
 <meta property="og:description" content="Personal website of Jannik Buhr">
 <meta property="og:image" content="https://jmbuhr.de/posts/2021-03-20-why-the-dunning-krueger-effect-is-probably-not-real/preview-image-1.png">
@@ -217,7 +217,7 @@ div.csl-indent {
 <section id="the-evidence-is-mounting" class="level2"><h2 class="anchored" data-anchor-id="the-evidence-is-mounting">The Evidence is Mounting</h2>
 <p>Like the author of the article, I wanted the effect to be real. It just sounded to logical not to be real. After all, even the title of the original paper makes intuitive sense: “Unskilled and Unaware. How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments” <span class="citation" data-cites="krugerUnskilledUnawareIt1999">(<a href="#ref-krugerUnskilledUnawareIt1999" role="doc-biblioref">Kruger and Dunning 1999</a>)</span>. And it feels so right that the skills required for an accurate self-assessment would be linked to the skills required for the actual task. Now, this is not completely wrong. Later studies also found that experts are better at predicting their scores than lesser skilled participants (and so are women compared to men, by the way) <span class="citation" data-cites="nuhferHowRandomNoise2017">(<a href="#ref-nuhferHowRandomNoise2017" role="doc-biblioref">Nuhfer et al. 2017</a>)</span>. But what they didn’t find was the directionality claimed by Dunning and Krueger, where lesser skilled participants are supposedly more likely to be overconfident while higher skilled participants tended to rather underestimate their skills. Let’s dive into some numbers to see, how this misconception arises.</p>
 </section></section><section id="disecting-a-dunning-krueger-plot" class="level1"><h1>Disecting a Dunning-Krueger Plot</h1>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
@@ -235,7 +235,7 @@ div.csl-indent {
 </section><section id="simulating-the-data" class="level2"><h2 class="anchored" data-anchor-id="simulating-the-data">Simulating the Data</h2>
 <p>Now, Dunning and Krueger only had 87 participants. But we are on a computer and we can simulate as many participants as we want, so let’s start with 10’000! This will also help to show that the problem is intrinsic to the way the data is summarized and not just a sample-size issue. We will talk about the raw data and then make our way to the plot above.</p>
 <p>Imagine we have all 10’000 participants take part in a test. The lowest score they can achieve is 0 and the highest is 1. Let us also assume that all the participants have some sort of skill, which we are trying to measure with the test. It is important to note here that this makes our test just a proxy for this skill. And it is a limited proxy. Even if we leave aside that the performance of any individual can vary from day to day (we are sort of making up for that by testing a lot of people), there is still a fundamental limit in our scoring. The lowest score you can get is 0, even though among those that will score a 0, some will be higher and some lower skilled than their peers, and still they all have the same score. The same goes for a score of 1. If we are the highest skilled participant, we would get a score of 1, but other participants that are less skilled would also get a 1. So the actual skill-distribution might be wider than our score distribution between 0 and 1.</p>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
@@ -245,7 +245,7 @@ div.csl-indent {
 </div>
 <p>This cutoff means that we are getting more 0s and 1s than the other scores. At this point this might not actually be a problem and it really depends on how much the skills and achievable scores are spread out, but it will be a much bigger problem once we ask participants for their self assessment. Because self assessments can vary a lot.</p>
 <p>Imagine this: For every score that a participant gets, it is equally likely that he or she has a higher or lower self-assessment:</p>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
@@ -257,7 +257,7 @@ div.csl-indent {
 </section><section id="a-cutoff-effect" class="level2"><h2 class="anchored" data-anchor-id="a-cutoff-effect">A Cutoff-Effect</h2>
 <p>Those participants will be forced to apply a cutoff to their self-assessment so that it lies within 0 and 1. Crucially, when participants are equally likely to over or underestimate their skill, those whose actual skill is low are more likely to run into the cutoff on the lower end. Those whose actual skill is high will run into the cutoff on the upper end more often. This means that on the lower end of the skill spectrum, we are getting more self assessed scores that are 0, but would have been lower than that (e.g.&nbsp;-0.3) and on the other end we are getting more self assessed scores that are 1 but could have been higher than that if the scales allowed it. When we now summarize those values by first separating them into equally sized slices (the quantiles) and then calculating the mean (= the average) of all the points within those slices, something interesting happens.</p>
 <p>Imagine rolling a die and calculating the average.</p>
-<div class="cell" data-fig.asp="0.2" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
@@ -266,7 +266,7 @@ div.csl-indent {
 </div>
 </div>
 <p>The average of the numbers rolled will be close to 3.5. Now, what would happen, when every time you rolled a 1, you would write down 2 instead? Of course, the average would increase!</p>
-<div class="cell" data-fig.asp="0.2" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
@@ -277,7 +277,7 @@ div.csl-indent {
 <p>And the same happens on both ends of the skill-assessments and scores, just in opposite directions. So let’s look at the raw numbers behind the plot I initially showed you.</p>
 </section><section id="behind-the-curtain" class="level2"><h2 class="anchored" data-anchor-id="behind-the-curtain">Behind the Curtain</h2>
 <p>The dark points and lines are the familiar averages just like in the original Dunning and Krueger plot. But now we can also inspect the individual scores and self-assessed scores. The individual points are colored by the quartile to which they belong.</p>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./preview-image-1.png" class="img-fluid figure-img" width="672"></p>
@@ -288,7 +288,7 @@ div.csl-indent {
 <p>Now we see the cut-off in full effect. And it doesn’t even matter that we used quartiles, any number of quantiles would have done. The size of this effect only depends on the spread of the self-assessments, which is usually quite large.</p>
 </section><section id="towards-the-continuum" class="level2"><h2 class="anchored" data-anchor-id="towards-the-continuum">Towards the Continuum</h2>
 <p>For example, if you use 10 quantiles, we can still observe the effect.</p>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
@@ -297,14 +297,14 @@ div.csl-indent {
 </div>
 </div>
 <p>There is one more thing to take care of. In my plots I used the actual and the perceived scores on the axis, whereas Dunning and Krueger actually used quantiles on both axis. We can show that the effect is independent of how many quantiles we take and still holds up if we use quantiles for the perceived scores by transitioning to the most general notion of what a quantile does. A <strong>rank</strong> captures the essential idea behind a quantile, without having to decide on the number of quantiles. The rank of a value is just the number of values that are below that value. For example, the average house mouse has a body length of about 8 centimeters, the average human male is 171 and the average human female is 159 cm tall while an average giraffe is 500 cm tall. The rank of those values is the order of those vales:</p>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>       mouse   human male human female      giraffe 
            1            3            2            4 </code></pre>
 </div>
 </div>
 <p>If we use this rank procedure to transform the actual and perceived scores, this is what we end up with:</p>
-<div class="cell" data-fig.showtext="false">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure"><p><img src="./unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
@@ -466,11 +466,6 @@ Nuhfer, Edward, Steven Fleisher, Christopher Cogan, Karl Wirth, and Eric Gaze. 2
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -783,7 +778,7 @@ Nuhfer, Edward, Steven Fleisher, Christopher Cogan, Karl Wirth, and Eric Gaze. 2
       }
     }
   });
-  </script><input type="hidden" id="giscus-base-theme" value="dark"><input type="hidden" id="giscus-alt-theme" value="dark"><script>
+  </script><input type="hidden" id="giscus-base-theme" value="light"><input type="hidden" id="giscus-alt-theme" value="light"><script>
   function loadGiscus() {
     // Function to get the theme based on body class
     const getTheme = () => {
@@ -832,8 +827,8 @@ Nuhfer, Edward, Steven Fleisher, Christopher Cogan, Karl Wirth, and Eric Gaze. 2
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>thematic<span class="sc">::</span><span class="fu">auto_config_set</span>(</span>
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  thematic<span class="sc">::</span><span class="fu">auto_config</span>(</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">bg =</span> <span class="st">"#D8DEE9"</span>,</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">fg =</span> <span class="st">"#2E3440"</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">bg =</span> <span class="st">"#DDD"</span>,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">fg =</span> <span class="st">"#000000"</span>,</span>
 <span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">accent =</span> <span class="st">"#5E81AC"</span></span>
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  )</span>
 <span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>)</span>

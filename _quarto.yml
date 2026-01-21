@@ -60,19 +60,19 @@ format:
       source: true
       toggle: true
     lang: en
-    highlight-style: github-dark
+    highlight-style: github-light
     code-copy: true
     code-link: true
     anchor-sections: true
     email-obfuscation: javascript
-    link-external-newwindow: true
-    theme: [theme.scss]
-    css: styles.css
+    theme:
+      - default
+      - theme.scss
 
 comments:
   giscus: 
     repo: jmbuhr/jmbuhr.github.io
-    theme: dark
+    theme: light
 
 execute:
   freeze: auto

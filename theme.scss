@@ -24,6 +24,9 @@ $crust: #11111b;
 
 $primary: $text !default;
 $secondary: $base !default;
+$success:       $calm !default;
+$info:          $sapphire !default;
+
 $body-bg: $base !default;
 $body-color: $primary !default;
 $link-color: $calm !default;
@@ -187,10 +190,6 @@ a {
   max-height: 2em;
 }
 
-.navbar-dark .navbar-brand:hover {
-  color: $component-active-color;
-}
-
 .about-entity #title-block-header.quarto-title-block.default .quarto-title .title:hover {
   color: $primary;
   text-shadow: 0 0 10px $primary;
@@ -234,8 +233,8 @@ a {
   border-top: .1em solid $component-active-color;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
   color: $component-active-color;
@@ -258,10 +257,14 @@ a {
   font-weight: bolder;
 }
 
-.navbar-dark .navbar-nav .show>.nav-link,
-.navbar-dark .navbar-nav .active>.nav-link,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-nav .show>.nav-link,
+.navbar-nav .active>.nav-link,
+.navbar-nav .nav-link.active {
   color: $component-active-color;
+}
+
+div.nav-footer {
+  border-color: $body-color;
 }
 
 a {
@@ -337,18 +340,13 @@ p a {
   color: $link-color;
 }
 
-.modal-content {
-  background-color: $mantle;
-  color: $text;
-}
-
-.modal-content .btn-close{
-  color: $primary;
-  background-color: $text;
-}
-
 div.sourceCode {
   background-color: $body-bg;
+}
+
+p code:not(.sourceCode) {
+  color: $body-color;
+  background-color: transparent;
 }
 
 div.quarto-post .listing-categories .listing-category {
@@ -367,3 +365,30 @@ div.quarto-post .listing-categories .listing-category {
 .page-link:hover {
   color: $body-bg;
 }
+
+.links {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.bi::before {
+  margin-right: 0.2em;
+}
+
