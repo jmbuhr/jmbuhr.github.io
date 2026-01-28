@@ -9,7 +9,7 @@ $web-font-path: "No";
 
 // chaos & calm
 $calm: #2f5b2a;
-$calm-light: #518f3d;
+$calm-light: #76946a;
 $chaos: #482b74;
 $chaos-light: #6f4690;
 
@@ -17,9 +17,9 @@ $chaos-light: #6f4690;
 $sapphire: #74c7ec;
 $text: #000000;
 $blue: #89b4fa;
-$subtext1: #DDD;
+$subtext1: black;
 $base: #DDD;
-$mantle: $calm;
+$mantle: $calm-light;
 $crust: #11111b;
 
 $primary: $text !default;
@@ -30,8 +30,8 @@ $info:          $sapphire !default;
 $body-bg: $base !default;
 $body-color: $primary !default;
 $link-color: $calm !default;
-$link-hover-color: $calm-light !default;
-$component-active-color: $calm-light !default;
+$link-hover-color: $chaos !default;
+$component-active-color: $chaos !default;
 $medium: $mantle !default;
 $card-color: $body-color !default;
 $card-bg: $body-bg !default;
