@@ -18,9 +18,8 @@ about:
       url: https://bsky.app/profile/jmbuhr.de
 ---
 
-I am a PhD student of [Computational Science & Engineering](https://www.ingwiss.uni-heidelberg.de/en/research/scientific-profile/computational-science-engineering) at the Faculty of Engineering Sciences of Heidelberg University and in the [Biomolecular Mechanics group](https://www.mpip-mainz.mpg.de/en/graeter) of Prof. Dr. Frauke Gräter at the [Max Planck Institute for Polymer Research](https://www.mpip-mainz.mpg.de/).
-I study the chemistry of collagen under physical stress using computer simulations.\
-With the defense coming up, you can already read my PhD thesis here: [jmbuhr.de/phd-thesis/](https://jmbuhr.de/phd-thesis/).
+I recently finished my PhD in [Computational Science & Engineering](https://www.ingwiss.uni-heidelberg.de/en/research/scientific-profile/computational-science-engineering) at the Faculty of Engineering Sciences of Heidelberg University and in the [Biomolecular Mechanics group](https://www.mpip-mainz.mpg.de/en/graeter) of Prof. Dr. Frauke Gräter at the [Max Planck Institute for Polymer Research](https://www.mpip-mainz.mpg.de/), studying the chemistry of collagen under physical stress using computer simulations.
+You can read my PhD thesis here: [jmbuhr.de/phd-thesis/](https://jmbuhr.de/phd-thesis/).
 
 I very much enjoy thinking about mental models and teaching concepts
 and focus on data analysis with the programming language R and Python.
